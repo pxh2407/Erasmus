@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop 2 — Il processo decisionale nell'UE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BARRA LOGHI + SELETTORE LINGUA -->
+<div class="logo-bar" role="banner" aria-label="Project logos">
+    <div class="logo-bar__left">
+        <a href="../Home/index.html" class="back-btn"
+           data-i18n-aria="btn_home_aria" aria-label="Torna alla pagina Home">&#8592;</a>
+        <img class="logo-bar__img"
+             src="../image-1776928171315.jpg"
+             alt="Co-funded by the European Union">
+    </div>
+
+    <nav id="langSwitcher" class="lang-switcher"
+         data-i18n-aria="lang_switcher_aria"
+         aria-label="Seleziona la lingua"></nav>
+
+    <img class="logo-bar__img"
+         src="../image-1776928198470.png"
+         alt="ECBL — Europe can be liked">
+</div>
+
+<!-- BARRA PROGRESSO -->
+<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar__fill" id="progressFill"></div>
+</div>
+
+<!-- TOPBAR (sticky in alto, solo desktop): titolo + contatore slide -->
+<div class="topbar">
+    <span class="topbar__title" data-i18n="topbar_title">Workshop 2 — Il processo decisionale nell'UE</span>
+    <span class="topbar__counter" id="counter">1 / 16</span>
+</div>
+
+<!-- VIEWER DESKTOP: ← stage → -->
+<div class="viewer" role="main">
+    <button class="nav-btn" id="prevBtn" aria-label="Slide precedente" disabled>&#8249;</button>
+    <div class="stage" id="stage"></div>
+    <button class="nav-btn" id="nextBtn" aria-label="Slide successiva">&#8250;</button>
+</div>
+
+<!-- MOBILE SCROLL: tutte le card impilate -->
+<div class="mobile-scroll" id="mobileScroll" role="main"></div>
+
+<!-- FOOTER -->
+<footer class="footer-hint">
+    <span data-i18n="footer_hint">Usa i tasti ← → per navigare</span>
+</footer>
+
+<!-- Script: prima i dati, poi il motore, poi la logica -->
+<script src="data.js"></script>
+<script src="lang.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

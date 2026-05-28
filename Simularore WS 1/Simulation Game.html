@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Simulation Game — The Beach of Europe</title>
+    <link rel="stylesheet" href="style.css?v=2">
+    <script>
+        // Forza il ritorno al Workshop 1 LUTE quando si clicca la freccia ←
+        // (intercetta il click via JS per evitare problemi di cache o URL encoding)
+        document.addEventListener('DOMContentLoaded', function () {
+            var backBtn = document.querySelector('.back-btn');
+            if (!backBtn) return;
+            var workshopUrl = '../Workshop 1 LUTE/Workshop LUTE Modulo 2 ITA.html';
+            backBtn.setAttribute('href', workshopUrl);
+            backBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                window.location.href = encodeURI(workshopUrl);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<!-- BARRA LOGHI + SELETTORE LINGUA -->
+<div class="logo-bar" role="banner" aria-label="Project logos">
+    <div class="logo-bar__left">
+        <a href="../Workshop 1 LUTE/Workshop LUTE Modulo 2 ITA.html" class="back-btn"
+           aria-label="Back to Workshop 1">&#8592;</a>
+        <img class="logo-bar__img"
+             src="../image-1776928171315.jpg"
+             alt="Co-funded by the European Union">
+    </div>
+    <nav id="langSwitcher" class="lang-switcher" data-i18n-aria="lang_switcher_aria" aria-label="Select language"></nav>
+    <img class="logo-bar__img"
+         src="../image-1776928198470.png"
+         alt="ECBL — Europe can be liked">
+</div>
+
+<header class="hero">
+    <div class="hero__inner">
+        <div class="flag-it" id="headerFlag" data-i18n-aria="flag_aria" aria-label="Italian flag" role="img">
+            <div class="flag-it__band flag-it__band--green"></div>
+            <div class="flag-it__band flag-it__band--white"></div>
+            <div class="flag-it__band flag-it__band--red"></div>
+        </div>
+        <div class="hero__main">
+            <div class="hero__head">
+                <span class="hero__eyebrow" data-i18n="hero_eyebrow">Simulation Game</span>
+                <h1 class="hero__title" data-i18n="hero_title">The Beach of Europe</h1>
+            </div>
+            <p class="hero__subtitle" data-i18n="hero_subtitle">A simulation on free competition in services and the role of the European Commission as Guardian of the Treaties.</p>
+            <div class="hero__pills">
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_duration_label">Duration</span>
+                    <span class="hero-pill__value">45 – 60 min</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_participants_label">Participants</span>
+                    <span class="hero-pill__value">6 – 25</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="hero_pill_audience_label">Audience</span>
+                    <span class="hero-pill__value" data-i18n="tag_audience">Adults / Seniors</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_type_label">Type</span>
+                    <span class="hero-pill__value" data-i18n="info_type_value">Simulation</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- Introduzione al gioco -->
+    <section class="sect sect--callout" id="introduzione">
+        <h2 class="sect__title" data-i18n="section_intro">About the Game</h2>
+        <p class="prose" data-i18n-html="intro_html">A simulation game for people over 60 at their first experience should be <strong>very simple</strong>, concrete, with clear roles and recognisable situations. The aim is to help understand the Bolkestein Directive and, more generally, <strong>how free competition in services works</strong> and the role of the Commission as <em>Guardian of the Treaties</em>.</p>
+    </section>
+
+    <!-- Obiettivo generale -->
+    <section class="sect" id="obiettivo">
+        <h2 class="sect__title" data-i18n="section_objective">General Objective</h2>
+        <p class="prose" data-i18n="objective_text">To allow participants to experience, in a light and guided way, how the EU intervenes when a State does not respect the common rules on competition in services — as in the case of beach concessions.</p>
+    </section>
+
+    <!-- Scenario di base -->
+    <section class="sect sect--callout" id="scenario">
+        <h2 class="sect__title" data-i18n="section_scenario">Base Scenario</h2>
+        <p class="prose" data-i18n-html="scenario_html">An imaginary municipality, <strong>«Marina Serena»</strong>, must decide how to manage beach concessions. The Bolkestein Directive requires <strong>transparent and competitive tendering procedures</strong>. Some operators want to keep their historical concessions, others want to participate in new tenders. Citizens demand more free beaches. Meanwhile, the <strong>European Commission</strong> observes and intervenes if the State does not correctly apply the rules.</p>
+    </section>
+
+    <!-- Struttura del gioco -->
+    <section class="sect" id="struttura">
+        <h2 class="sect__title" data-i18n="section_structure">Game Structure (45 – 60 min)</h2>
+        <ol class="timeline">
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">1</span>
+                    <span class="timeline__time">5 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step1_title">Introduction</h4>
+                    <p data-i18n="step1_intro">The facilitator explains:</p>
+                    <ul class="bullets">
+                        <li data-i18n-html="step1_li1">What the <strong>Bolkestein Directive</strong> is (in simple terms)</li>
+                        <li data-i18n-html="step1_li2">What <em>free competition in services</em> means</li>
+                        <li data-i18n-html="step1_li3">The role of the Commission as <strong>Guardian of the Treaties</strong></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">2</span>
+                    <span class="timeline__time">5 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step2_title">Role Assignment</h4>
+                    <p data-i18n="step2_text">Each participant receives a brief character card (see below).</p>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">3</span>
+                    <span class="timeline__time">10 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step3_title">Phase 1 — The Requests</h4>
+                    <p data-i18n="step3_intro">Each role presents their interests:</p>
+                    <ul class="bullets">
+                        <li data-i18n="step3_li1">who wants to keep the concession</li>
+                        <li data-i18n="step3_li2">who wants to participate in the tender</li>
+                        <li data-i18n="step3_li3">who wants more free beaches</li>
+                        <li data-i18n="step3_li4">who must enforce EU rules</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">4</span>
+                    <span class="timeline__time">10 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step4_title">Phase 2 — The Municipality's Decision</h4>
+                    <p data-i18n="step4_intro">The "Municipality" group proposes a solution:</p>
+                    <ul class="bullets">
+                        <li data-i18n="step4_li1">hold a public tender?</li>
+                        <li data-i18n="step4_li2">extend the existing concessions?</li>
+                        <li data-i18n="step4_li3">increase free beaches?</li>
+                        <li data-i18n="step4_li4">find a compromise?</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">5</span>
+                    <span class="timeline__time">10 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step5_title">Phase 3 — The Commission's Intervention</h4>
+                    <p data-i18n="step5_intro">The "European Commission" group assesses whether the decision respects EU rules. It can:</p>
+                    <ul class="bullets">
+                        <li data-i18n="step5_li1">approve</li>
+                        <li data-i18n="step5_li2">request modifications</li>
+                        <li data-i18n="step5_li3">initiate an infringement procedure (in a simplified, non-technical form)</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">6</span>
+                    <span class="timeline__time">10–15 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step6_title">Final Debriefing</h4>
+                    <p data-i18n="step6_intro">Guided discussion:</p>
+                    <ul class="bullets">
+                        <li data-i18n="step6_li1">What rights came into conflict?</li>
+                        <li data-i18n="step6_li2">Is it easy to balance enterprise and public interest?</li>
+                        <li data-i18n="step6_li3">Why does the EU intervene?</li>
+                        <li data-i18n="step6_li4">What have we learned about competition?</li>
+                    </ul>
+                </div>
+            </li>
+
+        </ol>
+    </section>
+
+    <!-- Competenze -->
+    <section class="sect" id="competenze">
+        <h2 class="sect__title" data-i18n="section_skills">Skills the Game Develops</h2>
+        <ul class="goals">
+            <li><span class="goals__num">1</span><span data-i18n="skill_1">Understand the role of the Commission as Guardian of the Treaties.</span></li>
+            <li><span class="goals__num">2</span><span data-i18n="skill_2">Understand why the EU requires transparent tendering.</span></li>
+            <li><span class="goals__num">3</span><span data-i18n-html="skill_3_html">Recognise conflicts between rights: <em>right to enterprise</em> and <em>citizens' right of access to the sea</em>.</span></li>
+            <li><span class="goals__num">4</span><span data-i18n="skill_4">Develop critical thinking and mediation skills.</span></li>
+        </ul>
+    </section>
+
+    <!-- Schede personaggio -->
+    <section class="sect" id="schede">
+        <h2 class="sect__title" data-i18n="section_roles">Role Cards</h2>
+        <div class="roles-grid">
+
+            <!-- Scheda 1 — Operatore Storico -->
+            <div class="role-card">
+                <div class="role-card__header" style="background: #2b5cb0;">
+                    <div class="role-card__badge" data-i18n="role1_badge">Role 1</div>
+                    <div class="role-card__name" data-i18n="role1_name">Giovanni Rinaldi</div>
+                    <div class="role-card__meta" data-i18n="role1_meta">62 years · Beach concession operator for over 30 years</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_obj_title">Objectives</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role1_obj1">Keep the concession without a new tender.</li>
+                            <li data-i18n="role1_obj2">Defend investments made over the years.</li>
+                            <li data-i18n="role1_obj3">Convince the Municipality that continuity guarantees quality and safety.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_mot_title">Motivations</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role1_mot1">"I have always worked well and respected the rules."</li>
+                            <li data-i18n="role1_mot2">"If a big company from outside comes, I cannot compete."</li>
+                            <li data-i18n="role1_mot3">"My family lives from this work."</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_phrases_title">Useful Phrases</h5>
+                        <ul class="role-card__list role-card__list--quotes">
+                            <li data-i18n="role1_p1">"You cannot cancel thirty years of experience."</li>
+                            <li data-i18n="role1_p2">"Competition is fine, but it must be fair."</li>
+                            <li data-i18n="role1_p3">"We need to protect those who have invested in the territory."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scheda 2 — Nuovo Imprenditore -->
+            <div class="role-card">
+                <div class="role-card__header" style="background: #27ae60;">
+                    <div class="role-card__badge" data-i18n="role2_badge">Role 2</div>
+                    <div class="role-card__name" data-i18n="role2_name">Sara Conti</div>
+                    <div class="role-card__meta" data-i18n="role2_meta">35 years · Young local entrepreneur (or European company)</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_obj_title">Objectives</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role2_obj1">Obtain a real opportunity to participate in the tender.</li>
+                            <li data-i18n="role2_obj2">Promote transparency and competition.</li>
+                            <li data-i18n="role2_obj3">Show that new operators can bring innovation.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_mot_title">Motivations</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role2_mot1">"European rules are there to avoid favouritism."</li>
+                            <li data-i18n="role2_mot2">"Competition can improve services and lower prices."</li>
+                            <li data-i18n="role2_mot3">"Everyone must have the same opportunities."</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_phrases_title">Useful Phrases</h5>
+                        <ul class="role-card__list role-card__list--quotes">
+                            <li data-i18n="role2_p1">"A public tender is a right, not a threat."</li>
+                            <li data-i18n="role2_p2">"An open market benefits citizens."</li>
+                            <li data-i18n="role2_p3">"I don't want to take anything from anyone — just have a chance."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scheda 3 — Cittadino / Ambientalista -->
+            <div class="role-card">
+                <div class="role-card__header" style="background: #b8860b;">
+                    <div class="role-card__badge" data-i18n="role3_badge">Role 3</div>
+                    <div class="role-card__name" data-i18n="role3_name">Maria Leone</div>
+                    <div class="role-card__meta" data-i18n="role3_meta">58 years · Spokesperson for residents and beachgoers</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_obj_title">Objectives</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role3_obj1">Increase free beaches.</li>
+                            <li data-i18n="role3_obj2">Guarantee access to the sea for everyone.</li>
+                            <li data-i18n="role3_obj3">Prevent the coastline from becoming purely a commercial affair.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_mot_title">Motivations</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role3_mot1">"The sea is a common good."</li>
+                            <li data-i18n="role3_mot2">"Too many concessions limit citizens' freedom."</li>
+                            <li data-i18n="role3_mot3">"There must be a balance between enterprise and public interest."</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_phrases_title">Useful Phrases</h5>
+                        <ul class="role-card__list role-card__list--quotes">
+                            <li data-i18n="role3_p1">"We cannot privatise everything."</li>
+                            <li data-i18n="role3_p2">"Families must be able to go to the beach without paying."</li>
+                            <li data-i18n="role3_p3">"Nature must be protected."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scheda 4 — Comune -->
+            <div class="role-card">
+                <div class="role-card__header" style="background: #c0392b;">
+                    <div class="role-card__badge" data-i18n="role4_badge">Role 4</div>
+                    <div class="role-card__name" data-i18n="role4_name">Assessore Luca Ferri</div>
+                    <div class="role-card__meta" data-i18n="role4_meta">55 years · Head of concessions and local decisions</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_obj_title">Objectives</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role4_obj1">Find a compromise between operators, citizens and EU rules.</li>
+                            <li data-i18n="role4_obj2">Avoid conflicts and protests.</li>
+                            <li data-i18n="role4_obj3">Avoid triggering an infringement procedure.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_mot_title">Motivations</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role4_mot1">"We must respect both national and European law."</li>
+                            <li data-i18n="role4_mot2">"The Municipality must guarantee services and public access."</li>
+                            <li data-i18n="role4_mot3">"We cannot disappoint everyone."</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_phrases_title">Useful Phrases</h5>
+                        <ul class="role-card__list role-card__list--quotes">
+                            <li data-i18n="role4_p1">"Let us look for a shared solution."</li>
+                            <li data-i18n="role4_p2">"European regulations are not optional."</li>
+                            <li data-i18n="role4_p3">"We need a balance between different rights."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scheda 5 — Commissione Europea -->
+            <div class="role-card">
+                <div class="role-card__header" style="background: #6c3483;">
+                    <div class="role-card__badge" data-i18n="role5_badge">Role 5</div>
+                    <div class="role-card__name" data-i18n="role5_name">Isabelle Moreau</div>
+                    <div class="role-card__meta" data-i18n="role5_meta">48 years · Official of the Directorate-General for Internal Market</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_obj_title">Objectives</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role5_obj1">Verify that the State correctly applies the Bolkestein Directive.</li>
+                            <li data-i18n="role5_obj2">Guarantee competition and transparency.</li>
+                            <li data-i18n="role5_obj3">Intervene if the rules are not respected.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_mot_title">Motivations</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role5_mot1">"The Commission is the Guardian of the Treaties."</li>
+                            <li data-i18n="role5_mot2">"The rules apply to all Member States."</li>
+                            <li data-i18n="role5_mot3">"Competition protects consumers."</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_phrases_title">Useful Phrases</h5>
+                        <ul class="role-card__list role-card__list--quotes">
+                            <li data-i18n="role5_p1">"Is your decision in line with European standards?"</li>
+                            <li data-i18n="role5_p2">"We may ask for clarification or open a procedure."</li>
+                            <li data-i18n="role5_p3">"The goal is not to punish, but to enforce the common rules."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scheda 6 — Turista Europeo -->
+            <div class="role-card">
+                <div class="role-card__header" style="background: #7a5230;">
+                    <div class="role-card__badge" data-i18n="role6_badge">Role 6</div>
+                    <div class="role-card__name" data-i18n="role6_name">Peter Schneider</div>
+                    <div class="role-card__meta" data-i18n="role6_meta">60 years · German tourist who often visits Italy</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_obj_title">Objectives</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role6_obj1">Enjoy quality services at fair prices.</li>
+                            <li data-i18n="role6_obj2">Find accessible beaches.</li>
+                            <li data-i18n="role6_obj3">Understand why there are differences between countries.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_mot_title">Motivations</h5>
+                        <ul class="role-card__list">
+                            <li data-i18n="role6_mot1">"In other European countries access to the sea is freer."</li>
+                            <li data-i18n="role6_mot2">"Competition can improve the offer."</li>
+                            <li data-i18n="role6_mot3">"I am a European consumer, not just a tourist."</li>
+                        </ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="roles_phrases_title">Useful Phrases</h5>
+                        <ul class="role-card__list role-card__list--quotes">
+                            <li data-i18n="role6_p1">"I would like more price transparency."</li>
+                            <li data-i18n="role6_p2">"Why are some beaches entirely private?"</li>
+                            <li data-i18n="role6_p3">"I care about quality, not who manages it."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- .roles-grid -->
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p data-i18n="footer_text">Erasmus+ Project · Simulation Game — The Beach of Europe</p>
+</footer>
+
+<button class="to-top" id="toTop" data-i18n="btn_top" aria-label="Back to top">&#8593; Top</button>
+
+<script src="lang.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

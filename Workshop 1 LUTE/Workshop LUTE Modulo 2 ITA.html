@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop 1 — Organs of the European Union</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BARRA LOGHI + SELETTORE LINGUA -->
+<div class="logo-bar" role="banner" aria-label="Project logos">
+    <div class="logo-bar__left">
+        <a href="../Home/index.html" class="back-btn"
+           data-i18n-aria="btn_home_aria" aria-label="Back to Home page">&#8592;</a>
+        <img class="logo-bar__img"
+             src="../image-1776928171315.jpg"
+             alt="Co-funded by the European Union">
+    </div>
+
+    <nav id="langSwitcher" class="lang-switcher" data-i18n-aria="lang_switcher_aria" aria-label="Select language"></nav>
+
+    <img class="logo-bar__img"
+         src="../image-1776928198470.png"
+         alt="ECBL — Europe can be liked">
+</div>
+
+<header class="hero">
+    <div class="hero__inner">
+        <div class="flag-it" id="headerFlag" data-i18n-aria="flag_aria" aria-label="Italian flag" role="img">
+            <div class="flag-it__band flag-it__band--green"></div>
+            <div class="flag-it__band flag-it__band--white"></div>
+            <div class="flag-it__band flag-it__band--red"></div>
+        </div>
+        <div class="hero__main">
+            <div class="hero__head">
+                <span class="hero__eyebrow" data-i18n="hero_eyebrow">Workshop 1</span>
+                <h1 class="hero__title" data-i18n="hero_title">Organs of the European Union</h1>
+            </div>
+            <p class="hero__subtitle" data-i18n="hero_subtitle">A participatory journey to discover European Institutions through role-play, group work and civic reflection.</p>
+            <div class="hero__pills">
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_duration_label">Duration</span>
+                    <span class="hero-pill__value" data-i18n="info_duration_value">2 – 2.5 hours</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_participants_label">Participants</span>
+                    <span class="hero-pill__value" data-i18n="info_participants_value">20 – 25</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="hero_pill_audience_label">Audience</span>
+                    <span class="hero-pill__value" data-i18n="tag_audience">Adults / Seniors</span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Pulsanti azione: Simulazione · Foto · Video -->
+        <nav class="ws-actions" aria-label="Workshop resources">
+            <a href="../Simularore WS 1/Simulation Game.html"
+               class="ws-action ws-action--active">
+                <span class="ws-action__label" data-i18n="ws_action_simulation">Simulazione</span>
+            </a>
+            <span class="ws-action ws-action--disabled" role="button" aria-disabled="true">
+                <span class="ws-action__label" data-i18n="ws_action_photos">Foto</span>
+                <span class="ws-action__hint" data-i18n="ws_action_soon">in arrivo</span>
+            </span>
+            <span class="ws-action ws-action--disabled" role="button" aria-disabled="true">
+                <span class="ws-action__label" data-i18n="ws_action_videos">Video</span>
+                <span class="ws-action__hint" data-i18n="ws_action_soon">in arrivo</span>
+            </span>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- Obiettivi generali -->
+    <section class="sect" id="obiettivi-generali">
+        <h2 class="sect__title" data-i18n="section_general_objectives">General Objectives</h2>
+        <ol class="goals">
+            <li><span class="goals__num">1</span><span data-i18n="goal_g1">Develop civic awareness of the role of EU Institutional Bodies.</span></li>
+            <li><span class="goals__num">2</span><span data-i18n="goal_g2">Develop the ability to understand the functioning of individual Institutions.</span></li>
+            <li><span class="goals__num">3</span><span data-i18n="goal_g3">Stimulate reflection on the effects produced by the functioning of individual Institutions.</span></li>
+            <li><span class="goals__num">4</span><span data-i18n="goal_g4">Stimulate the participation of individual citizens in the political life of the EU.</span></li>
+        </ol>
+    </section>
+
+    <!-- Obiettivi specifici -->
+    <section class="sect" id="obiettivi-specifici">
+        <h2 class="sect__title" data-i18n="section_specific_objectives">Specific Objectives</h2>
+        <ol class="goals goals--alt">
+            <li><span class="goals__num">1</span><span data-i18n="goal_s1">Know the individual EU Institutions.</span></li>
+            <li><span class="goals__num">2</span><span data-i18n="goal_s2">Understand the tasks carried out by individual EU Institutions.</span></li>
+            <li><span class="goals__num">3</span><span data-i18n="goal_s3">Develop personal relationship skills and create an empathic bond.</span></li>
+            <li><span class="goals__num">4</span><span data-i18n="goal_s4">Understand the dynamics and interconnections between the various Institutions.</span></li>
+            <li><span class="goals__num">5</span><span data-i18n="goal_s5">Stimulate suggestions regarding the functioning of EU Institutions.</span></li>
+        </ol>
+    </section>
+
+    <!-- Gruppo target -->
+    <section class="sect sect--callout" id="gruppo-target">
+        <h2 class="sect__title" data-i18n="section_target">Target Group Description</h2>
+        <p class="prose" data-i18n-html="target_html">The workshops are aimed at <strong>adults, particularly seniors</strong>, interested in the European Union and social and civic issues. No specialist knowledge is required: participants' life experiences and willingness to engage in dramatic work are fundamental elements.</p>
+    </section>
+
+    <!-- Metodi di lavoro -->
+    <section class="sect" id="metodi">
+        <h2 class="sect__title" data-i18n="section_methods">Working Methods</h2>
+        <ul class="pills">
+            <li class="pill" data-i18n="method_1">Role-play / Simulation game</li>
+            <li class="pill" data-i18n="method_2">Moderated discussion</li>
+            <li class="pill" data-i18n="method_3">Group work</li>
+            <li class="pill" data-i18n="method_4">Brainstorming</li>
+            <li class="pill" data-i18n="method_5">Interactive lecture elements</li>
+        </ul>
+    </section>
+
+    <!-- Materiali e strumenti -->
+    <section class="sect" id="materiali">
+        <h2 class="sect__title" data-i18n="section_materials">Teaching Materials and Tools</h2>
+        <ul class="checklist">
+            <li data-i18n="material_1">Role cards for participants</li>
+            <li data-i18n="material_2">Paper sheets, pens</li>
+            <li data-i18n="material_3">Flipchart or blackboard</li>
+            <li data-i18n="material_4">Markers</li>
+            <li data-i18n="material_5">Clock or timer</li>
+            <li data-i18n="material_6">Materials for writing a "Proposal for change and/or functioning of EU Institutions"</li>
+        </ul>
+    </section>
+
+    <!-- Svolgimento -->
+    <section class="sect" id="svolgimento">
+        <h2 class="sect__title" data-i18n="section_schedule">Workshop Schedule</h2>
+
+        <h3 class="sect__subtitle" data-i18n="intro_subtitle">Introduction</h3>
+        <ul class="bullets">
+            <li data-i18n="intro_1">Welcome of participants.</li>
+            <li data-i18n="intro_2">Presentation of the workshop objective and rules (respect, no "right" or "wrong" answer, right to change one's mind).</li>
+            <li data-i18n="intro_3">Brief introduction to the teaching method.</li>
+        </ul>
+
+        <h3 class="sect__subtitle" data-i18n="activity_subtitle">Activity Description</h3>
+        <p class="prose" data-i18n="activity_text">The EU Institutions are presented seeking — as much as possible — the involvement and active participation of the participants.</p>
+
+        <h3 class="sect__subtitle" data-i18n="steps_subtitle">Instructions — Workshop Phases</h3>
+        <ol class="timeline">
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">1</span>
+                    <span class="timeline__time">15 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step1_title">Entry Questionnaire — "Europe in my memories"</h4>
+                    <p data-i18n-html="step1_html">We begin with an entry questionnaire and collegial feedback (Exercise 1). Individual answers, written on a sheet, will be used to carry out a collegial review of the starting situation and to stimulate interest in the topic covered. The <strong>Brainstorming</strong> method will be used.</p>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">2</span>
+                    <span class="timeline__time">15 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step2_title">Introduction to European Institutions (slides 1 – 2 – 3)</h4>
+                    <p data-i18n="step2_text">The facilitator starts the presentation with a short video and the illustration of some animated slides, with a schematic and essential graphic layout, in order to highlight the composition and relationships between these institutions.</p>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">3</span>
+                    <span class="timeline__time">15 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step3_title">Exercise 2 — two feedback cards</h4>
+                    <p data-i18n="step3_text">Each participant is given 2 cards to complete to check and enrich their knowledge of EU Institutions. The card includes two simple exercises that help consolidate the content just presented.</p>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">4</span>
+                    <span class="timeline__time">20 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step4_title">Plenary presentation of EU Institutions</h4>
+                    <p data-i18n="step4_text">The facilitator presents the slides on EU Institutions to the participants in plenary and invites contributions. The presentation is carried out using animated slides containing all the data needed to more fully understand the configuration and functioning of the various Institutions considered. The facilitator will involve senior students by encouraging their participation.</p>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">5</span>
+                    <span class="timeline__time">15 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step5_title">Exercise 3 — worksheets (3a & 3b)</h4>
+                    <p data-i18n-html="step5_html">Two worksheets are provided to verify understanding of the presentation. The worksheets, set up with <em>true/false</em> and <em>match the correct answer</em> type responses, are completed in pairs. A brief collegial discussion follows to verify and consolidate learning.</p>
+                </div>
+            </li>
+
+            <li class="timeline__step timeline__step--feature" id="spiaggia-europa">
+                <div class="timeline__head">
+                    <span class="timeline__num">6</span>
+                    <span class="timeline__time">50 min</span>
+                </div>
+                <div class="timeline__body">
+                    <div class="feature__ribbon" data-i18n="step6_ribbon">Exercise 4</div>
+                    <h4 class="feature__title" data-i18n="step6_title">The Beach of Europa</h4>
+                    <p class="feature__lead" data-i18n-html="step6_lead_html">A simulation on free competition in services. The aim is to help understand the <strong>Bolkestein Directive</strong> and, more generally, how free competition in services works and the role of the Commission as <strong>Guardian of the Treaties</strong>.</p>
+
+                    <div class="feature__grid">
+
+                        <div class="feature__block">
+                            <h5 data-i18n="step6_block1_title">General Objective</h5>
+                            <p data-i18n="step6_block1_text">Allow participants to experience, in a light and guided way, how the EU intervenes when a State does not respect common rules on competition in services — as in the case of beach concessions.</p>
+                        </div>
+
+                        <div class="feature__block">
+                            <h5 data-i18n="step6_block2_title">Skills the game develops</h5>
+                            <ul class="feature__list">
+                                <li data-i18n="step6_skill1">Understand the role of the Commission as Guardian of the Treaties.</li>
+                                <li data-i18n="step6_skill2">Understand why the EU requires transparent tendering.</li>
+                                <li data-i18n-html="step6_skill3_html">Recognise conflicts between rights: <em>right to enterprise</em> and <em>citizens' right of access to the sea</em>.</li>
+                                <li data-i18n="step6_skill4">Develop critical thinking and mediation skills.</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature__block feature__block--wide">
+                            <h5 data-i18n="step6_block3_title">The facilitator explains</h5>
+                            <ul class="feature__list">
+                                <li data-i18n-html="step6_explain1_html">What the <strong>Bolkestein Directive</strong> is, in simple terms.</li>
+                                <li data-i18n-html="step6_explain2_html">What <em>free competition in services</em> means.</li>
+                                <li data-i18n-html="step6_explain3_html">The role of the Commission as <strong>Guardian of the Treaties</strong>.</li>
+                            </ul>
+                            <p class="feature__note" data-i18n="step6_explain_note">The facilitator then assigns roles by distributing a character card to students.</p>
+                        </div>
+
+                        <div class="feature__block feature__block--wide">
+                            <h5 data-i18n="step6_block4_title">The three phases of the game</h5>
+                            <ol class="phases">
+                                <li><span class="phases__num">1</span><span data-i18n-html="step6_phase1_html"><strong>Presentation of requests</strong> — the characters present their positions.</span></li>
+                                <li><span class="phases__num">2</span><span data-i18n-html="step6_phase2_html"><strong>Municipal Decision</strong> — a first local decision is made.</span></li>
+                                <li><span class="phases__num">3</span><span data-i18n-html="step6_phase3_html"><strong>Commission Intervention</strong> — the EU enters the scene as Guardian of the Treaties.</span></li>
+                            </ol>
+                            <p class="feature__note" data-i18n-html="step6_phases_note_html">The three phases are followed by a <strong>debriefing</strong> to analyse what happened, how it went, what was learned and what can be improved.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+
+            <li class="timeline__step">
+                <div class="timeline__head">
+                    <span class="timeline__num">7</span>
+                    <span class="timeline__time">20 min</span>
+                </div>
+                <div class="timeline__body">
+                    <h4 data-i18n="step7_title">Final Collegial Discussion</h4>
+                    <p data-i18n="step7_text">A collegial discussion follows on the levels of knowledge of EU Institutions acquired by the participants.</p>
+                </div>
+            </li>
+
+        </ol>
+    </section>
+
+    <!-- Sintesi finale -->
+    <section class="sect" id="sintesi">
+        <h2 class="sect__title" data-i18n="section_summary">Operational Summary</h2>
+        <div class="summary-grid">
+            <div class="summary-card">
+                <div class="summary-card__label" data-i18n="summary_time_label">Total Time</div>
+                <div class="summary-card__value">150 min</div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-card__label" data-i18n="summary_materials_label">Materials</div>
+                <div class="summary-card__text" data-i18n="summary_materials_text">Flipchart, Post-it notes, introductory worksheet, Exercises 1 – 2 – 3 – 4.</div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-card__label" data-i18n="summary_equipment_label">Equipment</div>
+                <div class="summary-card__text" data-i18n="summary_equipment_text">Laptop, projector, photocopier/scanner.</div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p data-i18n="footer_text">Erasmus+ Project · Workshop 1 — Organs of the European Union</p>
+</footer>
+
+<button class="to-top" id="toTop" data-i18n="btn_top" aria-label="Back to top">&#8593; Top</button>
+
+<script src="lang.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

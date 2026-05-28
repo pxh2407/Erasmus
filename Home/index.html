@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home — Erasmus+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER FISSO: barra loghi + navigazione -->
+<div class="site-header">
+
+    <div class="logo-bar" role="banner" aria-label="Project logos">
+        <img class="logo-bar__img"
+             src="../image-1776928171315.jpg"
+             alt="Co-funded by the European Union">
+        <nav id="langSwitcher" class="lang-switcher" data-i18n-aria="lang_switcher_aria" aria-label="Select language"></nav>
+        <img class="logo-bar__img"
+             src="../image-1776928198470.png"
+             alt="ECBL — Europe can be liked">
+    </div>
+
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <button class="site-nav__hamburger" id="navHamburger"
+                type="button"
+                aria-controls="siteNavList"
+                aria-expanded="false"
+                data-i18n-aria="nav_menu_aria"
+                aria-label="Open navigation menu">
+            <span class="site-nav__hamburger-bars" aria-hidden="true">
+                <span class="site-nav__hamburger-bar"></span>
+                <span class="site-nav__hamburger-bar"></span>
+                <span class="site-nav__hamburger-bar"></span>
+            </span>
+            <span class="site-nav__hamburger-label" data-i18n="nav_menu_label">Menu</span>
+        </button>
+        <ul class="site-nav__list" id="siteNavList">
+
+            <!-- UNIONE EUROPEA -->
+            <li>
+                <a href="../Unione Europea/Unione Europea.html"
+                   class="site-nav__link" data-i18n="nav_eu">L'Unione Europea</a>
+            </li>
+
+            <!-- GERMANIA -->
+            <li class="site-nav__item--has-dropdown">
+                <a href="#" class="site-nav__link" id="navGermanyBtn"
+                   aria-haspopup="true" aria-expanded="false">
+                    <span data-i18n="nav_germany">Germany</span><span class="site-nav__caret" aria-hidden="true">&#9660;</span>
+                </a>
+                <ul class="site-nav__dropdown" id="navGermanyDropdown">
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">DE</span>
+                        <span class="dropdown-link__flag"><div class="flag-de"><div class="flag-de__band flag-de__band--black"></div><div class="flag-de__band flag-de__band--red"></div><div class="flag-de__band flag-de__band--gold"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws1">Workshop 1</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">DE</span>
+                        <span class="dropdown-link__flag"><div class="flag-de"><div class="flag-de__band flag-de__band--black"></div><div class="flag-de__band flag-de__band--red"></div><div class="flag-de__band flag-de__band--gold"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws2">Workshop 2</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">DE</span>
+                        <span class="dropdown-link__flag"><div class="flag-de"><div class="flag-de__band flag-de__band--black"></div><div class="flag-de__band flag-de__band--red"></div><div class="flag-de__band flag-de__band--gold"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws3">Workshop 3</span>
+                    </span></li>
+                    <li><a href="../Workshop 1 LUTE/Workshop LUTE Modulo 2 ITA.html" class="site-nav__dropdown-link">
+                        <span class="dropdown-link__code">IT</span>
+                        <span class="dropdown-link__flag"><div class="flag-it"><div class="flag-it__band flag-it__band--green"></div><div class="flag-it__band flag-it__band--white"></div><div class="flag-it__band flag-it__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_it">Workshop</span>
+                    </a></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">LV</span>
+                        <span class="dropdown-link__flag"><div class="flag-lv"><div class="flag-lv__band flag-lv__band--red"></div><div class="flag-lv__band flag-lv__band--white"></div><div class="flag-lv__band flag-lv__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_lv">Workshop</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">PL</span>
+                        <span class="dropdown-link__flag"><div class="flag-pl"><div class="flag-pl__band flag-pl__band--white"></div><div class="flag-pl__band flag-pl__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_pl">Workshop</span>
+                    </span></li>
+                </ul>
+            </li>
+
+            <!-- ITALIA -->
+            <li class="site-nav__item--has-dropdown">
+                <a href="#" class="site-nav__link" id="navItalyBtn"
+                   aria-haspopup="true" aria-expanded="false">
+                    <span data-i18n="nav_italy">Italy</span><span class="site-nav__caret" aria-hidden="true">&#9660;</span>
+                </a>
+                <ul class="site-nav__dropdown" id="navItalyDropdown">
+                    <li><a href="../Workshop 1 LUTE/Workshop LUTE Modulo 2 ITA.html" class="site-nav__dropdown-link">
+                        <span class="dropdown-link__code">IT</span>
+                        <span class="dropdown-link__flag"><div class="flag-it"><div class="flag-it__band flag-it__band--green"></div><div class="flag-it__band flag-it__band--white"></div><div class="flag-it__band flag-it__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws1">Workshop 1</span>
+                    </a></li>
+                    <li><a href="../Workshop 2 LUTE/Workshop 2 LUTE.html" class="site-nav__dropdown-link">
+                        <span class="dropdown-link__code">IT</span>
+                        <span class="dropdown-link__flag"><div class="flag-it"><div class="flag-it__band flag-it__band--green"></div><div class="flag-it__band flag-it__band--white"></div><div class="flag-it__band flag-it__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws2">Workshop 2</span>
+                    </a></li>
+                    <li><a href="../Workshop 3 LUTE/Workshop 3 LUTE.html" class="site-nav__dropdown-link">
+                        <span class="dropdown-link__code">IT</span>
+                        <span class="dropdown-link__flag"><div class="flag-it"><div class="flag-it__band flag-it__band--green"></div><div class="flag-it__band flag-it__band--white"></div><div class="flag-it__band flag-it__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws3">Workshop 3</span>
+                    </a></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">DE</span>
+                        <span class="dropdown-link__flag"><div class="flag-de"><div class="flag-de__band flag-de__band--black"></div><div class="flag-de__band flag-de__band--red"></div><div class="flag-de__band flag-de__band--gold"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_de">Workshop</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">LV</span>
+                        <span class="dropdown-link__flag"><div class="flag-lv"><div class="flag-lv__band flag-lv__band--red"></div><div class="flag-lv__band flag-lv__band--white"></div><div class="flag-lv__band flag-lv__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_lv">Workshop</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">PL</span>
+                        <span class="dropdown-link__flag"><div class="flag-pl"><div class="flag-pl__band flag-pl__band--white"></div><div class="flag-pl__band flag-pl__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_pl">Workshop</span>
+                    </span></li>
+                </ul>
+            </li>
+
+            <!-- LETTONIA -->
+            <li class="site-nav__item--has-dropdown">
+                <a href="#" class="site-nav__link" id="navLatviaBtn"
+                   aria-haspopup="true" aria-expanded="false">
+                    <span data-i18n="nav_latvia">Latvia</span><span class="site-nav__caret" aria-hidden="true">&#9660;</span>
+                </a>
+                <ul class="site-nav__dropdown" id="navLatviaDropdown">
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">LV</span>
+                        <span class="dropdown-link__flag"><div class="flag-lv"><div class="flag-lv__band flag-lv__band--red"></div><div class="flag-lv__band flag-lv__band--white"></div><div class="flag-lv__band flag-lv__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws1">Workshop 1</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">LV</span>
+                        <span class="dropdown-link__flag"><div class="flag-lv"><div class="flag-lv__band flag-lv__band--red"></div><div class="flag-lv__band flag-lv__band--white"></div><div class="flag-lv__band flag-lv__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws2">Workshop 2</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">LV</span>
+                        <span class="dropdown-link__flag"><div class="flag-lv"><div class="flag-lv__band flag-lv__band--red"></div><div class="flag-lv__band flag-lv__band--white"></div><div class="flag-lv__band flag-lv__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws3">Workshop 3</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">DE</span>
+                        <span class="dropdown-link__flag"><div class="flag-de"><div class="flag-de__band flag-de__band--black"></div><div class="flag-de__band flag-de__band--red"></div><div class="flag-de__band flag-de__band--gold"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_de">Workshop</span>
+                    </span></li>
+                    <li><a href="../Workshop 1 LUTE/Workshop LUTE Modulo 2 ITA.html" class="site-nav__dropdown-link">
+                        <span class="dropdown-link__code">IT</span>
+                        <span class="dropdown-link__flag"><div class="flag-it"><div class="flag-it__band flag-it__band--green"></div><div class="flag-it__band flag-it__band--white"></div><div class="flag-it__band flag-it__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_it">Workshop</span>
+                    </a></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">PL</span>
+                        <span class="dropdown-link__flag"><div class="flag-pl"><div class="flag-pl__band flag-pl__band--white"></div><div class="flag-pl__band flag-pl__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_pl">Workshop</span>
+                    </span></li>
+                </ul>
+            </li>
+
+            <!-- POLONIA -->
+            <li class="site-nav__item--has-dropdown">
+                <a href="#" class="site-nav__link" id="navPolandBtn"
+                   aria-haspopup="true" aria-expanded="false">
+                    <span data-i18n="nav_poland">Poland</span><span class="site-nav__caret" aria-hidden="true">&#9660;</span>
+                </a>
+                <ul class="site-nav__dropdown" id="navPolandDropdown">
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">PL</span>
+                        <span class="dropdown-link__flag"><div class="flag-pl"><div class="flag-pl__band flag-pl__band--white"></div><div class="flag-pl__band flag-pl__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws1">Workshop 1</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">PL</span>
+                        <span class="dropdown-link__flag"><div class="flag-pl"><div class="flag-pl__band flag-pl__band--white"></div><div class="flag-pl__band flag-pl__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws2">Workshop 2</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">PL</span>
+                        <span class="dropdown-link__flag"><div class="flag-pl"><div class="flag-pl__band flag-pl__band--white"></div><div class="flag-pl__band flag-pl__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws3">Workshop 3</span>
+                    </span></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">DE</span>
+                        <span class="dropdown-link__flag"><div class="flag-de"><div class="flag-de__band flag-de__band--black"></div><div class="flag-de__band flag-de__band--red"></div><div class="flag-de__band flag-de__band--gold"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_de">Workshop</span>
+                    </span></li>
+                    <li><a href="../Workshop 1 LUTE/Workshop LUTE Modulo 2 ITA.html" class="site-nav__dropdown-link">
+                        <span class="dropdown-link__code">IT</span>
+                        <span class="dropdown-link__flag"><div class="flag-it"><div class="flag-it__band flag-it__band--green"></div><div class="flag-it__band flag-it__band--white"></div><div class="flag-it__band flag-it__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_it">Workshop</span>
+                    </a></li>
+                    <li><span class="site-nav__dropdown-link site-nav__dropdown-link--disabled">
+                        <span class="dropdown-link__code">LV</span>
+                        <span class="dropdown-link__flag"><div class="flag-lv"><div class="flag-lv__band flag-lv__band--red"></div><div class="flag-lv__band flag-lv__band--white"></div><div class="flag-lv__band flag-lv__band--red"></div></div></span>
+                        <span class="dropdown-link__text" data-i18n="nav_ws_lv">Workshop</span>
+                    </span></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+</div><!-- /.site-header -->
+
+<header class="hero">
+    <div class="hero__inner">
+        <!-- Bandiere in colonna verticale a sinistra: Germania · Italia · Lettonia · Polonia (ordine alfabetico) -->
+        <div class="flags-column" aria-hidden="true">
+            <div class="flag-de">
+                <div class="flag-de__band flag-de__band--black"></div>
+                <div class="flag-de__band flag-de__band--red"></div>
+                <div class="flag-de__band flag-de__band--gold"></div>
+            </div>
+            <div class="flag-it">
+                <div class="flag-it__band flag-it__band--green"></div>
+                <div class="flag-it__band flag-it__band--white"></div>
+                <div class="flag-it__band flag-it__band--red"></div>
+            </div>
+            <div class="flag-lv">
+                <div class="flag-lv__band flag-lv__band--red"></div>
+                <div class="flag-lv__band flag-lv__band--white"></div>
+                <div class="flag-lv__band flag-lv__band--red"></div>
+            </div>
+            <div class="flag-pl">
+                <div class="flag-pl__band flag-pl__band--white"></div>
+                <div class="flag-pl__band flag-pl__band--red"></div>
+            </div>
+        </div>
+        <div class="hero__main">
+            <span class="hero__eyebrow">Europe Can Be Liked · ECBL</span>
+            <h1 class="hero__title" data-i18n="hero_eyebrow">Erasmus+ Project</h1>
+            <p class="hero__subtitle" data-i18n="hero_subtitle">An Erasmus+ project on European citizenship involving Italy, Germany, Latvia and Poland.</p>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- COS'È IL PROGETTO -->
+    <section class="sect project-intro reveal" aria-labelledby="projectIntroTitle">
+        <h2 id="projectIntroTitle" class="project__title" data-i18n="project_intro_title">About the ECBL Project</h2>
+        <p class="project__lead" data-i18n="project_intro_lead">"Europe Can Be Liked" (ECBL) is an Erasmus+ cooperation project for adult education. It contrasts Euroscepticism — especially among the younger generation — by drawing on the memories and experience of senior citizens.</p>
+        <p class="project__lead" data-i18n="project_intro_lead2">By combining historical knowledge with modern teaching methods, the project promotes awareness of the European Union and strengthens a shared European identity through workshops, publications, public debates and study visits.</p>
+
+        <div class="project-meta">
+            <div class="project-meta__item">
+                <span class="project-meta__label" data-i18n="project_meta_duration">Duration</span>
+                <span class="project-meta__value">2025 – 2027</span>
+                <span class="project-meta__note" data-i18n="project_meta_duration_note">24 months</span>
+            </div>
+            <div class="project-meta__item">
+                <span class="project-meta__label" data-i18n="project_meta_action">Action</span>
+                <span class="project-meta__value">Erasmus+ KA220-ADU</span>
+                <span class="project-meta__note" data-i18n="project_meta_action_note">Adult Education Partnership</span>
+            </div>
+            <div class="project-meta__item">
+                <span class="project-meta__label" data-i18n="project_meta_priority">Priority</span>
+                <span class="project-meta__value" data-i18n="project_meta_priority_value">Common values</span>
+                <span class="project-meta__note" data-i18n="project_meta_priority_note">Civic engagement &amp; participation</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- OBIETTIVI -->
+    <section class="sect project-section reveal" aria-labelledby="projectGoalsTitle">
+        <h2 id="projectGoalsTitle" class="project__title" data-i18n="project_goals_title">Project Objectives</h2>
+        <ul class="project-goals">
+            <li data-i18n="project_goal_1">Strengthen a sense of European identity among senior citizens and other participants.</li>
+            <li data-i18n="project_goal_2">Encourage seniors' social activation and participation in public life.</li>
+            <li data-i18n="project_goal_3">Develop innovative educational materials about the European Union.</li>
+            <li data-i18n="project_goal_4">Collect and publish seniors' memories of their countries' entry into the EU.</li>
+            <li data-i18n="project_goal_5">Promote dialogue between generations through public debates and workshops.</li>
+        </ul>
+    </section>
+
+    <!-- I 4 PARTNER -->
+    <section class="sect project-section reveal" aria-labelledby="projectPartnersTitle">
+        <h2 id="projectPartnersTitle" class="project__title" data-i18n="project_partners_title">The Four Partners</h2>
+        <p class="project__lead" data-i18n="project_partners_lead">The project unites four organisations active in adult education and senior engagement across Europe.</p>
+
+        <div class="partners-grid">
+            <article class="partner-card partner-card--lead">
+                <span class="partner-card__badge" data-i18n="partner_lead_badge">Lead partner</span>
+                <div class="partner-card__flag" aria-hidden="true">
+                    <div class="flag-pl"><div class="flag-pl__band flag-pl__band--white"></div><div class="flag-pl__band flag-pl__band--red"></div></div>
+                </div>
+                <h3 class="partner-card__name">Fundacja "Aktywni XXI"</h3>
+                <p class="partner-card__city">Jelenia Góra, <span data-i18n="country_pl">Poland</span></p>
+                <p class="partner-card__role" data-i18n="partner_aktywni_role">Coordinator. Runs the Jelenia Góra Academy of the Third Age (JA3W) and organises educational and partnership projects for seniors.</p>
+            </article>
+
+            <article class="partner-card">
+                <div class="partner-card__flag" aria-hidden="true">
+                    <div class="flag-it"><div class="flag-it__band flag-it__band--green"></div><div class="flag-it__band flag-it__band--white"></div><div class="flag-it__band flag-it__band--red"></div></div>
+                </div>
+                <h3 class="partner-card__name">LUTE Milazzo</h3>
+                <p class="partner-card__city">Milazzo (ME), <span data-i18n="country_it">Italy</span></p>
+                <p class="partner-card__role" data-i18n="partner_lute_role">University of the Third Age. Helps seniors appreciate their historical and cultural heritage and promotes European citizenship.</p>
+            </article>
+
+            <article class="partner-card">
+                <div class="partner-card__flag" aria-hidden="true">
+                    <div class="flag-de"><div class="flag-de__band flag-de__band--black"></div><div class="flag-de__band flag-de__band--red"></div><div class="flag-de__band flag-de__band--gold"></div></div>
+                </div>
+                <h3 class="partner-card__name">Seniorenbüro Hamburg e.V.</h3>
+                <p class="partner-card__city">Hamburg, <span data-i18n="country_de">Germany</span></p>
+                <p class="partner-card__role" data-i18n="partner_hamburg_role">Senior centre. Promotes peace and democratic values through the "Zeitzeugen" (Witnesses of Time) programme.</p>
+            </article>
+
+            <article class="partner-card">
+                <div class="partner-card__flag" aria-hidden="true">
+                    <div class="flag-lv"><div class="flag-lv__band flag-lv__band--red"></div><div class="flag-lv__band flag-lv__band--white"></div><div class="flag-lv__band flag-lv__band--red"></div></div>
+                </div>
+                <h3 class="partner-card__name">Preiļu novada Izglītības pārvalde</h3>
+                <p class="partner-card__city">Preiļi, <span data-i18n="country_lv">Latvia</span></p>
+                <p class="partner-card__role" data-i18n="partner_preili_role">Local education authority. Promotes digital skills, sustainable development and lifelong learning in rural communities.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- ATTIVITÀ -->
+    <section class="sect project-section reveal" aria-labelledby="projectActivitiesTitle">
+        <h2 id="projectActivitiesTitle" class="project__title" data-i18n="project_activities_title">What We Do</h2>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                </div>
+                <h3 class="activity-card__title" data-i18n="activity_1_title">Workshop Guide</h3>
+                <p class="activity-card__text" data-i18n="activity_1_text">A methodological guide with workshop scenarios on the EU, designed for trainers and educators working with seniors.</p>
+            </div>
+            <div class="activity-card">
+                <div class="activity-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <h3 class="activity-card__title" data-i18n="activity_2_title">Workshops "European ABC"</h3>
+                <p class="activity-card__text" data-i18n="activity_2_text">Educational workshops for senior citizens, covering the history, institutions, values and daily impact of the European Union.</p>
+            </div>
+            <div class="activity-card">
+                <div class="activity-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <h3 class="activity-card__title" data-i18n="activity_3_title">Voices from the Past</h3>
+                <p class="activity-card__text" data-i18n="activity_3_text">A collection of senior citizens' memoirs about their countries' entry into the EU, to share knowledge between generations.</p>
+            </div>
+            <div class="activity-card">
+                <div class="activity-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <h3 class="activity-card__title" data-i18n="activity_4_title">Study Visits</h3>
+                <p class="activity-card__text" data-i18n="activity_4_text">Visits to EU institutions in Brussels and Strasbourg, to experience first-hand where European decisions are made.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RISULTATI ATTESI -->
+    <section class="sect project-section reveal" aria-labelledby="projectImpactTitle">
+        <h2 id="projectImpactTitle" class="project__title" data-i18n="project_impact_title">Expected Results</h2>
+        <ul class="project-goals project-goals--impact">
+            <li data-i18n="project_impact_1">Greater awareness of the European Union and its values.</li>
+            <li data-i18n="project_impact_2">A stronger sense of shared European identity among senior citizens.</li>
+            <li data-i18n="project_impact_3">Increased civic participation and trust in European institutions.</li>
+            <li data-i18n="project_impact_4">Reduction of Euroscepticism through evidence-based education.</li>
+            <li data-i18n="project_impact_5">High-quality educational materials reusable by other organisations.</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p data-i18n="footer_text">Erasmus+ Project</p>
+</footer>
+
+<button class="to-top" id="toTop" data-i18n-aria="btn_top_aria" aria-label="Back to top">&#8593; Top</button>
+
+<script src="lang.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
