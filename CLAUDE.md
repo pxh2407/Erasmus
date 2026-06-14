@@ -324,6 +324,7 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 - **Bandiera lettone** (`.flag-lv`): 3 bande orizzontali rosso scuro (#9e3039) / bianco / rosso scuro, proporzioni **2:1:2** (banda bianca più sottile). CSS in coda a `Workshop 1 LV/style.css`.
 - **Nota lingue file**: i materiali LV esistono in **EN + LV** (a differenza dei PL solo-EN) → `dl_note` adattata, pulsanti download EN+LV.
 - **Ancora da fare**: WS2 LV (zip NR_2) e WS3 LV (zip NR_3).
+- **🐛 FIX timeline (linea verticale che tagliava il testo)**: la sezione agenda di **WS1 LV** e **WS3 PL** era stata scritta con `<li class="timeline__item"><div class="timeline__content">…` — classi NON previste dal CSS, quindi senza il `padding-left` che scosta il contenuto dalla linea verticale (`.timeline::before` a `left:28px`) → la linea tagliava il testo. **Struttura corretta** (richiesta dal CSS clonato da WS1 DE/LUTE): `<li class="timeline__step"><div class="timeline__head"><span class="timeline__num">N</span><span class="timeline__time" data-i18n="agN_time">…</span></div><div class="timeline__body"><h4 data-i18n="agN_title">…</h4><p data-i18n="agN_text">…</p></div></li>`. WS1 e WS2 PL erano già corretti. Per il LV ho anche rimosso il prefisso «N · » dai titoli `agN_title` (il numero sta nel cerchio `.timeline__num`). **Regola**: per le timeline usare SEMPRE `timeline__step`/`__head`/`__num`/`__time`/`__body`, mai `timeline__item`/`__content`.
 
 ### Sessione 2026-06-14 (f) — Workshop POLONIA (3 pagine interattive, 5 lingue)
 
