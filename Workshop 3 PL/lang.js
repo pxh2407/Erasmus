@@ -108,7 +108,7 @@
       dl_cards: "Game Cards — \"Europe Under Pressure\"",
       dl_cards_d: "The 5 game rounds, print-ready for groups of 3–5 participants.",
       footer_text: "Erasmus+ Project · Workshop 3 (Poland) — Should the EU Create a Common Army?",
-      footer_wa: "Contact\", footer_credit: \"LUTE MILAZZO web project — by Filippo Russo Nuccio",
+      footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     },
     it: {
       skip_link: "Salta al contenuto",
@@ -212,7 +212,7 @@
       dl_cards: "Carte del gioco «L'Europa sotto pressione»",
       dl_cards_d: "I 5 round del gioco, pronti per la stampa per gruppi di 3–5 partecipanti.",
       footer_text: "Progetto Erasmus+ · Workshop 3 (Polonia) — L'UE dovrebbe creare un esercito comune?",
-      footer_wa: "Contatti\", footer_credit: \"Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+      footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     },
     pl: {
       skip_link: "Przejdź do treści",
@@ -316,7 +316,7 @@
       dl_cards: "Karty gry «Europa pod presją»",
       dl_cards_d: "5 rund gry, gotowe do druku dla grup 3–5 uczestników.",
       footer_text: "Projekt Erasmus+ · Warsztat 3 (Polska) — Czy UE powinna stworzyć wspólną armię?",
-      footer_wa: "Kontakt\", footer_credit: \"Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+      footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     },
     de: {
       skip_link: "Zum Inhalt springen",
@@ -420,7 +420,7 @@
       dl_cards: "Spielkarten «Europa unter Druck»",
       dl_cards_d: "Die 5 Spielrunden, druckfertig für Gruppen von 3–5 Personen.",
       footer_text: "Erasmus+-Projekt · Workshop 3 (Polen) — Sollte die EU eine gemeinsame Armee schaffen?",
-      footer_wa: "Kontakt\", footer_credit: \"LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+      footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     },
     lv: {
       skip_link: "Pāriet uz saturu",
@@ -524,7 +524,7 @@
       dl_cards: "Spēles kartes «Eiropa zem spiediena»",
       dl_cards_d: "5 spēles kārtas, gatavas drukāšanai grupām pa 3–5 cilvēkiem.",
       footer_text: "Erasmus+ projekts · 3. seminārs (Polija) — Vai ES vajadzētu izveidot kopēju armiju?",
-      footer_wa: "Kontakti\", footer_credit: \"LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+      footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     },
   };
 

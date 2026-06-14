@@ -317,6 +317,10 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-06-14 (h) — Fix pulsante WhatsApp WS3 PL (effetto collaterale dello script virgolette)
+
+- Il pulsante WhatsApp nel footer di **WS3 PL** mostrava testo alterato («Contact", footer_credit: "LUTE MILAZZO…»). **Causa**: lo script Python che corresse le virgolette in `Workshop 3 PL/lang.js` (sessione f) operava riga-per-riga ed escapava TUTTE le `"` interne; sulla riga che conteneva **due** chiavi (`footer_wa: "…", footer_credit: "…"`) ha trasformato le virgolette di separazione in `\"`, fondendo le due chiavi in un unico valore `footer_wa` e perdendo `footer_credit`. **Fix**: ripristinate le due chiavi separate in tutte e 5 le lingue (sostituito `\", footer_credit: \"` → `", footer_credit: "`). Verificato in preview: pulsante = «Contact», credito regolare. Solo WS3 PL era interessato (gli altri lang.js non hanno subito quello script). **Lezione**: lo script di escape virgolette NON va usato su righe con più proprietà JS; preferire Edit mirati o caporali «».
+
 ### Sessione 2026-06-14 (g) — Workshop LETTONIA (in corso, uno alla volta)
 
 - La Lettonia ha inviato 3 workshop **«European ABC»** in `Desktop/WS Lettonia/` (3 zip `NR_1/NR_2/NR_3`, ciascuno con docx in **EN + LV**). Inserimento **uno alla volta** su richiesta utente.
