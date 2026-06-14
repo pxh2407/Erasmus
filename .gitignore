@@ -1,0 +1,7 @@
+# File di sistema / temporanei (non vanno sul sito)
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+~$*

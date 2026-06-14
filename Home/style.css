@@ -1,0 +1,1061 @@
+/* ============================================================
+   Home — Erasmus LUTE
+   Pagina principale con navigazione, conforme alle linee guida
+   del progetto Erasmus (LINEE-GUIDA.md).
+   ============================================================ */
+
+:root {
+    --bg: #f5f6f8;
+    --surface: #ffffff;
+    --surface-alt: #eef1f7;
+    --border: #d8dce4;
+    --text: #1f2430;
+    --text-muted: #6a7080;
+    --accent: #2b5cb0;
+    --accent-dark: #1a3f80;
+    --accent-hover: #204a93;
+    --gold: #f2c230;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 12px 36px rgba(30, 50, 100, 0.18);
+    --radius: 10px;
+    --radius-lg: 18px;
+    --transition: 0.2s ease;
+    --content-max: 1100px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+   SITE HEADER — wrapper fisso (logo-bar + navigazione)
+   ============================================================ */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--surface);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+/* ============================================================
+   BARRA LOGHI
+   ============================================================ */
+.logo-bar {
+    background: #ffffff;
+    border-bottom: 1px solid var(--border);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;   /* non più sticky: ci pensa .site-header */
+}
+
+.logo-bar__img {
+    height: 64px;
+    width: auto;
+    display: block;
+}
+
+/* ============================================================
+   NAVIGAZIONE PRINCIPALE
+   ============================================================ */
+.site-nav {
+    background: var(--surface);
+    border-bottom: 2px solid var(--border);
+}
+
+.site-nav__list {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: var(--content-max);
+    gap: 2px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+.site-nav__list::-webkit-scrollbar { display: none; }
+
+/* Pulsante hamburger — nascosto su desktop, visibile solo su mobile */
+.site-nav__hamburger {
+    display: none;          /* attivato in @media mobile */
+    align-items: center;
+    gap: 10px;
+    background: var(--surface);
+    border: 2px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 10px 16px;
+    margin: 10px 18px;
+    min-height: 48px;
+    min-width: 48px;
+    cursor: pointer;
+    color: var(--accent);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: background var(--transition), color var(--transition);
+}
+.site-nav__hamburger:hover {
+    background: var(--accent);
+    color: #fff;
+}
+.site-nav__hamburger:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+}
+.site-nav__hamburger-bars {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22px;
+    height: 16px;
+    flex-shrink: 0;
+}
+.site-nav__hamburger-bar {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: currentColor;
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.2s ease;
+    transform-origin: center;
+}
+/* Animazione: hamburger → croce quando aperto */
+.site-nav__hamburger[aria-expanded="true"] .site-nav__hamburger-bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+.site-nav__hamburger[aria-expanded="true"] .site-nav__hamburger-bar:nth-child(2) {
+    opacity: 0;
+}
+.site-nav__hamburger[aria-expanded="true"] .site-nav__hamburger-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+.site-nav__link {
+    display: flex;
+    align-items: center;
+    padding: 14px 22px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    min-height: 52px;
+    transition: color var(--transition), border-color var(--transition),
+                background var(--transition);
+}
+
+.site-nav__link:hover {
+    color: var(--accent);
+    background: var(--surface-alt);
+}
+
+.site-nav__link--active {
+    color: var(--accent);
+    font-weight: 700;
+    border-bottom-color: var(--gold);
+}
+
+.site-nav__link:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: -3px;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+    background:
+        radial-gradient(circle at 20% 30%, rgba(242, 194, 48, 0.15), transparent 40%),
+        radial-gradient(circle at 85% 70%, rgba(242, 194, 48, 0.12), transparent 45%),
+        linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+    color: #fff;
+    padding: 18px 24px 20px;
+    position: sticky;
+    top: 151px;            /* sotto site-header (logo-bar 97 + site-nav 54) */
+    z-index: 90;
+    overflow: hidden;
+    border-bottom: 3px solid var(--gold);
+}
+
+.hero__inner {
+    max-width: var(--content-max);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+}
+
+.hero__main {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero__eyebrow {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.18);
+    padding: 4px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    margin-bottom: 8px;
+}
+
+.hero__title {
+    margin: 0 0 8px;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.005em;
+}
+
+.hero__subtitle {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    max-width: 720px;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+/* ============================================================
+   DROPDOWN SOTTOMENU
+   ============================================================ */
+.site-nav__item--has-dropdown {
+    position: relative;
+    list-style: none;
+}
+
+/* Freccia dentro il link */
+.site-nav__caret {
+    font-size: 0.7rem;
+    margin-left: 5px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+    pointer-events: none;
+    vertical-align: middle;
+}
+.site-nav__item--has-dropdown.is-open .site-nav__caret {
+    transform: rotate(180deg);
+}
+
+/* Pannello dropdown — position:fixed per uscire dall'overflow del nav */
+.site-nav__dropdown {
+    display: none;
+    position: fixed;   /* calcolato via JS — non viene tagliato da overflow-x:auto */
+    background: var(--surface);
+    border: 2px solid var(--accent);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+    list-style: none;
+    padding: 6px;
+    margin: 0;
+    min-width: 230px;
+    z-index: 300;
+}
+.site-nav__item--has-dropdown.is-open .site-nav__dropdown {
+    display: block;
+}
+
+/* Voce del dropdown — pulsante con: SIGLA + bandierina + testo */
+.site-nav__dropdown-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    white-space: nowrap;
+    border: 2px solid transparent;
+    transition: background var(--transition), color var(--transition),
+                border-color var(--transition);
+    width: 100%;
+    min-height: 44px;
+    box-sizing: border-box;
+}
+
+/* Sigla paese: solo testo, larghezza fissa per allineamento */
+.dropdown-link__code {
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    width: 26px;
+    text-align: center;
+    flex-shrink: 0;
+    color: inherit;
+}
+
+/* Bandierina: 22×33 px, riusa le classi flag-* esistenti tramite override */
+.dropdown-link__flag {
+    width: 33px;
+    height: 22px;
+    border-radius: 2px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.dropdown-link__flag .flag-de,
+.dropdown-link__flag .flag-it,
+.dropdown-link__flag .flag-lv,
+.dropdown-link__flag .flag-pl {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Testo del workshop */
+.dropdown-link__text {
+    flex: 1;
+}
+
+/* Link attivi — blu, chiaramente cliccabili */
+a.site-nav__dropdown-link {
+    color: var(--accent);
+    cursor: pointer;
+    font-weight: 700;
+}
+a.site-nav__dropdown-link:hover {
+    background: var(--surface-alt);
+    color: var(--accent-dark);
+    border-color: var(--accent);
+}
+a.site-nav__dropdown-link:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: -2px;
+}
+
+/* Voci disabilitate — grigio chiaro, non cliccabili */
+.site-nav__dropdown-link--disabled {
+    color: #b8bfcc;
+    cursor: default;
+    pointer-events: none;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* ============================================================
+   CONTAINER
+   ============================================================ */
+.container {
+    max-width: var(--content-max);
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+}
+
+/* ============================================================
+   SEZIONI
+   ============================================================ */
+.sect {
+    margin-bottom: 56px;
+}
+
+.sect--callout {
+    background: var(--surface);
+    border: 2px solid var(--accent);
+    border-radius: var(--radius-lg);
+    padding: 28px 32px;
+    box-shadow: var(--shadow-sm);
+}
+
+/* ============================================================
+   PROGETTO ECBL — sezioni dedicate alla descrizione del progetto
+   ============================================================ */
+.project-intro,
+.project-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    padding: 32px 36px;
+    margin-bottom: 28px;
+}
+
+.project__title {
+    font-size: clamp(1.4rem, 2.4vw, 1.85rem);
+    font-weight: 700;
+    color: var(--accent-dark);
+    margin: 0 0 14px;
+    padding-left: 14px;
+    border-left: 5px solid var(--gold);
+    line-height: 1.25;
+}
+
+.project__lead {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: var(--text);
+    margin: 0 0 14px;
+    max-width: 880px;
+}
+
+/* Meta-info: durata, action, priority */
+.project-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+    margin-top: 22px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+}
+
+.project-meta__item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 16px;
+    background: var(--surface-alt);
+    border-radius: var(--radius);
+    border-left: 4px solid var(--accent);
+}
+
+.project-meta__label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+}
+
+.project-meta__value {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.project-meta__note {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Lista obiettivi/risultati */
+.project-goals {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.project-goals li {
+    position: relative;
+    padding: 14px 18px 14px 48px;
+    background: var(--surface-alt);
+    border-radius: var(--radius);
+    border-left: 4px solid var(--accent);
+    font-size: 1rem;
+    line-height: 1.55;
+    color: var(--text);
+}
+.project-goals li::before {
+    content: "✓";
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.project-goals--impact li {
+    border-left-color: var(--gold);
+}
+.project-goals--impact li::before {
+    background: var(--gold);
+    color: var(--accent-dark);
+    content: "★";
+}
+
+/* Griglia partner — 2×2 su desktop, 1 colonna su mobile (gestita nel @media) */
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 22px;
+}
+
+.partner-card {
+    position: relative;
+    background: var(--surface-alt);
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+.partner-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.partner-card--lead {
+    border-color: var(--accent);
+    background: linear-gradient(135deg, #ffffff 0%, #eef1f7 100%);
+}
+
+.partner-card__badge {
+    position: absolute;
+    top: -10px;
+    left: 18px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 999px;
+}
+
+.partner-card__flag {
+    width: 56px;
+    height: 38px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+    margin-bottom: 6px;
+}
+.partner-card__flag .flag-de,
+.partner-card__flag .flag-it,
+.partner-card__flag .flag-lv,
+.partner-card__flag .flag-pl {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.partner-card__name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--accent-dark);
+    margin: 0;
+    line-height: 1.25;
+}
+
+.partner-card__city {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 0;
+    font-style: italic;
+}
+
+.partner-card__role {
+    font-size: 0.92rem;
+    color: var(--text);
+    margin: 6px 0 0;
+    line-height: 1.5;
+}
+
+/* Griglia attività */
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 22px;
+}
+
+.activity-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-top: 4px solid var(--gold);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    transition: box-shadow var(--transition), transform var(--transition);
+}
+.activity-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.activity-card__icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: var(--surface-alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    color: var(--accent);
+}
+.activity-card__icon svg {
+    width: 26px;
+    height: 26px;
+    display: block;
+}
+
+.activity-card__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent-dark);
+    margin: 0 0 8px;
+}
+
+.activity-card__text {
+    font-size: 0.92rem;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+    .project-intro,
+    .project-section { padding: 22px 20px; }
+    .project__title { font-size: 1.3rem; padding-left: 10px; border-left-width: 4px; }
+    .partners-grid,
+    .activities-grid { grid-template-columns: 1fr; }
+    .project-goals li { padding-left: 44px; font-size: 0.95rem; }
+}
+
+/* ============================================================
+   COMPARSA MORBIDA ALLO SCROLL (reveal)
+   ============================================================ */
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.is-visible {
+    opacity: 1;
+    transform: none;
+}
+/* Accessibilità: chi preferisce meno animazioni le vede subito, senza movimento */
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+/* ============================================================
+   COMING SOON — contenuto in preparazione (DEPRECATO, lasciato come fallback)
+   ============================================================ */
+.coming-soon {
+    text-align: center;
+    padding: 72px 40px 80px;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.coming-soon__icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 28px;
+    border-radius: 50%;
+    background: var(--surface-alt);
+    border: 3px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Icona "orologio / in attesa" costruita in CSS puro */
+.coming-soon__icon::before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    border: 4px solid var(--accent);
+    border-radius: 50%;
+    display: block;
+}
+.coming-soon__icon::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 14px;
+    background: var(--accent);
+    border-radius: 2px;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom center;
+}
+
+.coming-soon__title {
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 18px;
+    padding-left: 0;
+    border-left: none;
+}
+
+.coming-soon__text {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 540px;
+    margin: 0 auto;
+    line-height: 1.65;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+    background: var(--accent-dark);
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    padding: 24px;
+    font-size: 0.95rem;
+}
+.footer p { margin: 0; }
+
+/* ============================================================
+   TO-TOP button
+   ============================================================ */
+.to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 14px 22px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    transition: opacity var(--transition), transform var(--transition), background var(--transition);
+    z-index: 50;
+}
+.to-top.is-visible  { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.to-top:hover       { background: var(--accent-hover); }
+.to-top:active      { transform: translateY(1px); }
+.to-top:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+/* ============================================================
+   SELETTORE LINGUA
+   ============================================================ */
+.lang-switcher {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lang-btn {
+    background: none;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 4px 6px;
+    cursor: pointer;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color var(--transition), background var(--transition);
+}
+.lang-btn:hover          { border-color: var(--accent); background: var(--surface-alt); }
+.lang-btn--active        { border-color: var(--accent); background: var(--surface-alt); }
+.lang-btn:focus-visible  { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Pulsante mobile — nascosto su desktop */
+.lang-mobile-btn {
+    display: none;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    padding: 6px 10px;
+    min-width: 44px;
+    min-height: 44px;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--accent);
+    transition: background var(--transition), color var(--transition);
+}
+.lang-mobile-btn:hover,
+.lang-mobile-btn[aria-expanded="true"] { background: var(--accent); color: #fff; }
+.lang-mobile-arrow {
+    font-size: 0.85rem;
+    line-height: 1;
+    transition: transform 0.2s ease;
+    pointer-events: none;
+}
+.lang-mobile-btn[aria-expanded="true"] .lang-mobile-arrow { transform: rotate(180deg); }
+.lang-mobile-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Pannello a discesa (mobile) */
+.lang-dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    box-shadow: 0 6px 22px rgba(0,0,0,0.18);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 200;
+    min-width: 170px;
+}
+.lang-dropdown[hidden] { display: none; }
+
+.lang-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: none;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 8px 12px;
+    min-height: 48px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    text-align: left;
+    width: 100%;
+    transition: background var(--transition), border-color var(--transition);
+}
+.lang-dropdown-item:hover         { background: #eef1f7; border-color: var(--accent); }
+.lang-dropdown-item--active       { border-color: var(--accent); background: #eef1f7; color: var(--accent); }
+.lang-dropdown-item:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* ============================================================
+   BANDIERE DEI PAESI PARTNER
+   Germania · Italia · Lettonia · Polonia (ordine alfabetico)
+   ============================================================ */
+.flags-column {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 8px;              /* stesso spazio orizzontale e verticale */
+    flex-shrink: 0;
+}
+
+/* Dimensioni condivise — bandiere piccole, in griglia 2×2 */
+.flag-de, .flag-it, .flag-lv, .flag-pl {
+    height: 32px;
+    width: 48px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    flex-shrink: 0;
+}
+
+/* Italia — strisce verticali */
+.flag-it {
+    display: flex;
+}
+.flag-it__band       { flex: 1; }
+.flag-it__band--green { background: #009246; }
+.flag-it__band--white { background: #ffffff; }
+.flag-it__band--red   { background: #ce2b37; }
+
+/* Germania — strisce orizzontali */
+.flag-de {
+    display: flex;
+    flex-direction: column;
+}
+.flag-de__band      { flex: 1; }
+.flag-de__band--black { background: #000000; }
+.flag-de__band--red   { background: #dd0000; }
+.flag-de__band--gold  { background: #ffce00; }
+
+/* Lettonia — strisce orizzontali (rosso 2 · bianco 1 · rosso 2) */
+.flag-lv {
+    display: flex;
+    flex-direction: column;
+}
+.flag-lv__band--red   { flex: 2; background: #9e3039; }
+.flag-lv__band--white { flex: 1; background: #ffffff; }
+
+/* Polonia — strisce orizzontali */
+.flag-pl {
+    display: flex;
+    flex-direction: column;
+}
+.flag-pl__band        { flex: 1; }
+.flag-pl__band--white { background: #ffffff; }
+.flag-pl__band--red   { background: #dc143c; }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1024px), (pointer: coarse) {
+
+    body { font-size: 17px; }
+
+    /* Hero: su mobile non sticky (le voci di nav scorrono), padding ridotto */
+    .hero {
+        padding: 16px 18px 18px;
+        position: static;
+        top: auto;
+    }
+    .hero__title    { font-size: 1.6rem; }
+    .hero__subtitle { font-size: 0.95rem; }
+    .hero__inner    { gap: 16px; }
+
+    .container { padding: 40px 18px 60px; }
+
+    /* Logo-bar: griglia 3 colonne → logo | centro | logo */
+    .logo-bar {
+        padding: 14px 20px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+    }
+    .logo-bar__img { height: 50px; }
+
+    .lang-switcher {
+        position: static;
+        transform: none;
+        justify-content: center;
+    }
+    .lang-btn        { display: none; }
+    .lang-mobile-btn { display: flex; }
+
+    .flags-column { gap: 6px; }
+    .flag-de, .flag-it, .flag-lv, .flag-pl { height: 28px; width: 42px; }
+
+    /* Navigazione: hamburger visibile + lista verticale a discesa */
+    .site-nav__hamburger { display: inline-flex; }
+
+    .site-nav__list {
+        display: none;          /* nascosta finché non si apre l'hamburger */
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        max-width: 100%;
+        overflow: visible;
+        background: var(--surface);
+        border-top: 2px solid var(--border);
+    }
+    .site-nav.is-mobile-open .site-nav__list {
+        display: flex;
+    }
+
+    /* Voci principali in colonna, separate da linee orizzontali */
+    .site-nav__list > li {
+        width: 100%;
+        border-bottom: 1px solid var(--border);
+    }
+    .site-nav__list > li:last-child {
+        border-bottom: none;
+    }
+
+    .site-nav__link {
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 1.05rem;
+        min-height: 52px;
+        border-bottom: none;
+        justify-content: space-between;
+    }
+
+    /* Dropdown su mobile: in flusso (non più position:fixed) */
+    .site-nav__dropdown {
+        position: static;
+        width: 100%;
+        min-width: 0;
+        border: none;
+        border-top: 1px solid var(--border);
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+        background: var(--surface-alt);
+    }
+    .site-nav__dropdown li {
+        width: 100%;
+        border-bottom: 1px solid var(--border);
+    }
+    .site-nav__dropdown li:last-child {
+        border-bottom: none;
+    }
+    .site-nav__dropdown-link {
+        border-radius: 0;
+        padding: 12px 22px 12px 38px;   /* indent per gerarchia */
+        min-height: 48px;
+    }
+
+    .coming-soon { padding: 48px 24px 56px; }
+
+    .to-top { right: 14px; bottom: 14px; padding: 12px 18px; font-size: 0.95rem; }
+}
+
+@media (max-width: 480px) {
+    .logo-bar__img { height: 40px; }
+    .flags-column { gap: 5px; }
+    .flag-de, .flag-it, .flag-lv, .flag-pl { height: 24px; width: 36px; }
+    .site-nav__link { padding: 12px 18px; font-size: 1rem; }
+    .site-nav__hamburger { margin: 8px 14px; padding: 10px 14px; }
+    .site-nav__dropdown-link { padding: 12px 18px 12px 32px; }
+}
+
+/* ============================================================
+   SKIP-LINK (accessibilità: salta al contenuto)
+   ============================================================ */
+.skip-link {
+    position: absolute;
+    left: 8px;
+    top: -56px;
+    z-index: 2000;
+    background: var(--accent-dark);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: top 0.2s ease;
+}
+.skip-link:focus {
+    top: 8px;
+    outline: 3px solid var(--gold);
+    outline-offset: 2px;
+}
+
+/* ============================================================
+   Voci workshop "in arrivo" (paesi partner) — pagina provvisoria
+   Attenuate ma cliccabili (portano alla pagina d'invito partner)
+   ============================================================ */
+.site-nav__dropdown-link--soon { opacity: 0.72; }
+.site-nav__dropdown-link--soon:hover,
+.site-nav__dropdown-link--soon:focus-visible { opacity: 1; }

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simulazione «Una nuova legge UE contro gli sprechi alimentari»: il processo decisionale europeo dall'idea alla legge, con il Trilogo tra Parlamento, Consiglio e Commissione.">
+    <meta name="theme-color" content="#2b5cb0">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%231a3f80'/%3E%3Cpolygon%20points='16,5%2018.6,12.4%2026.5,12.6%2020.2,17.4%2022.5,24.9%2016,20.4%209.5,24.9%2011.8,17.4%205.5,12.6%2013.4,12.4'%20fill='%23f2c230'/%3E%3C/svg%3E">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Erasmus+ · ECBL">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:title" content="Simulation Game — A New EU Law on Food Waste">
+    <meta property="og:description" content="Simulazione del processo decisionale europeo contro gli sprechi alimentari.">
+    <meta property="og:url" content="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html">
+    <meta property="og:image" content="https://pxh2407.github.io/Erasmus/og-cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Europe Can Be Liked — Erasmus+ project">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Simulation Game — Sprechi alimentari</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Forza il ritorno al Workshop 2 LUTE quando si clicca la freccia ←
+        document.addEventListener('DOMContentLoaded', function () {
+            var backBtn = document.querySelector('.back-btn');
+            if (!backBtn) return;
+            var workshopUrl = '../Workshop 2 LUTE/Workshop 2 LUTE.html';
+            backBtn.setAttribute('href', workshopUrl);
+            backBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                window.location.href = encodeURI(workshopUrl);
+            });
+        });
+    </script>
+</head>
+<body>
+<a href="#main" class="skip-link" data-i18n="skip_link">Salta al contenuto</a>
+
+<!-- BARRA LOGHI + SELETTORE LINGUA -->
+<div class="logo-bar" role="banner" aria-label="Project logos">
+    <div class="logo-bar__left">
+        <a href="../Workshop 2 LUTE/Workshop 2 LUTE.html" class="back-btn" aria-label="Back to Workshop 2">&#8592;</a>
+        <img class="logo-bar__img" src="../image-1776928171315.jpg" alt="Co-funded by the European Union">
+    </div>
+    <nav id="langSwitcher" class="lang-switcher" data-i18n-aria="lang_switcher_aria" aria-label="Select language"></nav>
+    <img class="logo-bar__img" src="../image-1776928198470.png" alt="ECBL — Europe can be liked">
+</div>
+
+<header class="hero">
+    <div class="hero__inner">
+        <div class="flag-it" data-i18n-aria="flag_aria" aria-label="Italian flag" role="img">
+            <div class="flag-it__band flag-it__band--green"></div>
+            <div class="flag-it__band flag-it__band--white"></div>
+            <div class="flag-it__band flag-it__band--red"></div>
+        </div>
+        <div class="hero__main">
+            <div class="hero__head">
+                <span class="hero__eyebrow" data-i18n="hero_eyebrow">Workshop 2 · Simulazione</span>
+                <h1 class="hero__title" data-i18n="hero_title">Una nuova legge UE contro gli sprechi alimentari</h1>
+            </div>
+            <p class="hero__subtitle" data-i18n="hero_subtitle">Una simulazione del processo decisionale europeo: dall'idea alla legge, passando per il Trilogo tra Parlamento, Consiglio e Commissione.</p>
+            <p class="hero__coord" data-i18n-html="hero_guide">Guida: <strong>Pina Mastroieni</strong></p>
+            <div class="hero__pills">
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_duration_label">Durata</span>
+                    <span class="hero-pill__value">45 – 60 min</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_participants_label">Partecipanti</span>
+                    <span class="hero-pill__value">12 – 30</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="hero_pill_audience_label">Pubblico</span>
+                    <span class="hero-pill__value" data-i18n="tag_audience">Adulti / Anziani</span>
+                </span>
+                <span class="hero-pill">
+                    <span class="hero-pill__label" data-i18n="info_type_label">Tipo</span>
+                    <span class="hero-pill__value" data-i18n="info_type_value">Simulazione</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="container" id="main">
+
+    <!-- Scenario -->
+    <section class="sect sect--callout" id="scenario">
+        <h2 class="sect__title" data-i18n="section_scenario">Lo scenario</h2>
+        <p class="prose" data-i18n="sg_intro">Una simulazione del processo decisionale dell'UE — dall'idea al diritto. L'Unione vuole affrontare un problema reale: lo spreco alimentare, che incide su ambiente, economia e famiglie. I partecipanti decidono quale atto legislativo adottare e come le istituzioni dovrebbero procedere.</p>
+    </section>
+
+    <!-- Obiettivi -->
+    <section class="sect" id="obiettivi">
+        <h2 class="sect__title" data-i18n="section_objective">Obiettivi</h2>
+        <ul class="bullets" data-i18n-html="sg_obj_list">
+            <li>Comprendere il funzionamento del processo decisionale dell'UE.</li>
+            <li>Rafforzare la cittadinanza europea attiva.</li>
+            <li>Trasformare concetti astratti in competenze pratiche.</li>
+            <li>Stimolare il pensiero critico e la capacità di negoziazione.</li>
+        </ul>
+        <p class="prose" data-i18n-html="sg_obj_specific" style="margin-top:14px;">In pratica i partecipanti capiranno: <strong>come nasce una legge europea</strong>, quali istituzioni intervengono, cosa sono regolamenti, direttive e decisioni, e come si negozia un testo legislativo.</p>
+    </section>
+
+    <!-- Il Trilogo -->
+    <section class="sect sect--callout" id="trilogo">
+        <h2 class="sect__title" data-i18n="section_trilogue">Il Trilogo</h2>
+        <p class="prose" data-i18n="trilogue_intro">Il Trilogo è una procedura di negoziato informale a tre tra i rappresentanti delle tre principali istituzioni europee — Parlamento europeo, Consiglio dell'UE e Commissione europea — per raggiungere rapidamente un accordo sulle proposte legislative. Pur nato come informale, è diventato il cuore della procedura legislativa ordinaria (codecisione), per accelerare l'adozione delle norme.</p>
+
+        <h3 class="sect__subtitle" data-i18n="trilogue_actors_title">Chi partecipa: i tre attori</h3>
+        <ul class="bullets" data-i18n-html="trilogue_actors">
+            <li><strong>Commissione europea</strong> — partecipa come mediatrice e garante del potere di iniziativa legislativa.</li>
+            <li><strong>Parlamento europeo</strong> — di norma rappresentato dal relatore (il deputato incaricato del dossier) e dai "relatori ombra" dei gruppi politici.</li>
+            <li><strong>Consiglio dell'UE</strong> — rappresentato dalla presidenza del Coreper o del gruppo di lavoro competente.</li>
+        </ul>
+
+        <h3 class="sect__subtitle" data-i18n="trilogue_obj_title">Obiettivo e funzionamento</h3>
+        <p class="prose" data-i18n="trilogue_obj">Il trilogo serve a confrontare le posizioni del Parlamento e del Consiglio sulla proposta della Commissione, cercando compromessi sugli emendamenti e sulle differenze prima dei voti formali.</p>
+
+        <h3 class="sect__subtitle" data-i18n="trilogue_stages_title">Le fasi del processo</h3>
+        <ul class="bullets" data-i18n-html="trilogue_stages">
+            <li><strong>Apertura</strong> — dopo la presentazione della proposta legislativa da parte della Commissione.</li>
+            <li><strong>Negoziati</strong> — incontri tecnici e politici ("triloghi tecnici" a livello di funzionari, "triloghi politici" a livello decisionale).</li>
+            <li><strong>Accordo</strong> (o "pacchetto di compromesso") — se il trilogo ha successo.</li>
+            <li><strong>Adozione</strong> — il testo concordato torna a Consiglio e Parlamento per l'approvazione formale.</li>
+        </ul>
+
+        <p class="prose" data-i18n="trilogue_note" style="margin-top:14px;"><em>I triloghi sono spesso definiti la "scatola nera" del processo legislativo europeo: rendono la codecisione più rapida ed efficiente, ma sono talvolta criticati per la scarsa trasparenza, poiché decisioni cruciali si prendono in riunioni a porte chiuse.</em></p>
+    </section>
+
+    <!-- Struttura dell'attività -->
+    <section class="sect" id="struttura">
+        <h2 class="sect__title" data-i18n="section_structure">Struttura dell'attività (45 – 60 min)</h2>
+        <ol class="timeline">
+            <li class="timeline__step">
+                <div class="timeline__head"><span class="timeline__num">1</span><span class="timeline__time">5 min</span></div>
+                <div class="timeline__body"><h4 data-i18n="sg_s1_title">Introduzione</h4><p data-i18n="sg_s1_text">Il facilitatore presenta il problema e divide i partecipanti in 4 gruppi: le tre istituzioni del "triangolo europeo" più i cittadini/portatori di interesse. Alcune slide esemplificano la simulazione.</p></div>
+            </li>
+            <li class="timeline__step">
+                <div class="timeline__head"><span class="timeline__num">2</span><span class="timeline__time">15 min</span></div>
+                <div class="timeline__body"><h4 data-i18n="sg_s2_title">Lavoro nei gruppi</h4><p data-i18n="sg_s2_text">Ogni gruppo riceve la propria scheda-ruolo, riflette sulla domanda guida assegnata e prepara una breve dichiarazione sulla proposta UE contro lo spreco alimentare.</p></div>
+            </li>
+            <li class="timeline__step">
+                <div class="timeline__head"><span class="timeline__num">3</span><span class="timeline__time">5 min</span></div>
+                <div class="timeline__body"><h4 data-i18n="sg_s3_title">Confronto</h4><p data-i18n="sg_s3_text">Ogni gruppo espone dichiarazioni e risposte.</p></div>
+            </li>
+            <li class="timeline__step">
+                <div class="timeline__head"><span class="timeline__num">4</span><span class="timeline__time">~20 min</span></div>
+                <div class="timeline__body"><h4 data-i18n="sg_s4_title">Discussione plenaria</h4><p data-i18n-html="sg_s4_text">Ordine consigliato: la <strong>Commissione</strong> rielabora e presenta la proposta → il <strong>Parlamento</strong> commenta e propone modifiche → il <strong>Consiglio</strong> valuta e negozia → i <strong>Cittadini</strong> reagiscono e fanno pressione. Il facilitatore dà la parola, tiene i tempi e stimola il confronto.</p></div>
+            </li>
+            <li class="timeline__step">
+                <div class="timeline__head"><span class="timeline__num">5</span><span class="timeline__time">5 min</span></div>
+                <div class="timeline__body"><h4 data-i18n="sg_s5_title">Votazione finale</h4><p data-i18n="sg_s5_text">Il facilitatore chiede: "Approvate la legge così come è stata modificata?".</p></div>
+            </li>
+            <li class="timeline__step">
+                <div class="timeline__head"><span class="timeline__num">6</span><span class="timeline__time">5 min</span></div>
+                <div class="timeline__body"><h4 data-i18n="sg_s6_title">Debriefing</h4><p data-i18n-html="sg_s6_text">Quale istituzione ha avuto più peso? È stato facile trovare un accordo? La scelta dell'atto legislativo era adeguata? Avete riconosciuto i passaggi visti nella presentazione?</p></div>
+            </li>
+        </ol>
+    </section>
+
+    <!-- Schede ruolo -->
+    <section class="sect" id="schede">
+        <h2 class="sect__title" data-i18n="section_roles">Le 4 schede-ruolo</h2>
+        <div class="roles-grid">
+
+            <div class="role-card">
+                <div class="role-card__header" style="background:#2b5cb0;">
+                    <div class="role-card__badge" data-i18n="sg_role1_badge">Proponente</div>
+                    <div class="role-card__name" data-i18n="sg_role1_name">Commissione Europea</div>
+                    <div class="role-card__meta" data-i18n="sg_role1_who">È l'istituzione che propone le nuove leggi europee: il "motore iniziale".</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_do_label">Cosa dovete fare</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role1_do"><li>Spiegare perché l'UE deve intervenire sullo spreco alimentare.</li><li>Verificare se l'UE ha la competenza (esclusiva? concorrente?).</li><li>Presentare una proposta di legge chiara e semplice.</li><li>Difendere la proposta davanti a Parlamento e Consiglio.</li></ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_q_label">Domande guida</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role1_q"><li>Perché il problema riguarda tutti i cittadini europei?</li><li>Perché gli Stati da soli non bastano?</li><li>Quale obiettivo principale vogliamo raggiungere?</li><li>Serve un regolamento, una direttiva o una decisione?</li></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role-card">
+                <div class="role-card__header" style="background:#1f7a44;">
+                    <div class="role-card__badge" data-i18n="sg_role2_badge">Voce dei cittadini</div>
+                    <div class="role-card__name" data-i18n="sg_role2_name">Parlamento Europeo</div>
+                    <div class="role-card__meta" data-i18n="sg_role2_who">È l'istituzione eletta dai cittadini: ne rappresenta interessi, diritti e bisogni.</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_do_label">Cosa dovete fare</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role2_do"><li>Valutare la proposta della Commissione.</li><li>Proporre modifiche per renderla più efficace o più equa.</li><li>Difendere i cittadini più vulnerabili (anziani, famiglie, piccoli negozi).</li><li>Negoziare con il Consiglio per arrivare a un accordo.</li></ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_q_label">Domande guida</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role2_q"><li>La proposta è abbastanza ambiziosa?</li><li>È chiara e comprensibile per i cittadini?</li><li>Ci sono categorie che rischiano di essere penalizzate?</li><li>Quali miglioramenti possiamo suggerire?</li></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role-card">
+                <div class="role-card__header" style="background:#6c3483;">
+                    <div class="role-card__badge" data-i18n="sg_role3_badge">Governi nazionali</div>
+                    <div class="role-card__name" data-i18n="sg_role3_name">Consiglio dell'Unione Europea</div>
+                    <div class="role-card__meta" data-i18n="sg_role3_who">Sono i ministri dei 27 Stati membri: garantiscono che la legge sia realistica e applicabile nei diversi Paesi.</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_do_label">Cosa dovete fare</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role3_do"><li>Valutare l'impatto della proposta sui vostri Stati.</li><li>Individuare resistenze o difficoltà (costi, tempi, differenze culturali).</li><li>Proporre compromessi.</li><li>Co-decidere con il Parlamento.</li></ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_q_label">Domande guida</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role3_q"><li>Tutti gli Stati possono applicare la legge allo stesso modo?</li><li>Alcuni Paesi hanno già norme più avanzate?</li><li>Servono tempi più lunghi?</li><li>Serve flessibilità per alcuni Stati?</li></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role-card">
+                <div class="role-card__header" style="background:#b8860b;">
+                    <div class="role-card__badge" data-i18n="sg_role4_badge">Portatori di interesse</div>
+                    <div class="role-card__name" data-i18n="sg_role4_name">Cittadini e Società Civile</div>
+                    <div class="role-card__meta" data-i18n="sg_role4_who">Rappresentate associazioni di consumatori, pensionati, famiglie, volontariato e ONG ambientali.</div>
+                </div>
+                <div class="role-card__body">
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_do_label">Cosa dovete fare</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role4_do"><li>Esprimere preoccupazioni, bisogni e richieste dei cittadini.</li><li>Indicare problemi concreti della vita quotidiana.</li><li>Valutare se la proposta risponde davvero alle esigenze reali.</li><li>Fare pressione su Parlamento e Consiglio.</li></ul>
+                    </div>
+                    <div class="role-card__section">
+                        <h5 class="role-card__section-title" data-i18n="sg_q_label">Domande guida</h5>
+                        <ul class="role-card__list" data-i18n-html="sg_role4_q"><li>Come incide lo spreco alimentare sulla vita delle famiglie?</li><li>Quali soluzioni pratiche vorreste vedere?</li><li>La proposta è comprensibile e utile?</li><li>Cosa manca?</li></ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- La proposta della Commissione -->
+    <section class="sect sect--callout" id="proposta">
+        <h2 class="sect__title" data-i18n="section_proposal">La proposta della Commissione</h2>
+        <p class="prose" data-i18n-html="proposal_intro"><strong>Regolamento UE «Riduzione degli sprechi alimentari 2030»</strong></p>
+
+        <h3 class="sect__subtitle" data-i18n="proposal_why_title">Perché serve questa legge?</h3>
+        <p class="prose" data-i18n="proposal_why">Ogni anno, nell'Unione Europea, milioni di tonnellate di cibo vengono sprecate. Lo spreco alimentare aumenta i rifiuti, danneggia l'ambiente, pesa su famiglie e imprese ed è affrontato in modo diverso nei vari Stati. L'UE interviene perché l'ambiente è una competenza concorrente: possono agire sia gli Stati membri sia l'Unione.</p>
+
+        <h3 class="sect__subtitle" data-i18n="proposal_obj_title">Obiettivo della legge</h3>
+        <p class="prose" data-i18n="proposal_obj">Ridurre del 30% lo spreco alimentare entro il 2030 in tutta l'UE.</p>
+
+        <h3 class="sect__subtitle" data-i18n="proposal_type_title">Tipo di atto proposto</h3>
+        <p class="prose" data-i18n="proposal_type">Regolamento europeo (direttamente applicabile in tutti gli Stati membri).</p>
+
+        <h3 class="sect__subtitle" data-i18n="proposal_articles_title">Cosa prevede la proposta</h3>
+        <div class="prose" data-i18n-html="proposal_art1"><strong>Articolo 1 — Supermercati</strong><ul><li>Donazione obbligatoria del cibo ancora consumabile</li><li>Sconti sui prodotti vicini alla scadenza</li><li>Pubblicazione annuale dei dati sugli sprechi</li></ul></div>
+        <div class="prose" data-i18n-html="proposal_art2"><strong>Articolo 2 — Ristoranti e mense</strong><ul><li>Possibilità per i clienti di portare a casa gli avanzi ("family bag")</li><li>Formazione del personale sulla gestione delle porzioni</li><li>Riduzione del 20% degli sprechi entro il 2028</li></ul></div>
+        <div class="prose" data-i18n-html="proposal_art3"><strong>Articolo 3 — Famiglie e consumatori</strong><ul><li>Campagne di informazione</li><li>Etichettatura più chiara ("da consumarsi preferibilmente entro…")</li><li>Sostegno ad app e piattaforme per redistribuire le eccedenze</li></ul></div>
+        <div class="prose" data-i18n-html="proposal_art4"><strong>Articolo 4 — Controlli e sanzioni</strong><ul><li>Valutazione dei progressi ogni due anni</li><li>Piani correttivi per gli Stati in ritardo</li><li>Sanzioni proporzionate in caso di inadempienza</li></ul></div>
+
+        <h3 class="sect__subtitle" data-i18n="proposal_outcomes_title">Risultati attesi</h3>
+        <ul class="bullets" data-i18n-html="proposal_outcomes">
+            <li>Meno spreco alimentare</li>
+            <li>Risparmio economico per famiglie e imprese</li>
+            <li>Maggiore sostenibilità ambientale</li>
+            <li>Più donazioni alle organizzazioni caritative</li>
+        </ul>
+
+        <h3 class="sect__subtitle" data-i18n="proposal_points_title">Punti di discussione nella simulazione</h3>
+        <ul class="bullets" data-i18n-html="proposal_points">
+            <li>È più adatto un regolamento o una direttiva?</li>
+            <li>Gli obblighi per supermercati e ristoranti sono realistici?</li>
+            <li>Gli Stati membri hanno bisogno di più flessibilità?</li>
+            <li>Le misure per le famiglie sono sufficienti?</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p data-i18n="footer_text">Progetto Erasmus+ · Simulation Game — Sprechi alimentari</p>
+    <p class="footer__sub" style="margin:8px 0 0; font-size:0.85rem; opacity:0.85;"><span data-i18n="footer_credit">Progetto web LUTE MILAZZO &mdash; curato da Filippo Russo Nuccio</span></p>
+</footer>
+
+<button class="to-top" id="toTop" data-i18n="btn_top" aria-label="Back to top">&#8593; Top</button>
+
+<script src="lang.js"></script>
+<script src="script.js"></script>
+<script src="../textsize.js" defer></script>
+</body>
+</html>
