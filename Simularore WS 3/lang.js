@@ -16,7 +16,7 @@ const TRANSLATIONS = {
     hero_title:             "The EU Budget and its impact on citizens' lives",
     hero_subtitle:          "A participatory journey to discover how the EU Budget is built, distributed and how it affects the lives of European citizens.",
     hero_coordinators: "Coordinators: <strong>Lilla Trischitta</strong> and <strong>Pina Mastroieni</strong>",
-    hero_tutor: "Tutor: <strong>Filippo Catalfamo</strong>",
+    hero_tutor: "Tutor: <strong>Antonio Catalfamo</strong>",
     tag_audience:           "Adults / Seniors",
 
     info_duration_label:    "Duration",
@@ -180,7 +180,7 @@ const TRANSLATIONS = {
     hero_title:             "Il bilancio dell'UE e il suo impatto sulla vita dei cittadini",
     hero_subtitle:          "Un percorso partecipativo per scoprire come si costruisce e si distribuisce il Bilancio UE e come incide sulla vita dei cittadini europei.",
     hero_coordinators: "Coordinatrici: <strong>Lilla Trischitta</strong> e <strong>Pina Mastroieni</strong>",
-    hero_tutor: "Tutor: <strong>Filippo Catalfamo</strong>",
+    hero_tutor: "Tutor: <strong>Antonio Catalfamo</strong>",
     tag_audience:           "Adulti / Anziani",
 
     info_duration_label:    "Durata",
@@ -344,7 +344,7 @@ const TRANSLATIONS = {
     hero_title:             "Budżet UE i jego wpływ na życie obywateli",
     hero_subtitle:          "Partycypacyjna ścieżka, aby odkryć, jak budowany jest budżet UE, jak jest rozdzielany i jak wpływa na życie obywateli europejskich.",
     hero_coordinators: "Koordynatorki: <strong>Lilla Trischitta</strong> i <strong>Pina Mastroieni</strong>",
-    hero_tutor: "Tutor: <strong>Filippo Catalfamo</strong>",
+    hero_tutor: "Tutor: <strong>Antonio Catalfamo</strong>",
     tag_audience:           "Dorośli / Seniorzy",
 
     info_duration_label:    "Czas trwania",
@@ -508,7 +508,7 @@ const TRANSLATIONS = {
     hero_title:             "Der EU-Haushalt und seine Auswirkungen auf das Leben der Bürger",
     hero_subtitle:          "Ein partizipativer Weg, um zu entdecken, wie der EU-Haushalt aufgebaut und verteilt wird und wie er das Leben der europäischen Bürger beeinflusst.",
     hero_coordinators: "Koordinatorinnen: <strong>Lilla Trischitta</strong> und <strong>Pina Mastroieni</strong>",
-    hero_tutor: "Tutor: <strong>Filippo Catalfamo</strong>",
+    hero_tutor: "Tutor: <strong>Antonio Catalfamo</strong>",
     tag_audience:           "Erwachsene / Senioren",
 
     info_duration_label:    "Dauer",
@@ -672,7 +672,7 @@ const TRANSLATIONS = {
     hero_title:             "ES budžets un tā ietekme uz pilsoņu dzīvi",
     hero_subtitle:          "Līdzdalības ceļš, lai atklātu, kā tiek veidots un sadalīts ES budžets un kā tas ietekmē Eiropas pilsoņu dzīvi.",
     hero_coordinators: "Koordinatores: <strong>Lilla Trischitta</strong> un <strong>Pina Mastroieni</strong>",
-    hero_tutor: "Tutors: <strong>Filippo Catalfamo</strong>",
+    hero_tutor: "Tutors: <strong>Antonio Catalfamo</strong>",
     tag_audience:           "Pieaugušie / Seniori",
 
     info_duration_label:    "Ilgums",

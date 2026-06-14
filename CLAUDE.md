@@ -361,7 +361,7 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ### Sessione 2026-06-13 (d) — Coordinatrici/Tutor anche in WS3 (erano stati dimenticati)
 
-- Aggiunte le 2 righe `hero__coord` (`hero_coordinators` + `hero_tutor`, data-i18n-html) all'hero di **Workshop 3 LUTE**, identiche a WS1/WS2: «Coordinatrici: **Lilla Trischitta** e **Pina Mastroieni**» / «Tutor: **Filippo Catalfamo**». Chiavi nei 5 blocchi del lang.js (ordine en,it,pl,de,lv) + CSS `.hero__coord` copiato da WS1. Ora **tutti e 3 i workshop** le hanno.
+- Aggiunte le 2 righe `hero__coord` (`hero_coordinators` + `hero_tutor`, data-i18n-html) all'hero di **Workshop 3 LUTE**, identiche a WS1/WS2: «Coordinatrici: **Lilla Trischitta** e **Pina Mastroieni**» / «Tutor: **Antonio Catalfamo**». Chiavi nei 5 blocchi del lang.js (ordine en,it,pl,de,lv) + CSS `.hero__coord` copiato da WS1. Ora **tutti e 3 i workshop** le hanno.
 
 ### Sessione 2026-06-13 (c) — «A cura di» nell'hero delle Esercitazioni
 
@@ -395,7 +395,7 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ### Sessione 2026-06-11 (f) — Coordinatrici e Tutor nell'hero di WS1 e WS2
 
-- Aggiunte 2 righe nell'hero (sotto il sottotitolo) di **Workshop 1** e **Workshop 2**: «**Coordinatrici:** Lilla Trischitta e Pina Mastroieni» e «**Tutor:** Filippo Catalfamo». Classe `.hero__coord`, chiavi `hero_coordinators` e `hero_tutor` (data-i18n-html) tradotte nelle 5 lingue (solo etichetta + congiunzione; nomi invariati; LV «Koordinatores»/«Tutors»). CSS in WS1/WS2 style.css.
+- Aggiunte 2 righe nell'hero (sotto il sottotitolo) di **Workshop 1** e **Workshop 2**: «**Coordinatrici:** Lilla Trischitta e Pina Mastroieni» e «**Tutor:** Antonio Catalfamo». Classe `.hero__coord`, chiavi `hero_coordinators` e `hero_tutor` (data-i18n-html) tradotte nelle 5 lingue (solo etichetta + congiunzione; nomi invariati; LV «Koordinatores»/«Tutors»). CSS in WS1/WS2 style.css.
 
 ### Sessione 2026-06-11 (e) — Nuova simulazione WS2 «Sprechi alimentari»
 
