@@ -317,6 +317,14 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-06-14 (j) — Home: card partner con loghi, temi affidati e layout 1 colonna
+
+- Le 4 card «The Four Partners» nella Home ora mostrano: **logo dell'organizzazione** (box bianco in alto) + **bandiera piccola** a fianco (`.partner-card__head` / `.partner-card__logo` / `.partner-card__flag` ridotta a 44×30), e la **descrizione = tema affidato** a ciascun partner (titolo `.partner-card__theme` + elenco `.partner-card__topics` di 4 punti). Sostituite le vecchie descrizioni «ruolo» (le chiavi `partner_*_role` ora contengono il **titolo del tema**; aggiunte 80 chiavi `partner_*_t1..t4` = 4 punti × 4 partner × 5 lingue). Fonte: `Desktop/Loghi sito/Descrizione.docx`.
+- **Temi**: Polonia (Aktywni XXI) = «Il futuro dell'UE»; Italia (LUTE) = «Le istituzioni e il funzionamento dell'UE»; Germania (Seniorenbüro) = «L'UE: dall'idea alla realtà»; Lettonia (Preiļi) = «L'UE e la vita quotidiana». Tradotti in 5 lingue.
+- **Refusi corretti** dal docx: «dall'idea all'IMMOBILIARE» → «dall'idea alla realtà»; «UNIVERSITA'PERLA LA» → reso come titolo corretto.
+- **Layout**: `.partners-grid` da 2 colonne → **1 colonna** (una card per riga), su richiesta utente.
+- **Loghi** in `Home/loghi/` (`polonia.jpg`, `italia.png`, `germania.jpg`, `lettonia.png`); il logo Germania (2500px) ridimensionato a 800px (PIL). Cache-bust Home: `style.css?v=2`, `lang.js?v=2`. Verificato in preview (4 loghi caricati, 1 colonna, 0 errori).
+
 ### Sessione 2026-06-14 (i) — Home: voci cross-country agganciate al WS1 di ogni paese
 
 - Nei 4 menu della Home, le voci cross-country (il «Workshop» generico di ciascun ALTRO paese) ora puntano al **Workshop 1** di quel paese, non più alla pagina `Partner` «in arrivo». Agganciate 9 voci: DE→`Workshop 1 DE`, LV→`Workshop 1 LV`, PL→`Workshop 1 PL` (IT→`Workshop 1 LUTE` era già fatto). Tolto `--soon`. Via 3 Edit `replace_all` (un blocco per paese, ciascuno presente in 3 menu).

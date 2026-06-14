@@ -497,7 +497,7 @@ a.site-nav__dropdown-link:focus-visible {
 /* Griglia partner — 2×2 su desktop, 1 colonna su mobile (gestita nel @media) */
 .partners-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 18px;
     margin-top: 22px;
 }
@@ -538,13 +538,40 @@ a.site-nav__dropdown-link:focus-visible {
     border-radius: 999px;
 }
 
+.partner-card__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 4px;
+}
+
+.partner-card__logo {
+    flex: 1;
+    min-width: 0;
+    height: 78px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+}
+.partner-card__logo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
 .partner-card__flag {
-    width: 56px;
-    height: 38px;
+    width: 44px;
+    height: 30px;
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 2px 6px rgba(0,0,0,0.18);
-    margin-bottom: 6px;
+    flex-shrink: 0;
 }
 .partner-card__flag .flag-de,
 .partner-card__flag .flag-it,
@@ -576,6 +603,40 @@ a.site-nav__dropdown-link:focus-visible {
     color: var(--text);
     margin: 6px 0 0;
     line-height: 1.5;
+}
+
+.partner-card__theme {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent-dark);
+    margin: 10px 0 0;
+    line-height: 1.35;
+}
+
+.partner-card__topics {
+    margin: 8px 0 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.partner-card__topics li {
+    position: relative;
+    padding-left: 22px;
+    font-size: 0.92rem;
+    color: var(--text);
+    line-height: 1.45;
+}
+.partner-card__topics li::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 0.5em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
 }
 
 /* Griglia attività */
