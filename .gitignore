@@ -1,3 +1,6 @@
+# Cartella interna di strumenti (non serve sul sito)
+.claude/
+
 # File di sistema / temporanei (non vanno sul sito)
 Thumbs.db
 ehthumbs.db
