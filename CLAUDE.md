@@ -317,6 +317,11 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-06-14 (i) — Home: voci cross-country agganciate al WS1 di ogni paese
+
+- Nei 4 menu della Home, le voci cross-country (il «Workshop» generico di ciascun ALTRO paese) ora puntano al **Workshop 1** di quel paese, non più alla pagina `Partner` «in arrivo». Agganciate 9 voci: DE→`Workshop 1 DE`, LV→`Workshop 1 LV`, PL→`Workshop 1 PL` (IT→`Workshop 1 LUTE` era già fatto). Tolto `--soon`. Via 3 Edit `replace_all` (un blocco per paese, ciascuno presente in 3 menu).
+- **Restano `--soon`** (corretto): **WS3 Germania** (workshop tedesco mai fornito — lo zip aveva di nuovo le foto del WS3 italiano), **Foto LV** e **Foto PL** (gallerie non pronte). Verificato in preview gli href di tutti e 4 i dropdown.
+
 ### Sessione 2026-06-14 (h) — Fix pulsante WhatsApp WS3 PL (effetto collaterale dello script virgolette)
 
 - Il pulsante WhatsApp nel footer di **WS3 PL** mostrava testo alterato («Contact", footer_credit: "LUTE MILAZZO…»). **Causa**: lo script Python che corresse le virgolette in `Workshop 3 PL/lang.js` (sessione f) operava riga-per-riga ed escapava TUTTE le `"` interne; sulla riga che conteneva **due** chiavi (`footer_wa: "…", footer_credit: "…"`) ha trasformato le virgolette di separazione in `\"`, fondendo le due chiavi in un unico valore `footer_wa` e perdendo `footer_credit`. **Fix**: ripristinate le due chiavi separate in tutte e 5 le lingue (sostituito `\", footer_credit: \"` → `", footer_credit: "`). Verificato in preview: pulsante = «Contact», credito regolare. Solo WS3 PL era interessato (gli altri lang.js non hanno subito quello script). **Lezione**: lo script di escape virgolette NON va usato su righe con più proprietà JS; preferire Edit mirati o caporali «».
