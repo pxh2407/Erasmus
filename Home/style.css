@@ -639,6 +639,17 @@ a.site-nav__dropdown-link:focus-visible {
     background: var(--accent);
 }
 
+.partner-card__assigned {
+    margin: 14px 0 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--text);
+}
+.partner-card__assigned-org {
+    color: #EE0000;
+    font-weight: 700;
+}
+
 /* Griglia attività */
 .activities-grid {
     display: grid;

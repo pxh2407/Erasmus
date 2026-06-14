@@ -324,6 +324,7 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 - **Refusi corretti** dal docx: «dall'idea all'IMMOBILIARE» → «dall'idea alla realtà»; «UNIVERSITA'PERLA LA» → reso come titolo corretto.
 - **Layout**: `.partners-grid` da 2 colonne → **1 colonna** (una card per riga), su richiesta utente.
 - **Loghi** in `Home/loghi/` (`polonia.jpg`, `italia.png`, `germania.jpg`, `lettonia.png`); il logo Germania (2500px) ridimensionato a 800px (PIL). Cache-bust Home: `style.css?v=2`, `lang.js?v=2`. Verificato in preview (4 loghi caricati, 1 colonna, 0 errori).
+- **Riga «affidato a» (2026-06-14)**: aggiunta in fondo a ogni card la riga «Questo argomento è stato affidato a: **[ente], [paese]**» (etichetta `partner_assigned` tradotta in 5 lingue; classe `.partner-card__assigned`). Il **nome esteso dell'ente + paese** è in **rosso #EE0000** (`.partner-card__assigned-org`, come evidenziato nel docx) ma in **capitalizzazione normale** (non maiuscolo): «LUTE Libera Università per la Terza Età, Italia», «Fondazione Aktywni XXI, Polonia», «Seniorenbüro Hamburg e.V., Germania», «Consiglio Istruzionale Municipale di Preiļi, Lettonia». Il nome ente è fisso, il paese usa `country_*` già tradotto. Cache-bust → `style.css?v=3`, `lang.js?v=3`.
 
 ### Sessione 2026-06-14 (i) — Home: voci cross-country agganciate al WS1 di ogni paese
 
