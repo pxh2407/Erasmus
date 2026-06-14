@@ -8,3 +8,9 @@ desktop.ini
 .DS_Store
 *.tmp
 ~$*
+
+# Collegamenti Windows (non vanno sul sito)
+*.lnk
+
+# ⚠ DATI PERSONALI — NON pubblicare: contiene scansioni di passaporti, non foto di workshop
+Galleria PL/
