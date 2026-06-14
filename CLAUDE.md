@@ -317,6 +317,14 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-06-14 (g) — Workshop LETTONIA (in corso, uno alla volta)
+
+- La Lettonia ha inviato 3 workshop **«European ABC»** in `Desktop/WS Lettonia/` (3 zip `NR_1/NR_2/NR_3`, ciascuno con docx in **EN + LV**). Inserimento **uno alla volta** su richiesta utente.
+- **✅ WS1 LV — «The EU's Four Freedoms» (Le quattro libertà dell'UE)**, autore **Guntars Ratenieks**. Sessione 1: libera circolazione di persone/merci/servizi/capitali; gioco di simulazione «Life in Europe: How Do EU Freedoms Help Me?», 4 situazioni di ruolo, ~80–100 min, senior 60+, 4 gruppi. Creata cartella **`Workshop 1 LV/`** (clone CSS/JS da `Workshop 1 DE`, lang.js col **motore bandierine**, materiali EN+LV in PDF). Sezioni: about, obiettivi (1 principale + 2 specifici), target, metodi (6), **le 4 libertà** (`.wiw-grid` 2-col), agenda (4 fasi `.timeline`), **gioco di simulazione** (4 situazioni `.acc-grid`/`.acc-wave`), esiti attesi, download (1 piano, pulsanti EN+LV). Home: dropdown **Latvia → Workshop 1** attivato (rimosso `--soon`). Verificato in preview (bandiera LV 3 bande, 5 bandierine lingua, 0 chiavi non tradotte).
+- **Bandiera lettone** (`.flag-lv`): 3 bande orizzontali rosso scuro (#9e3039) / bianco / rosso scuro, proporzioni **2:1:2** (banda bianca più sottile). CSS in coda a `Workshop 1 LV/style.css`.
+- **Nota lingue file**: i materiali LV esistono in **EN + LV** (a differenza dei PL solo-EN) → `dl_note` adattata, pulsanti download EN+LV.
+- **Ancora da fare**: WS2 LV (zip NR_2) e WS3 LV (zip NR_3).
+
 ### Sessione 2026-06-14 (f) — Workshop POLONIA (3 pagine interattive, 5 lingue)
 
 - La Polonia (capofila, **Fundacja „Aktywni XXI"**) ha inviato i materiali dei suoi 3 workshop (`Desktop/WS Polonia/`, file .docx). Su scelta utente: **3 pagine interattive complete** come i workshop tedeschi, NON semplici download. Create 3 cartelle: **`Workshop 1 PL/`**, **`Workshop 2 PL/`**, **`Workshop 3 PL/`**, ognuna con `Workshop N PL.html` + `style.css`/`script.js` (clonati da **Workshop 1 DE**) + `lang.js` (5 lingue) + `materiali/` (docx + pdf).
