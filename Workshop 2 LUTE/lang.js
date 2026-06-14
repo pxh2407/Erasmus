@@ -111,7 +111,7 @@ const TRANSLATIONS = {
 
     ws_action_simulation:"Simulazione",
     ws_action_exercises:"Esercitazioni",
-    footer_text:"Progetto Erasmus+ · Workshop 2 — Il processo decisionale nell'UE", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+    footer_text:"Progetto Erasmus+ · Workshop 2 — Il processo decisionale nell'UE", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     btn_top:"Inizio", btn_top_aria:"Torna in alto", btn_home_aria:"Torna alla pagina Home",
     lang_switcher_aria:"Seleziona la lingua", flag_aria:"Bandiera italiana"
   },
@@ -221,7 +221,7 @@ const TRANSLATIONS = {
 
     ws_action_simulation:"Simulation",
     ws_action_exercises:"Exercises",
-    footer_text:"Erasmus+ Project · Workshop 2 — The EU decision-making process", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+    footer_text:"Erasmus+ Project · Workshop 2 — The EU decision-making process", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     btn_top:"Top", btn_top_aria:"Back to top", btn_home_aria:"Back to Home page",
     lang_switcher_aria:"Select language", flag_aria:"Italian flag"
   },
@@ -331,7 +331,7 @@ const TRANSLATIONS = {
 
     ws_action_simulation:"Symulacja",
     ws_action_exercises:"Ćwiczenia",
-    footer_text:"Projekt Erasmus+ · Warsztat 2 — Proces decyzyjny w UE", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+    footer_text:"Projekt Erasmus+ · Warsztat 2 — Proces decyzyjny w UE", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     btn_top:"Góra", btn_top_aria:"Powrót na górę", btn_home_aria:"Powrót do strony głównej",
     lang_switcher_aria:"Wybierz język", flag_aria:"Flaga włoska"
   },
@@ -441,7 +441,7 @@ const TRANSLATIONS = {
 
     ws_action_simulation:"Simulation",
     ws_action_exercises:"Übungen",
-    footer_text:"Erasmus+-Projekt · Workshop 2 — Der Entscheidungsprozess in der EU", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+    footer_text:"Erasmus+-Projekt · Workshop 2 — Der Entscheidungsprozess in der EU", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     btn_top:"Oben", btn_top_aria:"Nach oben", btn_home_aria:"Zurück zur Startseite",
     lang_switcher_aria:"Sprache auswählen", flag_aria:"Italienische Flagge"
   },
@@ -551,7 +551,7 @@ const TRANSLATIONS = {
 
     ws_action_simulation:"Simulācija",
     ws_action_exercises:"Vingrinājumi",
-    footer_text:"Erasmus+ projekts · Seminārs 2 — ES lēmumu pieņemšanas process", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+    footer_text:"Erasmus+ projekts · Seminārs 2 — ES lēmumu pieņemšanas process", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     btn_top:"Augšā", btn_top_aria:"Uz augšu", btn_home_aria:"Atpakaļ uz sākumlapu",
     lang_switcher_aria:"Izvēlēties valodu", flag_aria:"Itālijas karogs"
   }

@@ -25,7 +25,7 @@ const TRANSLATIONS = {
     btn_whatsapp:       "Invia i contenuti via WhatsApp",
     wa_requirement:     "Per usare questo pulsante è necessario avere WhatsApp installato sul dispositivo.",
     thanks:             "Grazie per la gentile collaborazione.",
-    footer_text:        "Progetto Erasmus+ · ECBL — pagina provvisoria", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio"
+    footer_text:        "Progetto Erasmus+ · ECBL — pagina provvisoria", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio"
   },
 
   en: {
@@ -47,7 +47,7 @@ const TRANSLATIONS = {
     btn_whatsapp:       "Send the content via WhatsApp",
     wa_requirement:     "WhatsApp must be installed on your device to use this button.",
     thanks:             "Thank you for your kind collaboration.",
-    footer_text:        "Erasmus+ Project · ECBL — temporary page", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio"
+    footer_text:        "Erasmus+ Project · ECBL — temporary page", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio"
   },
 
   pl: {
@@ -69,7 +69,7 @@ const TRANSLATIONS = {
     btn_whatsapp:       "Wyślij treści przez WhatsApp",
     wa_requirement:     "Aby skorzystać z tego przycisku, na urządzeniu musi być zainstalowany WhatsApp.",
     thanks:             "Dziękujemy za życzliwą współpracę.",
-    footer_text:        "Projekt Erasmus+ · ECBL — strona tymczasowa", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio"
+    footer_text:        "Projekt Erasmus+ · ECBL — strona tymczasowa", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio"
   },
 
   de: {
@@ -91,7 +91,7 @@ const TRANSLATIONS = {
     btn_whatsapp:       "Inhalte über WhatsApp senden",
     wa_requirement:     "Um diese Schaltfläche zu nutzen, muss WhatsApp auf dem Gerät installiert sein.",
     thanks:             "Vielen Dank für die freundliche Zusammenarbeit.",
-    footer_text:        "Erasmus+-Projekt · ECBL — vorläufige Seite", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio"
+    footer_text:        "Erasmus+-Projekt · ECBL — vorläufige Seite", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio"
   },
 
   lv: {
@@ -113,7 +113,7 @@ const TRANSLATIONS = {
     btn_whatsapp:       "Nosūtīt saturu, izmantojot WhatsApp",
     wa_requirement:     "Lai izmantotu šo pogu, ierīcē jābūt instalētam WhatsApp.",
     thanks:             "Paldies par laipno sadarbību.",
-    footer_text:        "Erasmus+ projekts · ECBL — pagaidu lapa", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio"
+    footer_text:        "Erasmus+ projekts · ECBL — pagaidu lapa", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio"
   }
 };
 

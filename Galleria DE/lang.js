@@ -9,7 +9,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Immagini del Workshop 1 tedesco nell'ambito del progetto Erasmus+ ECBL.",
     ws1_title:"Workshop 1 — L'Unione Europea: un viaggio nel tempo",
     ws1_caption:"Foto del Workshop 1",
-    lightbox_aria:"Immagine ingrandita", footer_text:"Progetto Erasmus+ · Galleria fotografica — Germania", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+    lightbox_aria:"Immagine ingrandita", footer_text:"Progetto Erasmus+ · Galleria fotografica — Germania", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     btn_home_aria:"Torna alla pagina Home", lang_switcher_aria:"Seleziona la lingua", flag_aria:"Bandiera tedesca",
     btn_top_aria:"Torna in alto", btn_top:"Inizio"
   },
@@ -19,7 +19,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Pictures from the German Workshop 1, part of the Erasmus+ ECBL project.",
     ws1_title:"Workshop 1 — The European Union: a Journey through Time",
     ws1_caption:"Workshop 1 photo",
-    lightbox_aria:"Enlarged image", footer_text:"Erasmus+ Project · Photo gallery — Germany", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+    lightbox_aria:"Enlarged image", footer_text:"Erasmus+ Project · Photo gallery — Germany", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     btn_home_aria:"Back to Home page", lang_switcher_aria:"Select language", flag_aria:"German flag",
     btn_top_aria:"Back to top", btn_top:"Top"
   },
@@ -29,7 +29,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Zdjęcia z niemieckiego Warsztatu 1 w ramach projektu Erasmus+ ECBL.",
     ws1_title:"Warsztat 1 — Unia Europejska: podróż w czasie",
     ws1_caption:"Zdjęcie z Warsztatu 1",
-    lightbox_aria:"Powiększony obraz", footer_text:"Projekt Erasmus+ · Galeria zdjęć — Niemcy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+    lightbox_aria:"Powiększony obraz", footer_text:"Projekt Erasmus+ · Galeria zdjęć — Niemcy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     btn_home_aria:"Powrót do strony głównej", lang_switcher_aria:"Wybierz język", flag_aria:"Flaga niemiecka",
     btn_top_aria:"Powrót na górę", btn_top:"Góra"
   },
@@ -39,7 +39,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Bilder vom deutschen Workshop 1 im Rahmen des Erasmus+-Projekts ECBL.",
     ws1_title:"Workshop 1 — Die Europäische Union: eine Reise durch die Zeit",
     ws1_caption:"Foto vom Workshop 1",
-    lightbox_aria:"Vergrößertes Bild", footer_text:"Erasmus+-Projekt · Fotogalerie — Deutschland", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+    lightbox_aria:"Vergrößertes Bild", footer_text:"Erasmus+-Projekt · Fotogalerie — Deutschland", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     btn_home_aria:"Zurück zur Startseite", lang_switcher_aria:"Sprache auswählen", flag_aria:"Deutsche Flagge",
     btn_top_aria:"Nach oben", btn_top:"Oben"
   },
@@ -49,7 +49,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Attēli no vācu 1. semināra Erasmus+ projekta ECBL ietvaros.",
     ws1_title:"1. seminārs — Eiropas Savienība: ceļojums laikā",
     ws1_caption:"Semināra 1 foto",
-    lightbox_aria:"Palielināts attēls", footer_text:"Erasmus+ projekts · Fotogalerija — Vācija", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+    lightbox_aria:"Palielināts attēls", footer_text:"Erasmus+ projekts · Fotogalerija — Vācija", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     btn_home_aria:"Atpakaļ uz sākumlapu", lang_switcher_aria:"Izvēlēties valodu", flag_aria:"Vācijas karogs",
     btn_top_aria:"Uz augšu", btn_top:"Augšā"
   }

@@ -102,7 +102,7 @@
       dl_envelopes_d: "The printable envelopes used during the game.",
       hero_authors: "Authors: <strong>Barbara Petersen, Renate Kronemann, Sabine Perisic, Achim Kolbe-Dierks</strong>",
       footer_text: "Erasmus+ Project · Workshop 2 (Germany) — Power for you! The Treaties of the EU",
-      footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+      footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     },
     it: {
       skip_link: "Salta al contenuto",
@@ -202,7 +202,7 @@
       dl_envelopes_d: "Le buste da stampare usate durante il gioco.",
       hero_authors: "Autori: <strong>Barbara Petersen, Renate Kronemann, Sabine Perisic, Achim Kolbe-Dierks</strong>",
       footer_text: "Progetto Erasmus+ · Workshop 2 (Germania) — Power for you! I trattati dell'UE",
-      footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+      footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     },
     pl: {
       skip_link: "Przejdź do treści",
@@ -302,7 +302,7 @@
       dl_envelopes_d: "Koperty do druku używane podczas gry.",
       hero_authors: "Autorzy: <strong>Barbara Petersen, Renate Kronemann, Sabine Perisic, Achim Kolbe-Dierks</strong>",
       footer_text: "Projekt Erasmus+ · Warsztat 2 (Niemcy) — Power for you! Traktaty UE",
-      footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+      footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     },
     de: {
       skip_link: "Zum Inhalt springen",
@@ -402,7 +402,7 @@
       dl_envelopes_d: "Die druckbaren Umschläge für das Spiel.",
       hero_authors: "Autoren: <strong>Barbara Petersen, Renate Kronemann, Sabine Perisic, Achim Kolbe-Dierks</strong>",
       footer_text: "Erasmus+-Projekt · Workshop 2 (Deutschland) — Power for you! Die Verträge der EU",
-      footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+      footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     },
     lv: {
       skip_link: "Pāriet uz saturu",
@@ -502,7 +502,7 @@
       dl_envelopes_d: "Drukājamās aploksnes, ko izmanto spēlē.",
       hero_authors: "Autori: <strong>Barbara Petersen, Renate Kronemann, Sabine Perisic, Achim Kolbe-Dierks</strong>",
       footer_text: "Erasmus+ projekts · 2. seminārs (Vācija) — Power for you! ES līgumi",
-      footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+      footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     },
   };
 

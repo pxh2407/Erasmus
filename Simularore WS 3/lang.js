@@ -163,7 +163,7 @@ const TRANSLATIONS = {
 
     ws_action_exercises:   "Exercises",
     ws_action_simulation: "Simulation",
-    footer_text:           "Erasmus+ Project · Workshop 3 — The EU Budget and its impact on citizens' lives", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+    footer_text:           "Erasmus+ Project · Workshop 3 — The EU Budget and its impact on citizens' lives", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     btn_top:               "↑ Top",
     btn_home_aria:         "Back to Home page",
     lang_switcher_aria:    "Select language",
@@ -327,7 +327,7 @@ const TRANSLATIONS = {
 
     ws_action_exercises:   "Esercitazioni",
     ws_action_simulation: "Simulazione",
-    footer_text:           "Progetto Erasmus+ · Workshop 3 — Il bilancio dell'UE e il suo impatto sulla vita dei cittadini", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+    footer_text:           "Progetto Erasmus+ · Workshop 3 — Il bilancio dell'UE e il suo impatto sulla vita dei cittadini", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     btn_top:               "↑ Su",
     btn_home_aria:         "Torna alla pagina Home",
     lang_switcher_aria:    "Seleziona la lingua",
@@ -491,7 +491,7 @@ const TRANSLATIONS = {
 
     ws_action_exercises:   "Ćwiczenia",
     ws_action_simulation: "Symulacja",
-    footer_text:           "Projekt Erasmus+ · Warsztat 3 — Budżet UE i jego wpływ na życie obywateli", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+    footer_text:           "Projekt Erasmus+ · Warsztat 3 — Budżet UE i jego wpływ na życie obywateli", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     btn_top:               "↑ Góra",
     btn_home_aria:         "Powrót do strony głównej",
     lang_switcher_aria:    "Wybierz język",
@@ -655,7 +655,7 @@ const TRANSLATIONS = {
 
     ws_action_exercises:   "Übungen",
     ws_action_simulation: "Simulation",
-    footer_text:           "Erasmus+-Projekt · Workshop 3 — Der EU-Haushalt und seine Auswirkungen auf das Leben der Bürger", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+    footer_text:           "Erasmus+-Projekt · Workshop 3 — Der EU-Haushalt und seine Auswirkungen auf das Leben der Bürger", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     btn_top:               "↑ Nach oben",
     btn_home_aria:         "Zurück zur Startseite",
     lang_switcher_aria:    "Sprache auswählen",
@@ -819,7 +819,7 @@ const TRANSLATIONS = {
 
     ws_action_exercises:   "Vingrinājumi",
     ws_action_simulation: "Simulācija",
-    footer_text:           "Erasmus+ projekts · Seminārs 3 — ES budžets un tā ietekme uz pilsoņu dzīvi", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+    footer_text:           "Erasmus+ projekts · Seminārs 3 — ES budžets un tā ietekme uz pilsoņu dzīvi", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     btn_top:               "↑ Augšā",
     btn_home_aria:         "Atpakaļ uz sākumlapu",
     lang_switcher_aria:    "Izvēlēties valodu",

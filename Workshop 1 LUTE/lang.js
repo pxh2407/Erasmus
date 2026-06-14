@@ -120,7 +120,7 @@ const TRANSLATIONS = {
     summary_equipment_label:  "Equipment",
     summary_equipment_text:   "Laptop, projector, photocopier/scanner.",
 
-    footer_text:        "Erasmus+ Project \u00b7 Workshop 1 \u2014 Organs of the European Union", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+    footer_text:        "Erasmus+ Project \u00b7 Workshop 1 \u2014 Organs of the European Union", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     btn_top:            "\u2191 Top",
     flag_aria:          "Italian flag",
     lang_switcher_aria: "Select language",
@@ -249,7 +249,7 @@ const TRANSLATIONS = {
     summary_equipment_label: "Attrezzature",
     summary_equipment_text:  "Notebook, proiettore, fotocopiatore/scanner.",
 
-    footer_text:        "Progetto Erasmus+ \u00b7 Workshop 1 \u2014 Organi dell\u2019Unione Europea", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+    footer_text:        "Progetto Erasmus+ \u00b7 Workshop 1 \u2014 Organi dell\u2019Unione Europea", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     btn_top:            "\u2191 Inizio",
     flag_aria:          "Bandiera italiana",
     lang_switcher_aria: "Seleziona la lingua",
@@ -378,7 +378,7 @@ const TRANSLATIONS = {
     summary_equipment_label: "Sprz\u0119t",
     summary_equipment_text:  "Notebook, projektor, fotokopiarce/skaner.",
 
-    footer_text:        "Projekt Erasmus+ \u00b7 Warsztat 1 \u2014 Organy Unii Europejskiej", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+    footer_text:        "Projekt Erasmus+ \u00b7 Warsztat 1 \u2014 Organy Unii Europejskiej", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     btn_top:            "\u2191 G\u00f3ra",
     flag_aria:          "W\u0142oska flaga",
     lang_switcher_aria: "Wybierz j\u0119zyk",
@@ -507,7 +507,7 @@ const TRANSLATIONS = {
     summary_equipment_label: "Ausstattung",
     summary_equipment_text:  "Notebook, Beamer, Fotokopierer/Scanner.",
 
-    footer_text:        "Erasmus+-Projekt \u00b7 Workshop 1 \u2014 Organe der Europ\u00e4ischen Union", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+    footer_text:        "Erasmus+-Projekt \u00b7 Workshop 1 \u2014 Organe der Europ\u00e4ischen Union", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     btn_top:            "\u2191 Oben",
     flag_aria:          "Italienische Flagge",
     lang_switcher_aria: "Sprache ausw\u00e4hlen",
@@ -636,7 +636,7 @@ const TRANSLATIONS = {
     summary_equipment_label: "Apr\u012bkojums",
     summary_equipment_text:  "Kl\u0113pjdators, projektors, kop\u0113t\u0101js/sken\u0113ris.",
 
-    footer_text:        "Erasmus+ projekts \u00b7 Semin\u0101rs 1 \u2014 Eiropas Savien\u012bbas org\u0101ni", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+    footer_text:        "Erasmus+ projekts \u00b7 Semin\u0101rs 1 \u2014 Eiropas Savien\u012bbas org\u0101ni", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     btn_top:            "\u2191 Aug\u0161a",
     flag_aria:          "It\u0101lijas karogs",
     lang_switcher_aria: "Izv\u0113l\u0113ties valodu",

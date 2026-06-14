@@ -317,6 +317,12 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-06-14 (e) — Pulsante WhatsApp nel footer (tutte le pagine)
+
+- Aggiunto un **pulsante verde WhatsApp** nel footer di **tutte le 16 pagine** (prima di `</footer>`), per farsi contattare dai partner. Link **`whatsapp://send?phone=393880775449&amp;text=...`** (apre DIRETTAMENTE l'app, come la pagina Partner; scelto rispetto a `wa.me` che su PC apriva WhatsApp Web — preferenza utente, cfr. cronologia). Messaggio precompilato EN «Hello, I am writing about the Erasmus+ ECBL website». `target="_blank"`, stile **inline** (#25D366) → nessuna modifica ai 12 style.css separati. ⚠ Su un PC SENZA app WhatsApp il link `whatsapp://` può non aprirsi (sui telefoni funziona sempre).
+- Etichetta `footer_wa` tradotta in 5 lingue — **IT «Contatti», EN «Contact», PL «Kontakt», DE «Kontakt», LV «Kontakti»** (semplificata su richiesta utente da «Contatta il referente»), inserita in tutti i 16 lang.js **prima di `footer_credit`** (lingua rilevata dal valore di footer_credit). 80 voci. Tutti validati `node --check`.
+- Numero: **+39 388 077 5449**. Per cambiarlo: sostituire `393880775449` negli HTML.
+
 ### Sessione 2026-06-14 (d) — Galleria fotografica Germania
 
 - Da `Desktop/Foto WS1 Germania/` (7 foto) creata una **galleria tedesca**: nuova cartella **`Galleria DE/`** (clone di `Galleria IT`: `style.css`+`script.js`+`lang.js`+`img/`). Foto ottimizzate 1400px → `img/ws1-1…7.jpg`.

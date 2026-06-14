@@ -12,7 +12,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Quattro quiz per consolidare la conoscenza del processo decisionale dell'UE: fonti del diritto, atti legislativi e priorità dell'Unione.",
     hero_curated: "A cura di: <strong>Antonio Catalfamo e Mimmo Mascali</strong>",
     btn_back_aria:"Torna al Workshop 2", flag_aria:"Bandiera italiana", lang_switcher_aria:"Seleziona la lingua",
-    btn_top_aria:"Torna in alto", btn_top:"Inizio", footer_text:"Progetto Erasmus+ · Workshop 2 — Esercitazioni interattive", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+    btn_top_aria:"Torna in alto", btn_top:"Inizio", footer_text:"Progetto Erasmus+ · Workshop 2 — Esercitazioni interattive", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     tab4_label:"Risposta multipla", tab5_label:"Vero o Falso", tab6_label:"Vero o Falso", tab7_label:"Abbinamento",
     btn_verify:"Verifica", btn_reset:"Azzera", result_label:"Risposte corrette", select_placeholder:"— Scegli una descrizione —",
 
@@ -60,7 +60,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Four quizzes to consolidate knowledge of the EU decision-making process: sources of law, legislative acts and the Union's priorities.",
     hero_curated: "Curated by: <strong>Antonio Catalfamo and Mimmo Mascali</strong>",
     btn_back_aria:"Back to Workshop 2", flag_aria:"Italian flag", lang_switcher_aria:"Select language",
-    btn_top_aria:"Back to top", btn_top:"Top", footer_text:"Erasmus+ Project · Workshop 2 — Interactive exercises", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+    btn_top_aria:"Back to top", btn_top:"Top", footer_text:"Erasmus+ Project · Workshop 2 — Interactive exercises", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     tab4_label:"Multiple choice", tab5_label:"True or False", tab6_label:"True or False", tab7_label:"Matching",
     btn_verify:"Check", btn_reset:"Reset", result_label:"Correct answers", select_placeholder:"— Choose a description —",
 
@@ -108,7 +108,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Cztery quizy utrwalające wiedzę o procesie decyzyjnym UE: źródła prawa, akty prawne i priorytety Unii.",
     hero_curated: "Opracowanie: <strong>Antonio Catalfamo i Mimmo Mascali</strong>",
     btn_back_aria:"Powrót do Warsztatu 2", flag_aria:"Flaga włoska", lang_switcher_aria:"Wybierz język",
-    btn_top_aria:"Powrót na górę", btn_top:"Góra", footer_text:"Projekt Erasmus+ · Warsztat 2 — Ćwiczenia interaktywne", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+    btn_top_aria:"Powrót na górę", btn_top:"Góra", footer_text:"Projekt Erasmus+ · Warsztat 2 — Ćwiczenia interaktywne", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     tab4_label:"Wybór wielokrotny", tab5_label:"Prawda lub Fałsz", tab6_label:"Prawda lub Fałsz", tab7_label:"Dopasowanie",
     btn_verify:"Sprawdź", btn_reset:"Wyzeruj", result_label:"Poprawne odpowiedzi", select_placeholder:"— Wybierz opis —",
 
@@ -156,7 +156,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Vier Quiz, um das Wissen über den EU-Entscheidungsprozess zu festigen: Rechtsquellen, Rechtsakte und Prioritäten der Union.",
     hero_curated: "Erstellt von: <strong>Antonio Catalfamo und Mimmo Mascali</strong>",
     btn_back_aria:"Zurück zum Workshop 2", flag_aria:"Italienische Flagge", lang_switcher_aria:"Sprache auswählen",
-    btn_top_aria:"Nach oben", btn_top:"Oben", footer_text:"Erasmus+-Projekt · Workshop 2 — Interaktive Übungen", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+    btn_top_aria:"Nach oben", btn_top:"Oben", footer_text:"Erasmus+-Projekt · Workshop 2 — Interaktive Übungen", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     tab4_label:"Multiple Choice", tab5_label:"Richtig oder Falsch", tab6_label:"Richtig oder Falsch", tab7_label:"Zuordnung",
     btn_verify:"Prüfen", btn_reset:"Zurücksetzen", result_label:"Richtige Antworten", select_placeholder:"— Beschreibung wählen —",
 
@@ -204,7 +204,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Četras viktorīnas, lai nostiprinātu zināšanas par ES lēmumu pieņemšanas procesu: tiesību avoti, tiesību akti un Savienības prioritātes.",
     hero_curated: "Sagatavoja: <strong>Antonio Catalfamo un Mimmo Mascali</strong>",
     btn_back_aria:"Atpakaļ uz Semināru 2", flag_aria:"Itālijas karogs", lang_switcher_aria:"Izvēlēties valodu",
-    btn_top_aria:"Uz augšu", btn_top:"Augšā", footer_text:"Erasmus+ projekts · Seminārs 2 — Interaktīvi vingrinājumi", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+    btn_top_aria:"Uz augšu", btn_top:"Augšā", footer_text:"Erasmus+ projekts · Seminārs 2 — Interaktīvi vingrinājumi", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     tab4_label:"Vairākizvēle", tab5_label:"Patiess vai Aplams", tab6_label:"Patiess vai Aplams", tab7_label:"Saskaņošana",
     btn_verify:"Pārbaudīt", btn_reset:"Nodzēst", result_label:"Pareizas atbildes", select_placeholder:"— Izvēlies aprakstu —",
 

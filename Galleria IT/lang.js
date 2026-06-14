@@ -9,7 +9,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Immagini dei workshop LUTE realizzati a Milazzo nell'ambito del progetto Erasmus+ ECBL.",
     ws1_title:"Workshop 1 — Organi dell'Unione Europea", ws2_title:"Workshop 2 — Il processo decisionale nell'UE", ws3_title:"Workshop 3 — Il bilancio dell'UE",
     ws1_caption:"Foto del Workshop 1", ws2_caption:"Foto del Workshop 2", ws3_caption:"Foto del Workshop 3",
-    lightbox_aria:"Immagine ingrandita", footer_text:"Progetto Erasmus+ · Galleria fotografica — Italia (Milazzo)", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+    lightbox_aria:"Immagine ingrandita", footer_text:"Progetto Erasmus+ · Galleria fotografica — Italia (Milazzo)", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     btn_home_aria:"Torna alla pagina Home", lang_switcher_aria:"Seleziona la lingua", flag_aria:"Bandiera italiana",
     btn_top_aria:"Torna in alto", btn_top:"Inizio"
   },
@@ -19,7 +19,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Pictures from the LUTE workshops held in Milazzo as part of the Erasmus+ ECBL project.",
     ws1_title:"Workshop 1 — Organs of the European Union", ws2_title:"Workshop 2 — The EU decision-making process", ws3_title:"Workshop 3 — The EU budget",
     ws1_caption:"Workshop 1 photo", ws2_caption:"Workshop 2 photo", ws3_caption:"Workshop 3 photo",
-    lightbox_aria:"Enlarged image", footer_text:"Erasmus+ Project · Photo gallery — Italy (Milazzo)", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+    lightbox_aria:"Enlarged image", footer_text:"Erasmus+ Project · Photo gallery — Italy (Milazzo)", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     btn_home_aria:"Back to Home page", lang_switcher_aria:"Select language", flag_aria:"Italian flag",
     btn_top_aria:"Back to top", btn_top:"Top"
   },
@@ -29,7 +29,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Zdjęcia z warsztatów LUTE przeprowadzonych w Milazzo w ramach projektu Erasmus+ ECBL.",
     ws1_title:"Warsztat 1 — Organy Unii Europejskiej", ws2_title:"Warsztat 2 — Proces decyzyjny w UE", ws3_title:"Warsztat 3 — Budżet UE",
     ws1_caption:"Zdjęcie z Warsztatu 1", ws2_caption:"Zdjęcie z Warsztatu 2", ws3_caption:"Zdjęcie z Warsztatu 3",
-    lightbox_aria:"Powiększony obraz", footer_text:"Projekt Erasmus+ · Galeria zdjęć — Włochy (Milazzo)", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+    lightbox_aria:"Powiększony obraz", footer_text:"Projekt Erasmus+ · Galeria zdjęć — Włochy (Milazzo)", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     btn_home_aria:"Powrót do strony głównej", lang_switcher_aria:"Wybierz język", flag_aria:"Flaga włoska",
     btn_top_aria:"Powrót na górę", btn_top:"Góra"
   },
@@ -39,7 +39,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Bilder von den LUTE-Workshops in Milazzo im Rahmen des Erasmus+-Projekts ECBL.",
     ws1_title:"Workshop 1 — Die Organe der Europäischen Union", ws2_title:"Workshop 2 — Der Entscheidungsprozess in der EU", ws3_title:"Workshop 3 — Der EU-Haushalt",
     ws1_caption:"Foto vom Workshop 1", ws2_caption:"Foto vom Workshop 2", ws3_caption:"Foto vom Workshop 3",
-    lightbox_aria:"Vergrößertes Bild", footer_text:"Erasmus+-Projekt · Fotogalerie — Italien (Milazzo)", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+    lightbox_aria:"Vergrößertes Bild", footer_text:"Erasmus+-Projekt · Fotogalerie — Italien (Milazzo)", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     btn_home_aria:"Zurück zur Startseite", lang_switcher_aria:"Sprache auswählen", flag_aria:"Italienische Flagge",
     btn_top_aria:"Nach oben", btn_top:"Oben"
   },
@@ -49,7 +49,7 @@ const TRANSLATIONS = {
     hero_subtitle:"Attēli no LUTE semināriem Milaco, kas norisinājās Erasmus+ projekta ECBL ietvaros.",
     ws1_title:"Seminārs 1 — Eiropas Savienības iestādes", ws2_title:"Seminārs 2 — ES lēmumu pieņemšanas process", ws3_title:"Seminārs 3 — ES budžets",
     ws1_caption:"Semināra 1 foto", ws2_caption:"Semināra 2 foto", ws3_caption:"Semināra 3 foto",
-    lightbox_aria:"Palielināts attēls", footer_text:"Erasmus+ projekts · Fotogalerija — Itālija (Milaco)", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+    lightbox_aria:"Palielināts attēls", footer_text:"Erasmus+ projekts · Fotogalerija — Itālija (Milaco)", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     btn_home_aria:"Atpakaļ uz sākumlapu", lang_switcher_aria:"Izvēlēties valodu", flag_aria:"Itālijas karogs",
     btn_top_aria:"Uz augšu", btn_top:"Augšā"
   }

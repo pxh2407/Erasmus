@@ -166,7 +166,7 @@
       role6_p2:    "\u201cWhy are some beaches entirely private?\u201d",
       role6_p3:    "\u201cI care about quality, not who manages it.\u201d",
 
-      footer_text:       "Erasmus+ Project \u00b7 Simulation Game \u2014 The Beach of Europe", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+      footer_text:       "Erasmus+ Project \u00b7 Simulation Game \u2014 The Beach of Europe", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
       btn_top:           "\u2191 Top",
       lang_switcher_aria:"Select language",
       // --- Approfondimento: Direttiva Bolkestein ---
@@ -364,7 +364,7 @@
       role6_p2:    "\u201cPerch\u00e9 alcune spiagge sono tutte private?\u201d",
       role6_p3:    "\u201cMi interessa la qualit\u00e0, non chi gestisce.\u201d",
 
-      footer_text:       "Progetto Erasmus+ \u00b7 Gioco di Simulazione \u2014 La Spiaggia di Europa", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+      footer_text:       "Progetto Erasmus+ \u00b7 Gioco di Simulazione \u2014 La Spiaggia di Europa", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
       btn_top:           "\u2191 Su",
       lang_switcher_aria:"Seleziona lingua",
       // --- Approfondimento: Direttiva Bolkestein ---
@@ -562,7 +562,7 @@
       role6_p2:    "\u201eDlaczego niekt\u00f3re pla\u017ce s\u0105 ca\u0142kowicie prywatne?\u201f",
       role6_p3:    "\u201eZale\u017cy mi na jako\u015bci, a nie na tym, kto zarz\u0105dza.\u201f",
 
-      footer_text:       "Projekt Erasmus+ \u00b7 Gra Symulacyjna \u2014 Pla\u017ca Europy", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+      footer_text:       "Projekt Erasmus+ \u00b7 Gra Symulacyjna \u2014 Pla\u017ca Europy", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
       btn_top:           "\u2191 G\u00f3ra",
       lang_switcher_aria:"Wybierz j\u0119zyk",
       // --- Approfondimento: Direttiva Bolkestein ---
@@ -760,7 +760,7 @@
       role6_p2:    "\u201eWarum sind manche Str\u00e4nde vollst\u00e4ndig privat?\u201c",
       role6_p3:    "\u201eMir kommt es auf die Qualit\u00e4t an, nicht darauf, wer verwaltet.\u201c",
 
-      footer_text:       "Erasmus+-Projekt \u00b7 Simulationsspiel \u2014 Der Strand Europas", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+      footer_text:       "Erasmus+-Projekt \u00b7 Simulationsspiel \u2014 Der Strand Europas", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
       btn_top:           "\u2191 Nach oben",
       lang_switcher_aria:"Sprache w\u00e4hlen",
       // --- Approfondimento: Direttiva Bolkestein ---
@@ -958,7 +958,7 @@
       role6_p2:    "\u201ek\u0101pēc da\u017eas pludmales ir pilnīgi priv\u0101tas?\u201c",
       role6_p3:    "\u201eMan r\u016bp\u0113jas kvalitāte, nevis tas, kurš p\u0101rvalda.\u201c",
 
-      footer_text:       "Erasmus+ projekts \u00b7 Sim\u0101ci\u0101s Sp\u0113le \u2014 Eiropas Pludmale", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+      footer_text:       "Erasmus+ projekts \u00b7 Sim\u0101ci\u0101s Sp\u0113le \u2014 Eiropas Pludmale", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
       btn_top:           "\u2191 Uz aug\u0161u",
       lang_switcher_aria:"Izvēlēties valodu",
       // --- Approfondimento: Direttiva Bolkestein ---

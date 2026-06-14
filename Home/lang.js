@@ -81,7 +81,7 @@
       project_impact_4:       "Reduction of Euroscepticism through evidence-based education.",
       project_impact_5:       "High-quality educational materials reusable by other organisations.",
 
-      footer_text:       "Erasmus+ Project", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+      footer_text:       "Erasmus+ Project", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
       btn_top_aria:      "Back to top",
       lang_switcher_aria:"Select language",
       flag_aria:         "Italian flag",
@@ -162,7 +162,7 @@
       project_impact_4:       "Riduzione dell'euroscetticismo attraverso un'educazione basata sui fatti.",
       project_impact_5:       "Materiali educativi di qualit\u00e0 riutilizzabili da altre organizzazioni.",
 
-      footer_text:       "Progetto Erasmus+", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+      footer_text:       "Progetto Erasmus+", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
       btn_top_aria:      "Torna all\u2019inizio",
       lang_switcher_aria:"Seleziona lingua",
       flag_aria:         "Bandiera italiana",
@@ -243,7 +243,7 @@
       project_impact_4:       "Zmniejszenie eurosceptycyzmu poprzez edukacj\u0119 opart\u0105 na faktach.",
       project_impact_5:       "Wysokiej jako\u015bci materia\u0142y edukacyjne do ponownego u\u017cycia przez inne organizacje.",
 
-      footer_text:       "Projekt Erasmus+", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+      footer_text:       "Projekt Erasmus+", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
       btn_top_aria:      "Powr\u00f3t na g\u00f3r\u0119",
       lang_switcher_aria:"Wybierz j\u0119zyk",
       flag_aria:         "Flaga w\u0142oska",
@@ -324,7 +324,7 @@
       project_impact_4:       "Verringerung der Euroskepsis durch faktenbasierte Bildung.",
       project_impact_5:       "Hochwertige Bildungsmaterialien zur Wiederverwendung durch andere Organisationen.",
 
-      footer_text:       "Erasmus+-Projekt", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+      footer_text:       "Erasmus+-Projekt", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
       btn_top_aria:      "Nach oben",
       lang_switcher_aria:"Sprache w\u00e4hlen",
       flag_aria:         "Italienische Flagge",
@@ -405,7 +405,7 @@
       project_impact_4:       "Eiroskepticisma samazin\u0101\u0161ana caur uz faktiem balst\u012btu izgl\u012bt\u012bbu.",
       project_impact_5:       "Augstas kvalit\u0101tes izgl\u012bt\u012bbas materi\u0101li citu organiz\u0101ciju atk\u0101rtotai izmanto\u0161anai.",
 
-      footer_text:       "Erasmus+ projekts", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+      footer_text:       "Erasmus+ projekts", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
       btn_top_aria:      "Uz aug\u0161u",
       lang_switcher_aria:"Izv\u0113l\u0113ties valodu",
       flag_aria:         "It\u0101lijas karogs",

@@ -20,7 +20,7 @@ const TRANSLATIONS = {
     lang_switcher_aria: "Seleziona la lingua",
     btn_top_aria:       "Torna in alto",
     btn_top:            "Inizio",
-    footer_text:        "Progetto Erasmus+ · Workshop 1 — Esercitazioni interattive", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+    footer_text:        "Progetto Erasmus+ · Workshop 1 — Esercitazioni interattive", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
 
     tab1_label:  "Composizione",
     tab2_label:  "Compiti",
@@ -99,7 +99,7 @@ const TRANSLATIONS = {
     lang_switcher_aria: "Select language",
     btn_top_aria:       "Back to top",
     btn_top:            "Top",
-    footer_text:        "Erasmus+ Project · Workshop 1 — Interactive exercises", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+    footer_text:        "Erasmus+ Project · Workshop 1 — Interactive exercises", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
 
     tab1_label:  "Composition",
     tab2_label:  "Tasks",
@@ -178,7 +178,7 @@ const TRANSLATIONS = {
     lang_switcher_aria: "Wybierz język",
     btn_top_aria:       "Powrót na górę",
     btn_top:            "Góra",
-    footer_text:        "Projekt Erasmus+ · Warsztat 1 — Ćwiczenia interaktywne", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+    footer_text:        "Projekt Erasmus+ · Warsztat 1 — Ćwiczenia interaktywne", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
 
     tab1_label:  "Skład",
     tab2_label:  "Zadania",
@@ -257,7 +257,7 @@ const TRANSLATIONS = {
     lang_switcher_aria: "Sprache auswählen",
     btn_top_aria:       "Nach oben",
     btn_top:            "Oben",
-    footer_text:        "Erasmus+-Projekt · Workshop 1 — Interaktive Übungen", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+    footer_text:        "Erasmus+-Projekt · Workshop 1 — Interaktive Übungen", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
 
     tab1_label:  "Zusammensetzung",
     tab2_label:  "Aufgaben",
@@ -336,7 +336,7 @@ const TRANSLATIONS = {
     lang_switcher_aria: "Izvēlēties valodu",
     btn_top_aria:       "Uz augšu",
     btn_top:            "Augšā",
-    footer_text:        "Erasmus+ projekts · Seminārs 1 — Interaktīvi vingrinājumi", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+    footer_text:        "Erasmus+ projekts · Seminārs 1 — Interaktīvi vingrinājumi", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
 
     tab1_label:  "Sastāvs",
     tab2_label:  "Uzdevumi",

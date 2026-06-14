@@ -165,7 +165,7 @@
       dl_whoiswho_d: "Clears up three names that are easy to confuse.",
       dl_note: "Note: the files are the German team's originals, so they exist only in German (DE) and English (EN). The page itself is translated into all languages.",
       footer_text: "Erasmus+ Project · Workshop 1 (Germany) — The European Union: a Journey through Time",
-      footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
+      footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio",
     },
     it: {
       skip_link: "Salta al contenuto",
@@ -326,7 +326,7 @@
       dl_whoiswho_d: "Chiarisce tre nomi facili da confondere.",
       dl_note: "Nota: i file sono gli originali del team tedesco, quindi esistono solo in tedesco (DE) e inglese (EN). La pagina, invece, è tradotta in tutte le lingue.",
       footer_text: "Progetto Erasmus+ · Workshop 1 (Germania) — L'Unione Europea: un viaggio nel tempo",
-      footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
+      footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio",
     },
     pl: {
       skip_link: "Przejdź do treści",
@@ -487,7 +487,7 @@
       dl_whoiswho_d: "Wyjaśnia trzy łatwe do pomylenia nazwy.",
       dl_note: "Uwaga: pliki to oryginały zespołu niemieckiego, dlatego istnieją tylko po niemiecku (DE) i angielsku (EN). Sama strona jest przetłumaczona na wszystkie języki.",
       footer_text: "Projekt Erasmus+ · Warsztat 1 (Niemcy) — Unia Europejska: podróż w czasie",
-      footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
+      footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio",
     },
     de: {
       skip_link: "Zum Inhalt springen",
@@ -648,7 +648,7 @@
       dl_whoiswho_d: "Klärt drei leicht zu verwechselnde Namen.",
       dl_note: "Hinweis: Die Dateien sind die Originale des deutschen Teams und liegen daher nur auf Deutsch (DE) und Englisch (EN) vor. Die Seite selbst ist in alle Sprachen übersetzt.",
       footer_text: "Erasmus+-Projekt · Workshop 1 (Deutschland) — Die Europäische Union: eine Reise durch die Zeit",
-      footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
+      footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio",
     },
     lv: {
       skip_link: "Pāriet uz saturu",
@@ -809,7 +809,7 @@
       dl_whoiswho_d: "Izskaidro trīs viegli sajaucamus nosaukumus.",
       dl_note: "Piezīme: faili ir vācu komandas oriģināli, tāpēc tie pieejami tikai vāciski (DE) un angliski (EN). Pati lapa ir tulkota visās valodās.",
       footer_text: "Erasmus+ projekts · 1. seminārs (Vācija) — Eiropas Savienība: ceļojums laikā",
-      footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
+      footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio",
     },
   };
 

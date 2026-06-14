@@ -12,7 +12,7 @@ const TRANSLATIONS = {
     topbar_title:       "L'Unione Europea",
     lang_switcher_aria: "Seleziona la lingua",
     btn_home_aria:      "Torna alla pagina Home",
-    footer_hint:        "Usa i tasti \u2190 \u2192 per navigare", footer_cookie: "Cookie Policy", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio"
+    footer_hint:        "Usa i tasti \u2190 \u2192 per navigare", footer_cookie: "Cookie Policy", footer_wa: "Contatti", footer_credit: "Progetto web LUTE MILAZZO — curato da Filippo Russo Nuccio"
   },
   en: {
     skip_link:"Skip to content",
@@ -20,7 +20,7 @@ const TRANSLATIONS = {
     topbar_title:       "The European Union",
     lang_switcher_aria: "Select language",
     btn_home_aria:      "Back to Home page",
-    footer_hint:        "Use \u2190 \u2192 keys to navigate", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio"
+    footer_hint:        "Use \u2190 \u2192 keys to navigate", footer_cookie: "Cookie Policy", footer_wa: "Contact", footer_credit: "LUTE MILAZZO web project — by Filippo Russo Nuccio"
   },
   pl: {
     skip_link:"Przejdź do treści",
@@ -28,7 +28,7 @@ const TRANSLATIONS = {
     topbar_title:       "Unia Europejska",
     lang_switcher_aria: "Wybierz j\u0119zyk",
     btn_home_aria:      "Powr\u00f3t do strony g\u0142\u00f3wnej",
-    footer_hint:        "U\u017cyj klawiszy \u2190 \u2192 do nawigacji", footer_cookie: "Cookie Policy", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio"
+    footer_hint:        "U\u017cyj klawiszy \u2190 \u2192 do nawigacji", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "Projekt strony LUTE MILAZZO — wykonał Filippo Russo Nuccio"
   },
   de: {
     skip_link:"Zum Inhalt springen",
@@ -36,7 +36,7 @@ const TRANSLATIONS = {
     topbar_title:       "Die Europ\u00e4ische Union",
     lang_switcher_aria: "Sprache ausw\u00e4hlen",
     btn_home_aria:      "Zur\u00fcck zur Startseite",
-    footer_hint:        "\u2190 \u2192 Tasten zum Navigieren", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio"
+    footer_hint:        "\u2190 \u2192 Tasten zum Navigieren", footer_cookie: "Cookie Policy", footer_wa: "Kontakt", footer_credit: "LUTE MILAZZO-Webprojekt — von Filippo Russo Nuccio"
   },
   lv: {
     skip_link:"Pāriet uz saturu",
@@ -44,7 +44,7 @@ const TRANSLATIONS = {
     topbar_title:       "Eiropas Savien\u012bba",
     lang_switcher_aria: "Izv\u0113l\u0113ties valodu",
     btn_home_aria:      "Atpaka\u013c uz s\u0101kumlapu",
-    footer_hint:        "Izmantojiet \u2190 \u2192 tausti\u0146us navig\u0101cijai", footer_cookie: "Cookie Policy", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio"
+    footer_hint:        "Izmantojiet \u2190 \u2192 tausti\u0146us navig\u0101cijai", footer_cookie: "Cookie Policy", footer_wa: "Kontakti", footer_credit: "LUTE MILAZZO tīmekļa projekts — veidoja Filippo Russo Nuccio"
   }
 
 };
