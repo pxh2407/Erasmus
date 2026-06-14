@@ -317,6 +317,13 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-06-14 (d) — Galleria fotografica Germania
+
+- Da `Desktop/Foto WS1 Germania/` (7 foto) creata una **galleria tedesca**: nuova cartella **`Galleria DE/`** (clone di `Galleria IT`: `style.css`+`script.js`+`lang.js`+`img/`). Foto ottimizzate 1400px → `img/ws1-1…7.jpg`.
+- `lang.js` adattato (5 lingue): hero «Germania», `ws1_title` = «L'Unione Europea: un viaggio nel tempo», sottotitolo «Workshop 1 tedesco», flag_aria/footer tedeschi. CSS `.flag-de` aggiunto a `Galleria DE/style.css`. Una sola sezione WS1 (7 foto) — estendibile a WS2/WS3 quando arriveranno foto tedesche.
+- Home: voce **Germania → Foto** ora → `../Galleria DE/Galleria DE.html` (tolta `--soon`). Verificato: 7 foto OK, lightbox OK, link Home 200.
+- NB: lo zip `Desktop/WS3 Germania.zip` conteneva per errore le foto del WS3 **italiano** (non materiali tedeschi) → in attesa del vero WS3 Germania.
+
 ### Sessione 2026-06-14 (b) — Download materiali: aprire invece di scaricare
 
 - Nei pulsanti `.dl-btn` di **Workshop 1 DE** e **Workshop 2 DE** rimosso l'attributo `download` (forzava il salvataggio) e aggiunto `target="_blank" rel="noopener"`: i file si **aprono in una nuova scheda** (visualizzazione + stampa). I PDF/immagini si vedono nel browser; .docx/.pptx no.
