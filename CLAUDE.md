@@ -25,11 +25,12 @@
 | Tutte | `.logo-bar` (bianca) | 0 | 100 |
 | Unione Europea / Workshop 2 | `.progress-bar` (4px gradiente) | 98px | 99 |
 | Unione Europea / Workshop 2 | `.topbar` (banda blu, contatore «5/16» / «5/16») | 102px | 98 |
-| Workshop 1 / Simulazione | `.hero` | 98px | 90 |
 | Home | `.hero` | 151px | 90 |
 | Home | `.site-header` (logo-bar + site-nav) | 0 | 100 |
 
 > Home `top:151px` = logo-bar 97px + site-nav 54px
+
+> **2026-06-17**: `.hero` di tutti i Workshop (IT/DE/LV/PL) e Simulatori → `position: static` (scorre col contenuto, non più sticky). Solo `.logo-bar` resta sticky.
 
 ### 0.3 Hero — dimensioni (post-restyling compatto)
 
@@ -54,7 +55,7 @@
 @media (max-width: 520px) { ... } /* Workshop/Sim solo */
 ```
 
-Su mobile (<1024px): hero diventa **non-sticky**, layout in colonna; ws-actions in riga orizzontale.
+Su desktop e mobile: hero è **`position: static`** (scorre col contenuto). Solo `.logo-bar` resta sticky.
 
 ### 0.6 Sistema i18n
 
@@ -316,6 +317,12 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
   - Valutare gallerie immagini e/o embed video (YouTube) coerenti con lo stile esistente
 
 ## 6. Cronologia decisioni importanti
+
+### Sessione 2026-06-17 — Hero non più sticky in tutti i Workshop e Simulatori
+
+- `.hero` (banda blu) portato da `position: sticky; top: 98px` → `position: static` in tutti i file `style.css` dei Workshop e Simulatori: **WS1/2/3 LUTE, WS1/2 DE, WS1/2/3 LV, WS1/2/3 PL, Simularore WS 1** (WS2 e WS3 sim da completare). La banda scorre ora col contenuto invece di restare incollata in alto, liberando spazio schermo.
+- Solo `.logo-bar` (barra bianca con lingue) resta `sticky`. L'app Unione Europea e WS slide-based (con `.topbar`) non toccate: usano struttura diversa.
+- Cache busting `style.css?v=N` incrementato in tutti gli HTML coinvolti.
 
 ### Sessione 2026-06-14 (j) — Home: card partner con loghi, temi affidati e layout 1 colonna
 

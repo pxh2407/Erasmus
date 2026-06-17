@@ -48,8 +48,7 @@ body {
         linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
     color: #fff;
     padding: 18px 24px 20px;
-    position: sticky;
-    top: 98px;             /* sotto la logo-bar (sticky:0) */
+    position: static;      /* scorre col contenuto, non più sticky */
     z-index: 90;
     overflow: hidden;
     border-bottom: 3px solid var(--gold);
