@@ -318,10 +318,16 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-06-17 — Blocco selezione testo su tutto il sito
+
+- Aggiunto `user-select: none; -webkit-user-select: none;` al `body` di **tutti i 22 `style.css`** del sito. I visitatori non possono selezionare o copiare il testo. Protezione parziale (aggirabile da utenti tecnici via DevTools), sufficiente per il pubblico normale.
+- Unione Europea aveva struttura `body` diversa (con `min-height/display:flex`) → aggiunta manualmente in fondo al blocco.
+- Cache busting aggiornato per le pagine già pubblicate.
+
 ### Sessione 2026-06-17 — Hero non più sticky in tutti i Workshop e Simulatori
 
-- `.hero` (banda blu) portato da `position: sticky; top: 98px` → `position: static` in tutti i file `style.css` dei Workshop e Simulatori: **WS1/2/3 LUTE, WS1/2 DE, WS1/2/3 LV, WS1/2/3 PL, Simularore WS 1** (WS2 e WS3 sim da completare). La banda scorre ora col contenuto invece di restare incollata in alto, liberando spazio schermo.
-- Solo `.logo-bar` (barra bianca con lingue) resta `sticky`. L'app Unione Europea e WS slide-based (con `.topbar`) non toccate: usano struttura diversa.
+- `.hero` (banda blu) portato da `position: sticky; top: 98px` → `position: static` in tutti i file `style.css`: **WS1/2/3 LUTE, WS1/2 DE, WS1/2/3 LV, WS1/2/3 PL, Sim WS1/2/3, Esercitazioni WS1/2/3**. La banda scorre col contenuto invece di restare incollata in alto, liberando spazio schermo.
+- Solo `.logo-bar` (barra bianca con lingue) resta `sticky`. Unione Europea e WS slide-based (con `.topbar`) non toccate.
 - Cache busting `style.css?v=N` incrementato in tutti gli HTML coinvolti.
 
 ### Sessione 2026-06-14 (j) — Home: card partner con loghi, temi affidati e layout 1 colonna
