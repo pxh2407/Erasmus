@@ -1,0 +1,669 @@
+<title>ECBL Website Modification Plan</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap">
+
+<style>
+  :root {
+    --navy:        #1B3A6B;
+    --navy-light:  #2A5499;
+    --gold:        #C9983A;
+    --gold-light:  #F0CC7A;
+    --surface:     #F5F7FB;
+    --surface-alt: #EBEEf6;
+    --card:        #FFFFFF;
+    --text:        #1A2035;
+    --muted:       #5C6480;
+    --border:      #CDD4E8;
+    --tag-new-bg:      #E8F4EC;
+    --tag-new-text:    #1A6B3C;
+    --tag-mod-bg:      #EDE8F8;
+    --tag-mod-text:    #4A2A8B;
+    --tag-keep-bg:     #E8F0F8;
+    --tag-keep-text:   #1A4A7A;
+    --tag-pend-bg:     #FDF3E3;
+    --tag-pend-text:   #8B5A12;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --navy:        #5B8FD4;
+      --navy-light:  #7AAAE0;
+      --gold:        #D4A84A;
+      --gold-light:  #E8C870;
+      --surface:     #0E1525;
+      --surface-alt: #16203A;
+      --card:        #1A2540;
+      --text:        #E2E8F8;
+      --muted:       #8A94B8;
+      --border:      #2A3A60;
+      --tag-new-bg:      #0E2A1A;
+      --tag-new-text:    #5DD490;
+      --tag-mod-bg:      #1E1440;
+      --tag-mod-text:    #A08AE8;
+      --tag-keep-bg:     #0E1E38;
+      --tag-keep-text:   #6AAEE8;
+      --tag-pend-bg:     #2A1E0A;
+      --tag-pend-text:   #E8AA4A;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --navy:        #5B8FD4;
+    --navy-light:  #7AAAE0;
+    --gold:        #D4A84A;
+    --gold-light:  #E8C870;
+    --surface:     #0E1525;
+    --surface-alt: #16203A;
+    --card:        #1A2540;
+    --text:        #E2E8F8;
+    --muted:       #8A94B8;
+    --border:      #2A3A60;
+    --tag-new-bg:      #0E2A1A;
+    --tag-new-text:    #5DD490;
+    --tag-mod-bg:      #1E1440;
+    --tag-mod-text:    #A08AE8;
+    --tag-keep-bg:     #0E1E38;
+    --tag-keep-text:   #6AAEE8;
+    --tag-pend-bg:     #2A1E0A;
+    --tag-pend-text:   #E8AA4A;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text);
+    background: var(--surface);
+    padding-block: 0;
+    padding-inline: 0;
+  }
+
+  /* HEADER */
+  .doc-header {
+    background: var(--navy);
+    color: #fff;
+    padding: 2.5rem 2rem 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .doc-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 60%, transparent 100%);
+  }
+  .header-meta {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 0.6rem;
+  }
+  .header-title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.3rem;
+  }
+  .header-subtitle {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 1.4rem;
+  }
+  .header-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .header-pill {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 500;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.85);
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    letter-spacing: 0.03em;
+  }
+
+  /* MAIN */
+  .doc-body {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+  }
+
+  /* LEGEND */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 2.5rem;
+    padding: 1rem 1.25rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    align-items: center;
+  }
+  .legend-label {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-right: 0.4rem;
+  }
+
+  /* TAGS */
+  .tag {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .tag-new      { background: var(--tag-new-bg);  color: var(--tag-new-text); }
+  .tag-modified { background: var(--tag-mod-bg);  color: var(--tag-mod-text); }
+  .tag-keep     { background: var(--tag-keep-bg); color: var(--tag-keep-text); }
+  .tag-pending  { background: var(--tag-pend-bg); color: var(--tag-pend-text); }
+
+  /* SECTION HEADING */
+  .section-heading {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1rem;
+    margin-top: 2.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* MENU VISUALIZATION */
+  .menu-viz {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  .menu-item {
+    flex: 1 1 auto;
+    padding: 0.75rem 0.5rem;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border-right: 1px solid var(--border);
+    position: relative;
+  }
+  .menu-item:last-child { border-right: none; }
+  .menu-item .item-label { display: block; color: var(--text); }
+  .menu-item .item-tag { margin-top: 0.3rem; display: inline-block; }
+  .menu-item.highlight { background: var(--surface-alt); }
+
+  /* MODIFICATION CARDS */
+  .mod-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  .mod-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.9rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface-alt);
+  }
+  .mod-card-title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+    flex: 1;
+  }
+  .mod-card-subtitle {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .mod-card-body {
+    padding: 1rem 1.25rem;
+  }
+  .mod-card-body ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .mod-card-body li {
+    font-size: 0.9rem;
+    color: var(--text);
+    padding-left: 1.1rem;
+    position: relative;
+  }
+  .mod-card-body li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+    top: 0.05em;
+  }
+  .mod-card-body li strong {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  /* PARTNER TABLE */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.87rem;
+    margin-top: 0.5rem;
+  }
+  .data-table th {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid var(--border);
+  }
+  .data-table td {
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table tr:nth-child(even) td { background: var(--surface-alt); }
+  .country-flag {
+    font-size: 1.1rem;
+    margin-right: 0.3rem;
+  }
+
+  /* PENDING BOX */
+  .pending-box {
+    background: var(--tag-pend-bg);
+    border: 1px solid var(--gold);
+    border-radius: 6px;
+    padding: 0.7rem 1rem;
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: var(--tag-pend-text);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+  }
+  .pending-box strong { font-weight: 700; }
+
+  /* SUMMARY TABLE */
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  .summary-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .summary-item-name {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .summary-item-desc {
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  /* FOOTER */
+  .doc-footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.75rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    .menu-viz { flex-direction: column; }
+    .menu-item { border-right: none; border-bottom: 1px solid var(--border); }
+    .menu-item:last-child { border-bottom: none; }
+    .doc-body { padding-inline: 1rem; }
+  }
+</style>
+
+<!-- HEADER -->
+<header class="doc-header">
+  <div class="header-meta">Erasmus+ · KA220-ADU · ECBL Project</div>
+  <h1 class="header-title">Website Modification Plan</h1>
+  <p class="header-subtitle">Europe Can Be Liked — Proposed structural changes</p>
+  <div class="header-pills">
+    <span class="header-pill">Prepared: 14 September 2026</span>
+    <span class="header-pill">Project period: Oct 2025 – Sep 2027</span>
+    <span class="header-pill">Budget: €120,000</span>
+    <span class="header-pill">5 languages: IT · EN · DE · PL · LV</span>
+  </div>
+</header>
+
+<!-- BODY -->
+<main class="doc-body">
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <span class="legend-label">Status key:</span>
+    <span class="tag tag-new">New</span>
+    <span class="tag tag-modified">Modified</span>
+    <span class="tag tag-keep">Unchanged</span>
+    <span class="tag tag-pending">Pending content</span>
+  </div>
+
+  <!-- NEW NAVIGATION -->
+  <h2 class="section-heading">1 — New Navigation Structure</h2>
+  <div class="menu-viz">
+    <div class="menu-item">
+      <span class="item-label">Home</span>
+      <span class="item-tag"><span class="tag tag-modified">Modified</span></span>
+    </div>
+    <div class="menu-item">
+      <span class="item-label">Unione Europea</span>
+      <span class="item-tag"><span class="tag tag-keep">Unchanged</span></span>
+    </div>
+    <div class="menu-item highlight">
+      <span class="item-label">Project</span>
+      <span class="item-tag"><span class="tag tag-new">New</span></span>
+    </div>
+    <div class="menu-item highlight">
+      <span class="item-label">WP2</span>
+      <span class="item-tag"><span class="tag tag-new">New</span></span>
+    </div>
+    <div class="menu-item highlight">
+      <span class="item-label">WP3</span>
+      <span class="item-tag"><span class="tag tag-new">New</span></span>
+    </div>
+    <div class="menu-item highlight">
+      <span class="item-label">WP4</span>
+      <span class="item-tag"><span class="tag tag-new">New</span></span>
+    </div>
+    <div class="menu-item highlight">
+      <span class="item-label">Download</span>
+      <span class="item-tag"><span class="tag tag-new">New</span></span>
+    </div>
+    <div class="menu-item highlight">
+      <span class="item-label">FB</span>
+      <span class="item-tag"><span class="tag tag-new">New</span></span>
+    </div>
+  </div>
+  <p style="font-size:0.85rem; color:var(--muted); margin-bottom:2rem;">The current country-based dropdown menu (Germany / Italy / Latvia / Poland) is replaced by a work-package-based flat navigation, available in all 5 languages.</p>
+
+  <!-- DETAILED CHANGES -->
+  <h2 class="section-heading">2 — Section-by-Section Changes</h2>
+
+  <!-- HOME -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">Home Page</div>
+        <div class="mod-card-subtitle">Hub of navigation — enriched with two new content sections</div>
+      </div>
+      <span class="tag tag-modified">Modified</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li><strong>News section added</strong> — four topics: Meetings · Workshops · Activities connected with the project · Dissemination. Includes a photo gallery placeholder (images to be provided by partners).</li>
+        <li><strong>Project overview block added</strong> — short introduction linking to the dedicated PROJECT page.</li>
+        <li><strong>Country dropdown removed</strong> — navigation now flows through the top menu.</li>
+        <li><strong>Everything else unchanged</strong> — logos, language selector, hero, footer.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- UNIONE EUROPEA -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">Unione Europea</div>
+        <div class="mod-card-subtitle">15 interactive slides on EU institutions, treaties and values</div>
+      </div>
+      <span class="tag tag-keep">Unchanged</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li>All 15 slides, interactive navigation, and 5-language support remain exactly as they are.</li>
+        <li>The page is promoted to the main menu — previously reachable only through the Italy dropdown.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECT -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">Project</div>
+        <div class="mod-card-subtitle">New page — three subsections: Formal Data · Goals · Partners</div>
+      </div>
+      <span class="tag tag-new">New</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li><strong>Formal Data</strong> — official project details extracted from the approved Erasmus+ application form.</li>
+        <li><strong>Goals</strong> — general and specific objectives from the project description (pages 16–17 of the application).</li>
+        <li><strong>Partners</strong> — table of the four partner organisations (see below).</li>
+      </ul>
+
+      <table class="data-table" style="margin-top:1rem;">
+        <thead>
+          <tr>
+            <th>Organisation</th>
+            <th>Country</th>
+            <th>City</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>FUNDACJA "AKTYWNI XXI"</td>
+            <td><span class="country-flag">🇵🇱</span>Poland</td>
+            <td>Jelenia Góra</td>
+            <td>Lead partner</td>
+          </tr>
+          <tr>
+            <td>LUTE Milazzo</td>
+            <td><span class="country-flag">🇮🇹</span>Italy</td>
+            <td>Milazzo</td>
+            <td>Partner</td>
+          </tr>
+          <tr>
+            <td>Seniorenbüro Hamburg e.V.</td>
+            <td><span class="country-flag">🇩🇪</span>Germany</td>
+            <td>Hamburg</td>
+            <td>Partner</td>
+          </tr>
+          <tr>
+            <td>Preilu novada Izglītības pārvalde</td>
+            <td><span class="country-flag">🇱🇻</span>Latvia</td>
+            <td>Preili</td>
+            <td>Partner</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- WP2 -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">WP2 — Closer to the European Union</div>
+        <div class="mod-card-subtitle">Educational workshops: 4 modules, one per partner country</div>
+      </div>
+      <span class="tag tag-new">New</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li><strong>Section description</strong> — introduction to the work package and its publication: <em>"European ABC: Educational Workshop for Seniors"</em>.</li>
+        <li><strong>Module Italy</strong> — already complete (Workshop 1, Workshop 2, Workshop 3 + Simulator + Exercises). Reorganised under the WP2 umbrella.</li>
+        <li><strong>Module Germany / Latvia / Poland</strong> — structure created; content to be provided by the respective partners.</li>
+        <li><strong>Publication to download</strong> — <em>"Guida Metodologica — European ABC: Educational Workshop for Seniors"</em></li>
+      </ul>
+      <div class="pending-box"><strong>Pending:</strong> Content for Germany, Latvia and Poland modules · Final PDF publication</div>
+    </div>
+  </div>
+
+  <!-- WP3 -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">WP3 — Voices from the Past, Visions for the Future</div>
+        <div class="mod-card-subtitle">Panel discussions and seniors' testimonies</div>
+      </div>
+      <span class="tag tag-new">New</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li><strong>Section description</strong> — overview of the panel discussion activity and its aims.</li>
+        <li><strong>Reports on panel discussions</strong> — one per partner country; will be published as activities take place.</li>
+        <li><strong>Publication to download</strong> — <em>"Our European Journey: Voices from the Past. Visions for the Future"</em></li>
+      </ul>
+      <div class="pending-box"><strong>Pending:</strong> Activity not yet carried out. Page built and ready; content to be added once discussions take place.</div>
+    </div>
+  </div>
+
+  <!-- WP4 -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">WP4 — European Trail</div>
+        <div class="mod-card-subtitle">Study visits to European Union institutions</div>
+      </div>
+      <span class="tag tag-new">New</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li><strong>Section description</strong> — overview of the study visit programme (EU institutions, MEP meeting, history of the EU).</li>
+        <li><strong>Reports on study visits</strong> — to be published after each visit.</li>
+      </ul>
+      <div class="pending-box"><strong>Pending:</strong> Activity not yet carried out. Page built and ready; reports to be added after visits.</div>
+    </div>
+  </div>
+
+  <!-- DOWNLOAD -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">Download</div>
+        <div class="mod-card-subtitle">Central repository for project publications</div>
+      </div>
+      <span class="tag tag-new">New</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li><strong>Publication WP2</strong> — <em>"Guida Metodologica — European ABC: Educational Workshop for Seniors"</em> → Coming soon</li>
+        <li><strong>Publication WP3</strong> — <em>"Our European Journey: Voices from the Past. Visions for the Future"</em> → Coming soon</li>
+      </ul>
+      <div class="pending-box"><strong>Pending:</strong> Both publications are still being written. Download buttons will be activated once the PDFs are ready.</div>
+    </div>
+  </div>
+
+  <!-- FB -->
+  <div class="mod-card">
+    <div class="mod-card-header">
+      <div>
+        <div class="mod-card-title">FB — Facebook</div>
+        <div class="mod-card-subtitle">Link to the project's official fan page</div>
+      </div>
+      <span class="tag tag-new">New</span>
+    </div>
+    <div class="mod-card-body">
+      <ul>
+        <li>A button in the navigation bar opens the official <strong>"Europe Can Be Liked"</strong> Facebook page in a new tab.</li>
+        <li>Link confirmed and active.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <h2 class="section-heading">3 — Summary of Changes</h2>
+  <div class="summary-grid">
+    <div class="summary-item">
+      <span class="tag tag-modified" style="align-self:flex-start;">Modified</span>
+      <span class="summary-item-name">Home</span>
+      <span class="summary-item-desc">News section + Project overview added; dropdown menu removed</span>
+    </div>
+    <div class="summary-item">
+      <span class="tag tag-keep" style="align-self:flex-start;">Unchanged</span>
+      <span class="summary-item-name">Unione Europea</span>
+      <span class="summary-item-desc">15 slides on EU institutions — no changes</span>
+    </div>
+    <div class="summary-item">
+      <span class="tag tag-new" style="align-self:flex-start;">New</span>
+      <span class="summary-item-name">Project</span>
+      <span class="summary-item-desc">Formal data, goals and partners page</span>
+    </div>
+    <div class="summary-item">
+      <span class="tag tag-new" style="align-self:flex-start;">New</span>
+      <span class="summary-item-name">WP2</span>
+      <span class="summary-item-desc">4 workshop modules (Italy complete; 3 partners pending)</span>
+    </div>
+    <div class="summary-item">
+      <span class="tag tag-new" style="align-self:flex-start;">New</span>
+      <span class="summary-item-name">WP3</span>
+      <span class="summary-item-desc">Panel discussions — page ready, content pending</span>
+    </div>
+    <div class="summary-item">
+      <span class="tag tag-new" style="align-self:flex-start;">New</span>
+      <span class="summary-item-name">WP4</span>
+      <span class="summary-item-desc">Study visits — page ready, reports pending</span>
+    </div>
+    <div class="summary-item">
+      <span class="tag tag-new" style="align-self:flex-start;">New</span>
+      <span class="summary-item-name">Download</span>
+      <span class="summary-item-desc">Two publications — both pending final PDF</span>
+    </div>
+    <div class="summary-item">
+      <span class="tag tag-new" style="align-self:flex-start;">New</span>
+      <span class="summary-item-name">FB</span>
+      <span class="summary-item-desc">Link to Facebook fan page — active</span>
+    </div>
+  </div>
+
+</main>
+
+<footer class="doc-footer">
+  ECBL — Europe Can Be Liked · Erasmus+ KA220-ADU · 01/10/2025 – 30/09/2027 · Total grant: €120,000
+</footer>
