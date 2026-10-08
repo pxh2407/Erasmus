@@ -71,7 +71,7 @@
       hero_eyebrow: "Europe Can Be Liked · ECBL",
       hero_title: "WP2 — Vicini all’Unione Europea",
       hero_subtitle: "Workshop educativi per anziani · 4 moduli, uno per paese",
-      sect_desc_title: "Pacchetto di lavoro 2",
+      sect_desc_title: "Area tematica 2",
       sect_desc_text: "Il WP2 comprende workshop educativi su temi europei pensati per i cittadini anziani. Ciascuno dei quattro paesi partner sviluppa tre workshop che coprono diversi aspetti dell’Unione Europea. I moduli di Italia, Lettonia e Polonia sono completi; il modulo della Germania è in corso (Workshop 3 in arrivo).",
       sect_modules_title: "Moduli workshop",
       module_it_title: "Italia — Modulo completo",

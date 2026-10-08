@@ -61,7 +61,7 @@
       hero_eyebrow: "Europe Can Be Liked · ECBL",
       hero_title: "WP4 — Il sentiero europeo",
       hero_subtitle: "Visite di studio alle istituzioni dell’Unione Europea",
-      sect_desc_title: "Pacchetto di lavoro 4",
+      sect_desc_title: "Area tematica 4",
       sect_desc_text: "Il WP4 prevede visite di studio alle istituzioni dell’Unione Europea a Bruxelles e Strasburgo. I partecipanti visiteranno il Parlamento Europeo, incontreranno eurodeputati ed esploreranno la storia dell’integrazione europea sul posto. Report e gallerie fotografiche saranno pubblicati qui dopo ogni visita.",
       sect_visits_title: "Visite di studio",
       visit_coming: "Visita non ancora effettuata. Report in arrivo.",

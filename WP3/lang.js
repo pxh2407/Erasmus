@@ -64,7 +64,7 @@
       hero_eyebrow: "Europe Can Be Liked · ECBL",
       hero_title: "WP3 — Voci dal passato, visioni per il futuro",
       hero_subtitle: "Tavole rotonde e testimonianze degli anziani · 4 paesi",
-      sect_desc_title: "Pacchetto di lavoro 3",
+      sect_desc_title: "Area tematica 3",
       sect_desc_text: "Il WP3 è dedicato alla raccolta di ricordi e testimonianze degli anziani sul percorso del loro Paese verso e all’interno dell’Unione Europea. Ogni paese partner organizza una tavola rotonda in cui gli anziani condividono le proprie esperienze personali dell’integrazione europea. I report saranno pubblicati qui man mano che le attività si svolgeranno.",
       sect_reports_title: "Report delle tavole rotonde",
       report_coming: "Attività non ancora svolta. Report in arrivo.",
