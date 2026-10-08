@@ -309,6 +309,25 @@ C:/Users/Filippo/Desktop/Erasmus/
 
 ## 5bis. Roadmap / Lavori futuri (aggiornato 2026-10-08)
 
+### Sessione 2026-10-08 — Audit completo sito
+
+**Correzioni applicate:**
+- **WP2/WP2.html + WP3/WP3.html**: aggiunto `<script src="../textsize.js" defer></script>` mancante (i pulsanti A+/A− non funzionavano su queste due pagine)
+- **WP2/lang.js**: corretto `module_de_title` in 5 lingue da "Module complete/Modulo completo/..." a "In progress/In corso/W przygotowaniu/In Vorbereitung/Tiek gatavots" — la Germania ha solo 2 workshop su 3
+- **WP2/lang.js**: corretto `module_de_text` in 5 lingue (rimosso "Three workshops" → "Two workshops ... Workshop 3 coming soon")
+- **WP2/lang.js**: aggiornato `sect_desc_text` in 5 lingue (prima diceva solo l'Italia era completa; ora riflette stato reale: IT/LV/PL completi, DE in corso)
+- **WP2/WP2.html**: aggiornati default HTML per Germania da "Module complete" a "In progress"
+- **modification-plan.html**: rimosso dal repository git (era tracciato e accessibile pubblicamente online; è un documento interno di lavoro)
+- **.gitignore**: aggiunta regola `modification-plan*.html`
+
+**Problemi identificati ma NON corretti (richiedono decisione umana):**
+- Home `og:url` punta a `Home/index.html` invece della root — impatto SEO minimo (il redirect funziona)
+- Workshop 3 Germania mancante — in attesa dei materiali tedeschi
+- WP2/WP3: contenuti "in arrivo" — in attesa delle attività
+
+**Voti audit (1-10):**
+Funzionamento 9 · Navigazione 9 · Responsive 8 · Accessibilità 8 · UX/UI 9 · SEO 8 · Performance 8 · Qualità codice 8 · Professionalità 9
+
 Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (repo `pxh2407/Erasmus`, deve contenere `.nojekyll`; i file vanno nella ROOT, NON in sottocartella).
 
 **Navigazione (2026-10-08):** menu piatto HOME | PROJECT | WP2 | WP3 | WP4 | DOWNLOAD | FB. Tutte le nuove pagine condividono `../Home/style.css` e `../Home/script.js`. I `lang.js` sono nella propria cartella (`lang.js?v=1`).
