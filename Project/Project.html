@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ECBL Erasmus+ Project — formal data, goals and partners.">
+    <meta name="theme-color" content="#2b5cb0">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%231a3f80'/%3E%3Cpolygon%20points='16,5%2018.6,12.4%2026.5,12.6%2020.2,17.4%2022.5,24.9%2016,20.4%209.5,24.9%2011.8,17.4%205.5,12.6%2013.4,12.4'%20fill='%23f2c230'/%3E%3C/svg%3E">
+    <title>Project — Erasmus+</title>
+    <link rel="stylesheet" href="../Home/style.css?v=5">
+    <style>
+        .ecbl-table { width:100%; border-collapse:collapse; margin-top:18px; }
+        .ecbl-table th, .ecbl-table td { padding:12px 16px; text-align:left; border-bottom:1px solid var(--border); font-size:1rem; }
+        .ecbl-table th { background:var(--surface-alt); font-weight:700; color:var(--accent-dark); }
+        .ecbl-table tr:hover td { background:var(--surface-alt); }
+        @media (max-width:600px) {
+            .ecbl-table thead { display:none; }
+            .ecbl-table tr { display:block; margin-bottom:14px; border:1px solid var(--border); border-radius:var(--radius); padding:10px; }
+            .ecbl-table td { display:block; padding:4px 8px; border:none; }
+            .ecbl-table td::before { content:attr(data-label); font-weight:700; color:var(--accent-dark); margin-right:8px; }
+        }
+        .goals-grid { display:grid; grid-template-columns:1fr 1fr; gap:0 32px; }
+        @media (max-width:720px) { .goals-grid { grid-template-columns:1fr; } }
+        .formal-box { background:var(--surface); border:1px solid var(--border); border-left:4px solid var(--accent); border-radius:var(--radius); padding:20px 24px; margin-top:18px; display:grid; grid-template-columns:1fr 1fr; gap:12px 32px; }
+        .formal-row { display:flex; flex-direction:column; gap:2px; }
+        .formal-label { font-size:0.78rem; text-transform:uppercase; letter-spacing:.06em; color:var(--text-muted); font-weight:700; }
+        .formal-value { font-size:1rem; font-weight:600; color:var(--text); }
+        @media (max-width:600px) { .formal-box { grid-template-columns:1fr; } }
+    </style>
+</head>
+<body>
+<a href="#main" class="skip-link" data-i18n="skip_link">Skip to content</a>
+
+<div class="site-header">
+    <div class="logo-bar" role="banner" aria-label="Project logos">
+        <img class="logo-bar__img" src="../image-1776928171315.jpg" alt="Co-funded by the European Union">
+        <nav id="langSwitcher" class="lang-switcher" data-i18n-aria="lang_switcher_aria" aria-label="Select language"></nav>
+        <img class="logo-bar__img" src="../image-1776928198470.png" alt="ECBL — Europe can be liked">
+    </div>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <button class="site-nav__hamburger" id="navHamburger" type="button"
+                aria-controls="siteNavList" aria-expanded="false"
+                data-i18n-aria="nav_menu_aria" aria-label="Open navigation menu">
+            <span class="site-nav__hamburger-bars" aria-hidden="true">
+                <span class="site-nav__hamburger-bar"></span>
+                <span class="site-nav__hamburger-bar"></span>
+                <span class="site-nav__hamburger-bar"></span>
+            </span>
+            <span class="site-nav__hamburger-label" data-i18n="nav_menu_label">Menu</span>
+        </button>
+        <ul class="site-nav__list" id="siteNavList">
+            <li><a href="../Home/index.html" class="site-nav__link" data-i18n="nav_home">Home</a></li>
+            <li><a href="Project.html" class="site-nav__link" aria-current="page" data-i18n="nav_project">Project</a></li>
+            <li><a href="../WP2/WP2.html" class="site-nav__link" data-i18n="nav_wp2">WP2</a></li>
+            <li><a href="../WP3/WP3.html" class="site-nav__link" data-i18n="nav_wp3">WP3</a></li>
+            <li><a href="../WP4/WP4.html" class="site-nav__link" data-i18n="nav_wp4">WP4</a></li>
+            <li><a href="../Download/Download.html" class="site-nav__link" data-i18n="nav_download">Download</a></li>
+            <li><a href="https://www.facebook.com/share/1eo76SN3hn/" target="_blank" rel="noopener" class="site-nav__link site-nav__link--fb" data-i18n="nav_fb">FB</a></li>
+        </ul>
+    </nav>
+</div>
+
+<header class="hero">
+    <div class="hero__inner">
+        <div class="hero__main">
+            <span class="hero__eyebrow" data-i18n="hero_eyebrow">Europe Can Be Liked · ECBL</span>
+            <h1 class="hero__title" data-i18n="hero_title">Project</h1>
+            <p class="hero__subtitle" data-i18n="hero_subtitle">Formal Data · Goals · Partners</p>
+        </div>
+    </div>
+</header>
+
+<main class="container" id="main">
+
+    <!-- FORMAL DATA -->
+    <section class="sect project-intro reveal" aria-labelledby="formalTitle">
+        <h2 id="formalTitle" class="project__title" data-i18n="sect_formal_title">Formal Data</h2>
+        <div class="formal-box">
+            <div class="formal-row">
+                <span class="formal-label" data-i18n="formal_number_label">Project number</span>
+                <span class="formal-value">2023-1-PL01-KA220-ADU-000164186</span>
+            </div>
+            <div class="formal-row">
+                <span class="formal-label" data-i18n="formal_dates_label">Duration</span>
+                <span class="formal-value">01/10/2025 – 30/09/2027</span>
+            </div>
+            <div class="formal-row">
+                <span class="formal-label" data-i18n="formal_action_label">Action</span>
+                <span class="formal-value">KA220-ADU</span>
+            </div>
+            <div class="formal-row">
+                <span class="formal-label" data-i18n="formal_lead_label">Lead partner</span>
+                <span class="formal-value">FUNDACJA "AKTYWNI XXI"</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOALS -->
+    <section class="sect project-section reveal" aria-labelledby="goalsTitle">
+        <h2 id="goalsTitle" class="project__title" data-i18n="sect_goals_title">Project Goals</h2>
+
+        <h3 class="project__lead" style="font-weight:700; margin-top:24px; margin-bottom:8px;" data-i18n="goals_general_title">General Objectives</h3>
+        <ul class="project-goals">
+            <li data-i18n="proj_goal_g1">Strengthen a sense of European identity among senior citizens and other participants.</li>
+            <li data-i18n="proj_goal_g2">Encourage seniors' social activation and participation in public life.</li>
+            <li data-i18n="proj_goal_g3">Develop innovative educational materials about the European Union.</li>
+            <li data-i18n="proj_goal_g4">Collect and publish seniors' memories of their countries' entry into the EU.</li>
+            <li data-i18n="proj_goal_g5">Promote dialogue between generations through public debates and workshops.</li>
+        </ul>
+
+        <h3 class="project__lead" style="font-weight:700; margin-top:28px; margin-bottom:8px;" data-i18n="goals_specific_title">Specific Objectives</h3>
+        <ul class="project-goals project-goals--impact">
+            <li data-i18n="proj_goal_s1">Develop 12 workshops (3 per country) on European topics for senior citizens.</li>
+            <li data-i18n="proj_goal_s2">Produce a methodological guide for workshop facilitators.</li>
+            <li data-i18n="proj_goal_s3">Organise panel discussions to collect seniors' testimonies about European integration.</li>
+            <li data-i18n="proj_goal_s4">Create and publish "Our European Journey: Voices from the Past. Visions for the Future".</li>
+            <li data-i18n="proj_goal_s5">Arrange 4 study visits to EU institutions in Brussels and Strasbourg.</li>
+        </ul>
+    </section>
+
+    <!-- PARTNERS -->
+    <section class="sect project-section reveal" aria-labelledby="partnersTitle">
+        <h2 id="partnersTitle" class="project__title" data-i18n="sect_partners_title">Partners</h2>
+        <table class="ecbl-table">
+            <thead>
+                <tr>
+                    <th data-i18n="partners_col_org">Organisation</th>
+                    <th data-i18n="partners_col_country">Country</th>
+                    <th data-i18n="partners_col_city">City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Organisation">FUNDACJA "AKTYWNI XXI"</td>
+                    <td data-label="Country">Poland</td>
+                    <td data-label="City">Jelenia Góra</td>
+                </tr>
+                <tr>
+                    <td data-label="Organisation">LUTE Milazzo</td>
+                    <td data-label="Country">Italy</td>
+                    <td data-label="City">Milazzo</td>
+                </tr>
+                <tr>
+                    <td data-label="Organisation">Seniorenbüro Hamburg e.V.</td>
+                    <td data-label="Country">Germany</td>
+                    <td data-label="City">Hamburg</td>
+                </tr>
+                <tr>
+                    <td data-label="Organisation">Preiļu novada Izglītības pārvalde</td>
+                    <td data-label="Country">Latvia</td>
+                    <td data-label="City">Preiļi</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p data-i18n="footer_text">Erasmus+ Project</p>
+    <p class="footer__sub" style="margin:8px 0 0; font-size:0.85rem; opacity:0.85;"><span data-i18n="footer_credit">LUTE MILAZZO web project — by Filippo Russo Nuccio</span></p>
+    <p style="margin:12px 0 0; text-align:center;">
+        <a href="whatsapp://send?phone=393880775449&amp;text=Hello%2C%20I%20am%20writing%20about%20the%20Erasmus%2B%20ECBL%20website" target="_blank" rel="noopener" aria-label="WhatsApp" style="display:inline-flex; align-items:center; gap:8px; background:#25D366; color:#fff; font-weight:700; font-size:0.9rem; padding:8px 18px; border-radius:999px; text-decoration:none;">
+            <svg width="18" height="18" viewBox="0 0 32 32" fill="#fff" aria-hidden="true"><path d="M16.04 4C9.4 4 4 9.4 4 16.04c0 2.12.55 4.16 1.6 5.98L4 28l6.13-1.6a12 12 0 0 0 5.9 1.5h.01C22.68 27.9 28 22.5 28 16.04 28 9.4 22.68 4 16.04 4zm0 21.8a9.9 9.9 0 0 1-5.06-1.39l-.36-.21-3.64.95.97-3.55-.24-.37a9.86 9.86 0 0 1-1.51-5.25c0-5.46 4.45-9.9 9.9-9.9a9.83 9.83 0 0 1 9.9 9.9c0 5.46-4.45 9.91-9.9 9.91zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.05 1.02-1.05 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.28.17-1.41-.07-.12-.27-.19-.57-.34z"/></svg>
+            <span data-i18n="footer_wa">Contact</span>
+        </a>
+    </p>
+</footer>
+
+<button class="to-top" id="toTop" data-i18n-aria="btn_top_aria" aria-label="Back to top">&#8593; Top</button>
+
+<script src="lang.js?v=1"></script>
+<script src="../Home/script.js"></script>
+<script src="../textsize.js" defer></script>
+</body>
+</html>
