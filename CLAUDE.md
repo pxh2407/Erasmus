@@ -11,6 +11,11 @@
 | App | File HTML | File JS | Cartella |
 |-----|-----------|---------|----------|
 | Home | `Home/index.html` | `Home/lang.js`, `script.js` | `Home/` |
+| Project | `Project/Project.html` | `Project/lang.js` | `Project/` |
+| WP2 | `WP2/WP2.html` | `WP2/lang.js` | `WP2/` |
+| WP3 | `WP3/WP3.html` | `WP3/lang.js` | `WP3/` |
+| WP4 | `WP4/WP4.html` | `WP4/lang.js` | `WP4/` |
+| Download | `Download/Download.html` | `Download/lang.js` | `Download/` |
 | Unione Europea | `Unione Europea/Unione Europea.html` ⚠ spazi | `data.js`, `script.js`, `lang.js` | `Unione Europea/` |
 | Workshop 1 | `Workshop 1 LUTE/Workshop LUTE Modulo 2 ITA.html` ⚠ | `lang.js`, `script.js` | `Workshop 1 LUTE/` |
 | Workshop 2 | `Workshop 2 LUTE/Workshop 2 LUTE.html` ⚠ spazi | `data.js`, `lang.js`, `script.js` | `Workshop 2 LUTE/` |
@@ -302,12 +307,17 @@ C:/Users/Filippo/Desktop/Erasmus/
 
 ---
 
-## 5bis. Roadmap / Lavori futuri (aggiornato 2026-05-29)
+## 5bis. Roadmap / Lavori futuri (aggiornato 2026-10-08)
 
 Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (repo `pxh2407/Erasmus`, deve contenere `.nojekyll`; i file vanno nella ROOT, NON in sottocartella).
 
+**Navigazione (2026-10-08):** menu piatto HOME | PROJECT | WP2 | WP3 | WP4 | DOWNLOAD | FB. Tutte le nuove pagine condividono `../Home/style.css` e `../Home/script.js`. I `lang.js` sono nella propria cartella (`lang.js?v=1`).
+
 **Da fare in futuro:**
-- **Workshop degli altri 3 Paesi partner** — in attesa che inviino i contenuti:
+- **WP3 panel discussions** — da aggiornare con report e foto quando le attività si svolgeranno
+- **WP4 study visits** — da aggiornare con report e foto dopo ogni visita
+- **Download** — attivare i PDF quando pronti (WP2 guida metodologica, WP3 pubblicazione testimonianze)
+- **Workshop degli altri 3 Paesi partner** (già completati e linkati da WP2):
   - 🇩🇪 Germania (Seniorenbüro Hamburg)
   - 🇱🇻 Lettonia (Preiļu novada Izglītības pārvalde)
   - 🇵🇱 Polonia (Fundacja "Aktywni XXI" — capofila)
