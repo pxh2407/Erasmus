@@ -309,6 +309,14 @@ C:/Users/Filippo/Desktop/Erasmus/
 
 ## 5bis. Roadmap / Lavori futuri (aggiornato 2026-10-08)
 
+### Sessione 2026-10-08 (sessione 5)
+
+- **WP2/lang.js + WP3/lang.js + WP4/lang.js**: "Pacchetto di lavoro 2/3/4" → "Area tematica 2/3/4" (solo lingua IT; le altre lingue invariate).
+- Creato `ECBL-Status-Report.html` (report stato sito in inglese per gli autori) salvato in `Desktop\CLAUDE\Erasmus`.
+- Nota terminologia: nella nav rimane WP2/WP3/WP4 (sigla Erasmus+ ufficiale); solo il titolo testuale interno in italiano è cambiato.
+
+---
+
 ### Sessione 2026-10-08 — Audit completo sito
 
 **Correzioni applicate:**
