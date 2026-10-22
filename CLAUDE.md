@@ -355,6 +355,13 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-22 — Pulsante WhatsApp TOLTO dal footer (tutte le pagine)
+
+- Su richiesta dell'utente tolto il pulsante verde WhatsApp «Contatti» (`whatsapp://send?phone=393880775449&text=...`) dal footer di **tutte le 27 pagine**. **Non rimetterlo.**
+- Le chiavi `footer_wa` nei `lang.js` restano ma non sono più usate (innocue; lasciate per non toccare i `?v=N`).
+- Resta solo il pulsante «Invia i contenuti via WhatsApp» (`.wa-btn`) nella pagina `Partner/Partner.html`, che non è collegata a nessun menu.
+- La sessione 2026-06-14 (e) qui sotto descrive il pulsante com'era: superata.
+
 ### Sessione 2026-06-17 — Blocco selezione testo su tutto il sito
 
 - Aggiunto `user-select: none; -webkit-user-select: none;` al `body` di **tutti i 22 `style.css`** del sito. I visitatori non possono selezionare o copiare il testo. Protezione parziale (aggirabile da utenti tecnici via DevTools), sufficiente per il pubblico normale.
