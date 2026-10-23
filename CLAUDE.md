@@ -355,6 +355,17 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-23 — Home «The Four Partners»: presentazione dei partner al posto dei temi
+
+- Gli autori hanno mandato `Erasmus1.docx` (presentazione dei 4 partner) e hanno risposto al piano (`Desktop\Piano modifiche partner Erasmus - IT.docx`): 1a, 2a, 3a, 4a, correzioni approvate, terza persona, codici visibili, titolo invariato.
+- Ogni scheda partner ora ha: logo, bandiera, nome, città (invariati) + `.partner-card__profile` (breve presentazione) + `.partner-card__facts` (Codice Erasmus+ OID, tipo di ente, sito web cliccabile) + `<details class="partner-card__more">` «Leggi di più / Mostra meno» con `.partner-card__desc` (descrizione completa, `data-i18n-html`).
+- **TOLTI su richiesta degli autori (non rimettere)**: titolo del tema, 4 punti e «This topic was assigned to» (chiavi `partner_*_role`, `partner_*_t1..t4`, `partner_assigned` e stili `.partner-card__theme/__topics/__assigned`). Gli argomenti restano nei workshop di ciascun Paese.
+- Chiavi nuove in `Home/lang.js` (5 lingue): `partner_code_label`, `partner_type_label`, `partner_web_label`, `partner_type_foundation/association/public`, `partner_more`, `partner_less`, `partner_{aktywni,lute,hamburg,preili}_{profile,desc}`. Testi italiani corretti secondo il piano (19 correzioni, frase LUTE riformulata dagli autori); **EN/PL/DE/LV tradotti da Claude: da far controllare a ciascun partner**.
+- Siti: aktywni21.org.pl, lutemilazzo.org, seniorenbuero-hamburg.de, `http://www.pvg.edu.lv/izglitiba/` (solo http: con https dà 403; lasciato così per scelta dell'utente).
+- Cache: `style.css?v=7`, `lang.js?v=5` in `Home/index.html`.
+- La sessione 2026-06-14 (j) qui sotto (card con «temi affidati») è superata.
+
+
 ### Sessione 2026-10-22 — Pulsanti WhatsApp TOLTI da tutto il sito
 
 - Su richiesta dell'utente tolto il pulsante verde WhatsApp «Contatti» (`whatsapp://send?phone=393880775449&text=...`) dal footer di **tutte le 27 pagine**. **Non rimetterlo.**
