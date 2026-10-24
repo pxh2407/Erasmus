@@ -1,4 +1,13 @@
-﻿// ============================================================
+﻿// Lingua dall'indirizzo (es. ?lang=pl): ha la precedenza su quella salvata nel browser
+(function () {
+  var m = location.search.match(/[?&]lang=(en|it|pl|de|lv)(?![a-z])/);
+  if (m) {
+    try { localStorage.setItem('erasmus_lang', m[1]); } catch (e) {}
+    document.documentElement.lang = m[1];
+  }
+})();
+
+// ============================================================
 // lang.js — Workshop 2 (Polonia) · Should Poland Adopt the Euro?
 // Lingue: en · it · pl · de · lv
 // ============================================================
@@ -463,7 +472,7 @@
     }
 
     currentLang = lang;
-    localStorage.setItem('erasmus_lang', lang);
+    localStorage.setItem('erasmus_lang', lang); if (/[?&]lang=/.test(location.search)) history.replaceState(null, '', location.pathname + location.search.replace(/([?&]lang=)[a-z]+/, '$1' + lang) + location.hash); document.documentElement.lang = lang;
   }
 
   function makeFlagImg(code, w, h) {

@@ -1,29 +1,1407 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://pxh2407.github.io/Erasmus/Home/index.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Project/Project.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/WP2/WP2.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/WP3/WP3.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/WP4/WP4.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Download/Download.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html</loc></url>
-  <url><loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Home/index.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Home/index.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Home/index.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Home/index.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Home/index.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Home/index.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Home/index.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Home/index.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Home/index.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Home/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Home/index.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Project/Project.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Project/Project.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Project/Project.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Project/Project.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Project/Project.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Project/Project.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Project/Project.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Project/Project.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Project/Project.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Project/Project.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Project/Project.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Project/Project.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Project/Project.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP2/WP2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP2/WP2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP3/WP3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP3/WP3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/WP4/WP4.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/WP4/WP4.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Download/Download.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Download/Download.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Download/Download.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Download/Download.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Download/Download.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Download/Download.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Download/Download.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Download/Download.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Download/Download.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Download/Download.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Download/Download.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Download/Download.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Download/Download.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Unione%20Europea/Unione%20Europea.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS1/Esercitazioni%20WS1.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS2/Esercitazioni%20WS2.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Esercitazioni%20WS3/Esercitazioni%20WS3.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%201/Simulation%20Game.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%202/Simulation%20Game%202.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Simularore%20WS%203/Simulation%20Game%203.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20IT/Galleria%20IT.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Galleria%20DE/Galleria%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LUTE/Workshop%20LUTE%20Modulo%202%20ITA.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LUTE/Workshop%202%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LUTE/Workshop%203%20LUTE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20PL/Workshop%201%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20PL/Workshop%202%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20PL/Workshop%203%20PL.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20DE/Workshop%201%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20DE/Workshop%202%20DE.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%201%20LV/Workshop%201%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%202%20LV/Workshop%202%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=lv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html"/>
+  </url>
+  <url>
+    <loc>https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html?lang=lv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pxh2407.github.io/Erasmus/Workshop%203%20LV/Workshop%203%20LV.html"/>
+  </url>
 </urlset>

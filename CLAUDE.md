@@ -355,13 +355,25 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-24 (b) — Indirizzi per lingua `?lang=xx` + hreflang
+
+- Backup prima del cambio: cartella `CLAUDE\Erasmus - BACKUP prima delle lingue 2026-10-24` + tag git `prima-delle-lingue-2026-10-24` (anche su GitHub).
+- Ogni pagina si apre nella lingua indicata nell'indirizzo: `...pagina.html?lang=en|it|pl|de|lv` (ha la precedenza su quella salvata in `localStorage`; valori diversi ignorati). Utile ai partner per mandare link già nella lingua dei corsisti, es. `https://pxh2407.github.io/Erasmus/Home/index.html?lang=lv`.
+- Come: in CIMA a tutti i 27 `lang.js` un blocco «// Lingua dall'indirizzo» che scrive la lingua in `localStorage` e in `<html lang>` PRIMA del codice esistente (che non è stato toccato). Dopo ogni `localStorage.setItem('erasmus_lang', …)` aggiunta una riga: se l'indirizzo ha `?lang=`, lo aggiorna con `history.replaceState` (ricaricando resta la lingua scelta con la bandierina).
+- `Workshop 2 PL/lang.js` inizia con un BOM: deve restare il PRIMO carattere del file (il blocco va dopo).
+- In ogni HTML (26 pagine, non Partner): 5 `<link rel="alternate" hreflang="xx" href="...?lang=xx">` + `x-default` (indirizzo senza `?lang`), dopo il meta description.
+- `sitemap.xml`: 156 indirizzi (26 pagine × 5 lingue + versione senza `?lang`), ognuno con tutte le alternative `xhtml:link`.
+- ⚠️ Con il dominio nuovo sostituire `https://pxh2407.github.io/Erasmus/` anche negli hreflang di tutte le pagine (oltre a sitemap, robots, og).
+- Cache: `lang.js?v=N` incrementato in tutte le 27 pagine.
+
+
 ### Sessione 2026-10-24 — Titoli e descrizioni per i motori di ricerca (tutte le pagine)
 
 - Ogni `page_title` in tutti i 27 `lang.js` (5 lingue) ora contiene il progetto: Home = «Europe Can Be Liked (ECBL) — Erasmus+ project on the European Union» (tradotto); Project/WP2/WP3/WP4/Download con titoli scritti a mano; tutte le altre pagine = titolo di prima + « · ECBL Erasmus+» (o «— Erasmus+» → «— ECBL Erasmus+»). Corretto il titolo IT del simulatore 2 (era «Simulation Game — Sprechi alimentari»).
 - `<title>`, `meta description`, `og:title`, `og:description` di ogni HTML allineati al titolo nella lingua in cui la pagina si apre per un visitatore nuovo (11 pagine si aprono in italiano: descrizione in italiano; le altre in inglese). `<html lang>` corretto di conseguenza. Aggiunto il blocco `og:*` a Project, WP2, WP3, WP4, Download (prima mancava). Descrizioni ≤ ~160 caratteri, sempre con «Europe Can Be Liked (ECBL)» o «ECBL».
 - Nuovi `sitemap.xml` (26 pagine, Partner esclusa perché `noindex`) e `robots.txt` nella radice. ⚠️ Su `pxh2407.github.io/Erasmus/` Google non legge `robots.txt` (non è alla radice del dominio): la sitemap va inviata da Search Console. Con il dominio personalizzato funzioneranno entrambi.
 - ⚠️ Quando arriverà il dominio nuovo: sostituire `https://pxh2407.github.io/Erasmus/` in `sitemap.xml`, `robots.txt` e nei meta `og:url`/`og:image` di tutte le pagine.
-- Lingue per Google (hreflang) NON aggiunte: la lingua cambia nella stessa pagina (localStorage), non esistono indirizzi separati per lingua.
+- (Superato il 2026-10-24: vedi «Indirizzi per lingua» sopra.)
 - Cache: `lang.js?v=N` incrementato in ogni pagina.
 
 

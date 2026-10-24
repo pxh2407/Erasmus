@@ -1,3 +1,12 @@
+// Lingua dall'indirizzo (es. ?lang=pl): ha la precedenza su quella salvata nel browser
+(function () {
+  var m = location.search.match(/[?&]lang=(en|it|pl|de|lv)(?![a-z])/);
+  if (m) {
+    try { localStorage.setItem('erasmus_lang', m[1]); } catch (e) {}
+    document.documentElement.lang = m[1];
+  }
+})();
+
 // ============================================================
 // lang.js — Galleria fotografica Germania · Erasmus+ ECBL · 5 lingue
 // ============================================================
@@ -79,7 +88,7 @@ const TRANSLATIONS = {
     var sw=document.getElementById('langSwitcher');
     if(sw&&sw._mobileFlag){sw._mobileFlag.src='data:image/svg+xml,'+encodeURIComponent(LANGS[lang].svg);sw._mobileFlag.alt=LANGS[lang].label;}
     if(sw&&sw._dropdown) sw._dropdown.querySelectorAll('[data-lang-item]').forEach(function(i){i.classList.toggle('lang-dropdown-item--active',i.getAttribute('data-lang-item')===lang);});
-    currentLang=lang; localStorage.setItem('erasmus_lang',lang);
+    currentLang=lang; localStorage.setItem('erasmus_lang',lang); if (/[?&]lang=/.test(location.search)) history.replaceState(null, '', location.pathname + location.search.replace(/([?&]lang=)[a-z]+/, '$1' + lang) + location.hash); document.documentElement.lang = lang;
   }
   function mkFlag(code,w,h){var img=document.createElement('img');img.src='data:image/svg+xml,'+encodeURIComponent(LANGS[code].svg);img.alt=LANGS[code].label;img.setAttribute('width',String(w));img.setAttribute('height',String(h));img.style.cssText='border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,0.15);display:block;flex-shrink:0;';return img;}
   function build(){

@@ -1,3 +1,12 @@
+// Lingua dall'indirizzo (es. ?lang=pl): ha la precedenza su quella salvata nel browser
+(function () {
+  var m = location.search.match(/[?&]lang=(en|it|pl|de|lv)(?![a-z])/);
+  if (m) {
+    try { localStorage.setItem('erasmus_lang', m[1]); } catch (e) {}
+    document.documentElement.lang = m[1];
+  }
+})();
+
 // ============================================================
 // lang.js — WP3
 // Erasmus LUTE · 5 languages: en · it · pl · de · lv
@@ -199,7 +208,7 @@
     return localStorage.getItem('erasmus_lang') || DEFAULT_LANG;
   }
   function setLang(l) {
-    localStorage.setItem('erasmus_lang', l);
+    localStorage.setItem('erasmus_lang', l); if (/[?&]lang=/.test(location.search)) history.replaceState(null, '', location.pathname + location.search.replace(/([?&]lang=)[a-z]+/, '$1' + l) + location.hash); document.documentElement.lang = l;
     apply(l);
   }
   function apply(l) {
