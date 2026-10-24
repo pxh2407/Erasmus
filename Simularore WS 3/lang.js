@@ -11,7 +11,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   en: {
     skip_link:"Skip to content",
-    page_title:             "Simulation Game — Let's Build the EU Budget",
+    page_title:             "Simulation Game — Let's Build the EU Budget · ECBL Erasmus+",
     hero_eyebrow:           "Workshop 3 · Simulation",
     hero_title:             "The EU Budget and its impact on citizens' lives",
     hero_subtitle:          "A participatory journey to discover how the EU Budget is built, distributed and how it affects the lives of European citizens.",
@@ -175,7 +175,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   it: {
     skip_link:"Salta al contenuto",
-    page_title:             "Gioco di Simulazione — Costruiamo il Bilancio UE",
+    page_title:             "Gioco di Simulazione — Costruiamo il Bilancio UE · ECBL Erasmus+",
     hero_eyebrow:           "Workshop 3 · Simulazione",
     hero_title:             "Il bilancio dell'UE e il suo impatto sulla vita dei cittadini",
     hero_subtitle:          "Un percorso partecipativo per scoprire come si costruisce e si distribuisce il Bilancio UE e come incide sulla vita dei cittadini europei.",
@@ -339,7 +339,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:             "Gra symulacyjna — Budujemy budżet UE",
+    page_title:             "Gra symulacyjna — Budujemy budżet UE · ECBL Erasmus+",
     hero_eyebrow:           "Warsztat 3 · Symulacja",
     hero_title:             "Budżet UE i jego wpływ na życie obywateli",
     hero_subtitle:          "Partycypacyjna ścieżka, aby odkryć, jak budowany jest budżet UE, jak jest rozdzielany i jak wpływa na życie obywateli europejskich.",
@@ -503,7 +503,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:             "Simulationsspiel — Bauen wir den EU-Haushalt",
+    page_title:             "Simulationsspiel — Bauen wir den EU-Haushalt · ECBL Erasmus+",
     hero_eyebrow:           "Workshop 3 · Simulation",
     hero_title:             "Der EU-Haushalt und seine Auswirkungen auf das Leben der Bürger",
     hero_subtitle:          "Ein partizipativer Weg, um zu entdecken, wie der EU-Haushalt aufgebaut und verteilt wird und wie er das Leben der europäischen Bürger beeinflusst.",
@@ -667,7 +667,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:             "Simulācijas spēle — Veidojam ES budžetu",
+    page_title:             "Simulācijas spēle — Veidojam ES budžetu · ECBL Erasmus+",
     hero_eyebrow:           "3. seminārs · Simulācija",
     hero_title:             "ES budžets un tā ietekme uz pilsoņu dzīvi",
     hero_subtitle:          "Līdzdalības ceļš, lai atklātu, kā tiek veidots un sadalīts ES budžets un kā tas ietekmē Eiropas pilsoņu dzīvi.",

@@ -13,7 +13,7 @@
     // ----------------------------------------------------------
     en: {
     skip_link:"Skip to content",
-      page_title:        "Home \u2014 Erasmus+",
+      page_title:        "Europe Can Be Liked (ECBL) — Erasmus+ project on the European Union",
       hero_eyebrow:      "Erasmus+ Project",
       hero_title:        "Erasmus+ Project",
       hero_subtitle:     "An Erasmus+ project on European citizenship involving Italy, Germany, Latvia and Poland.",
@@ -106,7 +106,7 @@
     // ----------------------------------------------------------
     it: {
     skip_link:"Salta al contenuto",
-      page_title:        "Home \u2014 Erasmus+",
+      page_title:        "Europe Can Be Liked (ECBL) — Progetto Erasmus+ sull'Unione Europea",
       hero_eyebrow:      "Progetto Erasmus+",
       hero_title:        "Progetto Erasmus+",
       hero_subtitle:     "Un progetto Erasmus+ sulla cittadinanza europea che coinvolge Italia, Germania, Lettonia e Polonia.",
@@ -200,7 +200,7 @@
     // ----------------------------------------------------------
     pl: {
     skip_link:"Przejdź do treści",
-      page_title:        "Strona G\u0142\u00f3wna \u2014 Erasmus+",
+      page_title:        "Europe Can Be Liked (ECBL) — projekt Erasmus+ o Unii Europejskiej",
       hero_eyebrow:      "Projekt Erasmus+",
       hero_title:        "Projekt Erasmus+",
       hero_subtitle:     "Projekt Erasmus+ dotycz\u0105cy obywatelstwa europejskiego, obejmuj\u0105cy W\u0142ochy, Niemcy, \u0141otw\u0119 i Polsk\u0119.",
@@ -294,7 +294,7 @@
     // ----------------------------------------------------------
     de: {
     skip_link:"Zum Inhalt springen",
-      page_title:        "Startseite \u2014 Erasmus+",
+      page_title:        "Europe Can Be Liked (ECBL) — Erasmus+-Projekt über die Europäische Union",
       hero_eyebrow:      "Erasmus+-Projekt",
       hero_title:        "Erasmus+-Projekt",
       hero_subtitle:     "Ein Erasmus+-Projekt zur europ\u00e4ischen B\u00fcrgerschaft mit Italien, Deutschland, Lettland und Polen.",
@@ -388,7 +388,7 @@
     // ----------------------------------------------------------
     lv: {
     skip_link:"Pāriet uz saturu",
-      page_title:        "S\u0101kums \u2014 Erasmus+",
+      page_title:        "Europe Can Be Liked (ECBL) — Erasmus+ projekts par Eiropas Savienību",
       hero_eyebrow:      "Erasmus+ projekts",
       hero_title:        "Erasmus+ projekts",
       hero_subtitle:     "Erasmus+ projekts par Eiropas pilson\u012bbu, iesaistot It\u0101liju, V\u0101ciju, Latviju un Poliju.",

@@ -11,7 +11,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   en: {
     skip_link:"Skip to content",
-    page_title:             "Workshop 1 — Organs of the European Union",
+    page_title:             "Workshop 1 — Organs of the European Union · ECBL Erasmus+",
     hero_eyebrow:           "Workshop 1",
     hero_title:             "Organs of the European Union",
     hero_subtitle:          "A participatory journey to discover European Institutions through role-play, group work and civic reflection.",
@@ -140,7 +140,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   it: {
     skip_link:"Salta al contenuto",
-    page_title:             "Workshop 1 \u2014 Organi dell\u2019Unione Europea",
+    page_title:             "Workshop 1 — Organi dell’Unione Europea · ECBL Erasmus+",
     hero_eyebrow:           "Workshop 1",
     hero_title:             "Organi dell\u2019Unione Europea",
     hero_subtitle:          "Un percorso partecipativo per conoscere le Istituzioni europee attraverso drammatizzazione, lavoro di gruppo e riflessione civica.",
@@ -269,7 +269,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:             "Warsztat 1 \u2014 Organy Unii Europejskiej",
+    page_title:             "Warsztat 1 — Organy Unii Europejskiej · ECBL Erasmus+",
     hero_eyebrow:           "Warsztat 1",
     hero_title:             "Organy Unii Europejskiej",
     hero_subtitle:          "Partycypatywna \u015bcie\u017cka poznawania instytucji europejskich poprzez dramatyzacj\u0119, prac\u0119 grupow\u0105 i refleksj\u0119 obywatelsk\u0105.",
@@ -398,7 +398,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:             "Workshop 1 \u2014 Organe der Europ\u00e4ischen Union",
+    page_title:             "Workshop 1 — Organe der Europäischen Union · ECBL Erasmus+",
     hero_eyebrow:           "Workshop 1",
     hero_title:             "Organe der Europ\u00e4ischen Union",
     hero_subtitle:          "Ein partizipativer Weg zur Kenntnis der europ\u00e4ischen Institutionen durch Rollenspiel, Gruppenarbeit und b\u00fcrgerschaftliche Reflexion.",
@@ -527,7 +527,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:             "Semin\u0101rs 1 \u2014 Eiropas Savien\u012bbas org\u0101ni",
+    page_title:             "Seminārs 1 — Eiropas Savienības orgāni · ECBL Erasmus+",
     hero_eyebrow:           "Semin\u0101rs 1",
     hero_title:             "Eiropas Savien\u012bbas org\u0101ni",
     hero_subtitle:          "L\u012bdzda\u013c\u012bgs ce\u013cojums, lai iepaz\u012btu Eiropas ties\u012bbas caur lomu sp\u0113li, grupu darbu un pilsonisko p\u0101rdom\u0101m.",

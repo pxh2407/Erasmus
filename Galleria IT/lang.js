@@ -5,7 +5,7 @@
 const TRANSLATIONS = {
   it: {
     skip_link:"Salta al contenuto",
-    page_title:"Galleria fotografica — Italia", hero_eyebrow:"Italia", hero_title:"Galleria fotografica",
+    page_title:"Galleria fotografica — Italia · ECBL Erasmus+", hero_eyebrow:"Italia", hero_title:"Galleria fotografica",
     hero_subtitle:"Immagini dei workshop LUTE realizzati a Milazzo nell'ambito del progetto Erasmus+ ECBL.",
     ws1_title:"Workshop 1 — Organi dell'Unione Europea", ws2_title:"Workshop 2 — Il processo decisionale nell'UE", ws3_title:"Workshop 3 — Il bilancio dell'UE",
     ws1_caption:"Foto del Workshop 1", ws2_caption:"Foto del Workshop 2", ws3_caption:"Foto del Workshop 3",
@@ -15,7 +15,7 @@ const TRANSLATIONS = {
   },
   en: {
     skip_link:"Skip to content",
-    page_title:"Photo gallery — Italy", hero_eyebrow:"Italy", hero_title:"Photo gallery",
+    page_title:"Photo gallery — Italy · ECBL Erasmus+", hero_eyebrow:"Italy", hero_title:"Photo gallery",
     hero_subtitle:"Pictures from the LUTE workshops held in Milazzo as part of the Erasmus+ ECBL project.",
     ws1_title:"Workshop 1 — Organs of the European Union", ws2_title:"Workshop 2 — The EU decision-making process", ws3_title:"Workshop 3 — The EU budget",
     ws1_caption:"Workshop 1 photo", ws2_caption:"Workshop 2 photo", ws3_caption:"Workshop 3 photo",
@@ -25,7 +25,7 @@ const TRANSLATIONS = {
   },
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:"Galeria zdjęć — Włochy", hero_eyebrow:"Włochy", hero_title:"Galeria zdjęć",
+    page_title:"Galeria zdjęć — Włochy · ECBL Erasmus+", hero_eyebrow:"Włochy", hero_title:"Galeria zdjęć",
     hero_subtitle:"Zdjęcia z warsztatów LUTE przeprowadzonych w Milazzo w ramach projektu Erasmus+ ECBL.",
     ws1_title:"Warsztat 1 — Organy Unii Europejskiej", ws2_title:"Warsztat 2 — Proces decyzyjny w UE", ws3_title:"Warsztat 3 — Budżet UE",
     ws1_caption:"Zdjęcie z Warsztatu 1", ws2_caption:"Zdjęcie z Warsztatu 2", ws3_caption:"Zdjęcie z Warsztatu 3",
@@ -35,7 +35,7 @@ const TRANSLATIONS = {
   },
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:"Fotogalerie — Italien", hero_eyebrow:"Italien", hero_title:"Fotogalerie",
+    page_title:"Fotogalerie — Italien · ECBL Erasmus+", hero_eyebrow:"Italien", hero_title:"Fotogalerie",
     hero_subtitle:"Bilder von den LUTE-Workshops in Milazzo im Rahmen des Erasmus+-Projekts ECBL.",
     ws1_title:"Workshop 1 — Die Organe der Europäischen Union", ws2_title:"Workshop 2 — Der Entscheidungsprozess in der EU", ws3_title:"Workshop 3 — Der EU-Haushalt",
     ws1_caption:"Foto vom Workshop 1", ws2_caption:"Foto vom Workshop 2", ws3_caption:"Foto vom Workshop 3",
@@ -45,7 +45,7 @@ const TRANSLATIONS = {
   },
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:"Fotogalerija — Itālija", hero_eyebrow:"Itālija", hero_title:"Fotogalerija",
+    page_title:"Fotogalerija — Itālija · ECBL Erasmus+", hero_eyebrow:"Itālija", hero_title:"Fotogalerija",
     hero_subtitle:"Attēli no LUTE semināriem Milaco, kas norisinājās Erasmus+ projekta ECBL ietvaros.",
     ws1_title:"Seminārs 1 — Eiropas Savienības iestādes", ws2_title:"Seminārs 2 — ES lēmumu pieņemšanas process", ws3_title:"Seminārs 3 — ES budžets",
     ws1_caption:"Semināra 1 foto", ws2_caption:"Semināra 2 foto", ws3_caption:"Semināra 3 foto",

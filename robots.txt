@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pxh2407.github.io/Erasmus/sitemap.xml

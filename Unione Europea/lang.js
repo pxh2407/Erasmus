@@ -8,7 +8,7 @@ const TRANSLATIONS = {
 
   it: {
     skip_link:"Salta al contenuto",
-    page_title:         "L'Unione Europea — Guida interattiva",
+    page_title:         "L'Unione Europea — Guida interattiva · ECBL Erasmus+",
     topbar_title:       "L'Unione Europea",
     lang_switcher_aria: "Seleziona la lingua",
     btn_home_aria:      "Torna alla pagina Home",
@@ -16,7 +16,7 @@ const TRANSLATIONS = {
   },
   en: {
     skip_link:"Skip to content",
-    page_title:         "The European Union \u2014 Interactive Guide",
+    page_title:         "The European Union — Interactive Guide · ECBL Erasmus+",
     topbar_title:       "The European Union",
     lang_switcher_aria: "Select language",
     btn_home_aria:      "Back to Home page",
@@ -24,7 +24,7 @@ const TRANSLATIONS = {
   },
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:         "Unia Europejska \u2014 Przewodnik interaktywny",
+    page_title:         "Unia Europejska — Przewodnik interaktywny · ECBL Erasmus+",
     topbar_title:       "Unia Europejska",
     lang_switcher_aria: "Wybierz j\u0119zyk",
     btn_home_aria:      "Powr\u00f3t do strony g\u0142\u00f3wnej",
@@ -32,7 +32,7 @@ const TRANSLATIONS = {
   },
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:         "Die Europ\u00e4ische Union \u2014 Interaktiver Leitfaden",
+    page_title:         "Die Europäische Union — Interaktiver Leitfaden · ECBL Erasmus+",
     topbar_title:       "Die Europ\u00e4ische Union",
     lang_switcher_aria: "Sprache ausw\u00e4hlen",
     btn_home_aria:      "Zur\u00fcck zur Startseite",
@@ -40,7 +40,7 @@ const TRANSLATIONS = {
   },
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:         "Eiropas Savien\u012bba \u2014 Interakt\u012bv\u0101 rokasgrāmata",
+    page_title:         "Eiropas Savienība — Interaktīvā rokasgrāmata · ECBL Erasmus+",
     topbar_title:       "Eiropas Savien\u012bba",
     lang_switcher_aria: "Izv\u0113l\u0113ties valodu",
     btn_home_aria:      "Atpaka\u013c uz s\u0101kumlapu",

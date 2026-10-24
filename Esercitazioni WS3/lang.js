@@ -8,7 +8,7 @@ const TRANSLATIONS = {
   // ===================== ITALIANO =====================
   it: {
     skip_link:"Salta al contenuto",
-    page_title:"Esercitazioni — Workshop 3", hero_eyebrow:"Workshop 3", hero_title:"Esercitazioni interattive",
+    page_title:"Esercitazioni — Workshop 3 · ECBL Erasmus+", hero_eyebrow:"Workshop 3", hero_title:"Esercitazioni interattive",
     hero_subtitle:"Sette quiz su priorità, finalità e bilancio dell'Unione Europea.",
     hero_curated: "A cura di: <strong>Antonio Catalfamo e Mimmo Mascali</strong>",
     btn_back_aria:"Torna al Workshop 3", flag_aria:"Bandiera italiana", lang_switcher_aria:"Seleziona la lingua",
@@ -60,7 +60,7 @@ const TRANSLATIONS = {
   // ===================== ENGLISH =====================
   en: {
     skip_link:"Skip to content",
-    page_title:"Exercises — Workshop 3", hero_eyebrow:"Workshop 3", hero_title:"Interactive exercises",
+    page_title:"Exercises — Workshop 3 · ECBL Erasmus+", hero_eyebrow:"Workshop 3", hero_title:"Interactive exercises",
     hero_subtitle:"Seven quizzes on the priorities, aims and budget of the European Union.",
     hero_curated: "Curated by: <strong>Antonio Catalfamo and Mimmo Mascali</strong>",
     btn_back_aria:"Back to Workshop 3", flag_aria:"Italian flag", lang_switcher_aria:"Select language",
@@ -112,7 +112,7 @@ const TRANSLATIONS = {
   // ===================== POLSKI =====================
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:"Ćwiczenia — Warsztat 3", hero_eyebrow:"Warsztat 3", hero_title:"Ćwiczenia interaktywne",
+    page_title:"Ćwiczenia — Warsztat 3 · ECBL Erasmus+", hero_eyebrow:"Warsztat 3", hero_title:"Ćwiczenia interaktywne",
     hero_subtitle:"Siedem quizów o priorytetach, celach i budżecie Unii Europejskiej.",
     hero_curated: "Opracowanie: <strong>Antonio Catalfamo i Mimmo Mascali</strong>",
     btn_back_aria:"Powrót do Warsztatu 3", flag_aria:"Flaga włoska", lang_switcher_aria:"Wybierz język",
@@ -164,7 +164,7 @@ const TRANSLATIONS = {
   // ===================== DEUTSCH =====================
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:"Übungen — Workshop 3", hero_eyebrow:"Workshop 3", hero_title:"Interaktive Übungen",
+    page_title:"Übungen — Workshop 3 · ECBL Erasmus+", hero_eyebrow:"Workshop 3", hero_title:"Interaktive Übungen",
     hero_subtitle:"Sieben Quiz über Prioritäten, Ziele und Haushalt der Europäischen Union.",
     hero_curated: "Erstellt von: <strong>Antonio Catalfamo und Mimmo Mascali</strong>",
     btn_back_aria:"Zurück zum Workshop 3", flag_aria:"Italienische Flagge", lang_switcher_aria:"Sprache auswählen",
@@ -216,7 +216,7 @@ const TRANSLATIONS = {
   // ===================== LATVIEŠU =====================
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:"Vingrinājumi — Seminārs 3", hero_eyebrow:"Seminārs 3", hero_title:"Interaktīvi vingrinājumi",
+    page_title:"Vingrinājumi — Seminārs 3 · ECBL Erasmus+", hero_eyebrow:"Seminārs 3", hero_title:"Interaktīvi vingrinājumi",
     hero_subtitle:"Septiņas viktorīnas par Eiropas Savienības prioritātēm, mērķiem un budžetu.",
     hero_curated: "Sagatavoja: <strong>Antonio Catalfamo un Mimmo Mascali</strong>",
     btn_back_aria:"Atpakaļ uz Semināru 3", flag_aria:"Itālijas karogs", lang_switcher_aria:"Izvēlēties valodu",

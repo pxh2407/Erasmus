@@ -8,7 +8,7 @@ const TRANSLATIONS = {
   // ---------------- ITALIANO ----------------
   it: {
     skip_link:"Salta al contenuto",
-    page_title:"Esercitazioni — Workshop 2", hero_eyebrow:"Workshop 2", hero_title:"Esercitazioni interattive",
+    page_title:"Esercitazioni — Workshop 2 · ECBL Erasmus+", hero_eyebrow:"Workshop 2", hero_title:"Esercitazioni interattive",
     hero_subtitle:"Quattro quiz per consolidare la conoscenza del processo decisionale dell'UE: fonti del diritto, atti legislativi e priorità dell'Unione.",
     hero_curated: "A cura di: <strong>Antonio Catalfamo e Mimmo Mascali</strong>",
     btn_back_aria:"Torna al Workshop 2", flag_aria:"Bandiera italiana", lang_switcher_aria:"Seleziona la lingua",
@@ -56,7 +56,7 @@ const TRANSLATIONS = {
   // ---------------- ENGLISH ----------------
   en: {
     skip_link:"Skip to content",
-    page_title:"Exercises — Workshop 2", hero_eyebrow:"Workshop 2", hero_title:"Interactive exercises",
+    page_title:"Exercises — Workshop 2 · ECBL Erasmus+", hero_eyebrow:"Workshop 2", hero_title:"Interactive exercises",
     hero_subtitle:"Four quizzes to consolidate knowledge of the EU decision-making process: sources of law, legislative acts and the Union's priorities.",
     hero_curated: "Curated by: <strong>Antonio Catalfamo and Mimmo Mascali</strong>",
     btn_back_aria:"Back to Workshop 2", flag_aria:"Italian flag", lang_switcher_aria:"Select language",
@@ -104,7 +104,7 @@ const TRANSLATIONS = {
   // ---------------- POLSKI ----------------
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:"Ćwiczenia — Warsztat 2", hero_eyebrow:"Warsztat 2", hero_title:"Ćwiczenia interaktywne",
+    page_title:"Ćwiczenia — Warsztat 2 · ECBL Erasmus+", hero_eyebrow:"Warsztat 2", hero_title:"Ćwiczenia interaktywne",
     hero_subtitle:"Cztery quizy utrwalające wiedzę o procesie decyzyjnym UE: źródła prawa, akty prawne i priorytety Unii.",
     hero_curated: "Opracowanie: <strong>Antonio Catalfamo i Mimmo Mascali</strong>",
     btn_back_aria:"Powrót do Warsztatu 2", flag_aria:"Flaga włoska", lang_switcher_aria:"Wybierz język",
@@ -152,7 +152,7 @@ const TRANSLATIONS = {
   // ---------------- DEUTSCH ----------------
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:"Übungen — Workshop 2", hero_eyebrow:"Workshop 2", hero_title:"Interaktive Übungen",
+    page_title:"Übungen — Workshop 2 · ECBL Erasmus+", hero_eyebrow:"Workshop 2", hero_title:"Interaktive Übungen",
     hero_subtitle:"Vier Quiz, um das Wissen über den EU-Entscheidungsprozess zu festigen: Rechtsquellen, Rechtsakte und Prioritäten der Union.",
     hero_curated: "Erstellt von: <strong>Antonio Catalfamo und Mimmo Mascali</strong>",
     btn_back_aria:"Zurück zum Workshop 2", flag_aria:"Italienische Flagge", lang_switcher_aria:"Sprache auswählen",
@@ -200,7 +200,7 @@ const TRANSLATIONS = {
   // ---------------- LATVIEŠU ----------------
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:"Vingrinājumi — Seminārs 2", hero_eyebrow:"Seminārs 2", hero_title:"Interaktīvi vingrinājumi",
+    page_title:"Vingrinājumi — Seminārs 2 · ECBL Erasmus+", hero_eyebrow:"Seminārs 2", hero_title:"Interaktīvi vingrinājumi",
     hero_subtitle:"Četras viktorīnas, lai nostiprinātu zināšanas par ES lēmumu pieņemšanas procesu: tiesību avoti, tiesību akti un Savienības prioritātes.",
     hero_curated: "Sagatavoja: <strong>Antonio Catalfamo un Mimmo Mascali</strong>",
     btn_back_aria:"Atpakaļ uz Semināru 2", flag_aria:"Itālijas karogs", lang_switcher_aria:"Izvēlēties valodu",

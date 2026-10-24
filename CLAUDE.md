@@ -355,6 +355,16 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-24 — Titoli e descrizioni per i motori di ricerca (tutte le pagine)
+
+- Ogni `page_title` in tutti i 27 `lang.js` (5 lingue) ora contiene il progetto: Home = «Europe Can Be Liked (ECBL) — Erasmus+ project on the European Union» (tradotto); Project/WP2/WP3/WP4/Download con titoli scritti a mano; tutte le altre pagine = titolo di prima + « · ECBL Erasmus+» (o «— Erasmus+» → «— ECBL Erasmus+»). Corretto il titolo IT del simulatore 2 (era «Simulation Game — Sprechi alimentari»).
+- `<title>`, `meta description`, `og:title`, `og:description` di ogni HTML allineati al titolo nella lingua in cui la pagina si apre per un visitatore nuovo (11 pagine si aprono in italiano: descrizione in italiano; le altre in inglese). `<html lang>` corretto di conseguenza. Aggiunto il blocco `og:*` a Project, WP2, WP3, WP4, Download (prima mancava). Descrizioni ≤ ~160 caratteri, sempre con «Europe Can Be Liked (ECBL)» o «ECBL».
+- Nuovi `sitemap.xml` (26 pagine, Partner esclusa perché `noindex`) e `robots.txt` nella radice. ⚠️ Su `pxh2407.github.io/Erasmus/` Google non legge `robots.txt` (non è alla radice del dominio): la sitemap va inviata da Search Console. Con il dominio personalizzato funzioneranno entrambi.
+- ⚠️ Quando arriverà il dominio nuovo: sostituire `https://pxh2407.github.io/Erasmus/` in `sitemap.xml`, `robots.txt` e nei meta `og:url`/`og:image` di tutte le pagine.
+- Lingue per Google (hreflang) NON aggiunte: la lingua cambia nella stessa pagina (localStorage), non esistono indirizzi separati per lingua.
+- Cache: `lang.js?v=N` incrementato in ogni pagina.
+
+
 ### Sessione 2026-10-23 — Home «The Four Partners»: presentazione dei partner al posto dei temi
 
 - Gli autori hanno mandato `Erasmus1.docx` (presentazione dei 4 partner) e hanno risposto al piano (`Desktop\Piano modifiche partner Erasmus - IT.docx`): 1a, 2a, 3a, 4a, correzioni approvate, terza persona, codici visibili, titolo invariato.

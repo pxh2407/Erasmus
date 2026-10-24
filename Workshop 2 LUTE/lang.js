@@ -11,7 +11,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   it: {
     skip_link:"Salta al contenuto",
-    page_title:   "Workshop 2 — Il processo decisionale nell'UE",
+    page_title:   "Workshop 2 — Il processo decisionale nell'UE · ECBL Erasmus+",
     hero_eyebrow: "Workshop 2",
     hero_title:   "Il processo decisionale nell'UE: dall'idea al diritto",
     hero_subtitle:"Un percorso partecipativo per capire come nasce una legge europea, quali istituzioni intervengono e come i cittadini possono farsi sentire.",
@@ -121,7 +121,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   en: {
     skip_link:"Skip to content",
-    page_title:   "Workshop 2 — The EU decision-making process",
+    page_title:   "Workshop 2 — The EU decision-making process · ECBL Erasmus+",
     hero_eyebrow: "Workshop 2",
     hero_title:   "The EU decision-making process: from idea to law",
     hero_subtitle:"A participatory journey to understand how a European law is born, which institutions are involved and how citizens can make their voice heard.",
@@ -231,7 +231,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:   "Warsztat 2 — Proces decyzyjny w UE",
+    page_title:   "Warsztat 2 — Proces decyzyjny w UE · ECBL Erasmus+",
     hero_eyebrow: "Warsztat 2",
     hero_title:   "Proces decyzyjny w UE: od pomysłu do prawa",
     hero_subtitle:"Partycypacyjna ścieżka, by zrozumieć, jak powstaje europejskie prawo, które instytucje są zaangażowane i jak obywatele mogą zabrać głos.",
@@ -341,7 +341,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:   "Workshop 2 — Der Entscheidungsprozess in der EU",
+    page_title:   "Workshop 2 — Der Entscheidungsprozess in der EU · ECBL Erasmus+",
     hero_eyebrow: "Workshop 2",
     hero_title:   "Der Entscheidungsprozess in der EU: von der Idee zum Recht",
     hero_subtitle:"Ein partizipativer Weg, um zu verstehen, wie ein europäisches Gesetz entsteht, welche Institutionen beteiligt sind und wie Bürger ihre Stimme einbringen können.",
@@ -451,7 +451,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:   "Seminārs 2 — ES lēmumu pieņemšanas process",
+    page_title:   "Seminārs 2 — ES lēmumu pieņemšanas process · ECBL Erasmus+",
     hero_eyebrow: "Seminārs 2",
     hero_title:   "ES lēmumu pieņemšanas process: no idejas līdz tiesībām",
     hero_subtitle:"Līdzdalības ceļš, lai saprastu, kā rodas Eiropas likums, kuras iestādes ir iesaistītas un kā pilsoņi var paust savu viedokli.",

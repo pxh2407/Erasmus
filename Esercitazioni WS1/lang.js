@@ -10,7 +10,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   it: {
     skip_link:"Salta al contenuto",
-    page_title:         "Esercitazioni — Workshop 1",
+    page_title:         "Esercitazioni — Workshop 1 · ECBL Erasmus+",
     hero_eyebrow:       "Workshop 1",
     hero_title:         "Esercitazioni interattive",
     hero_subtitle:      "Tre quiz per consolidare la conoscenza delle istituzioni dell'Unione Europea: composizione, compiti, vero/falso.",
@@ -89,7 +89,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   en: {
     skip_link:"Skip to content",
-    page_title:         "Exercises — Workshop 1",
+    page_title:         "Exercises — Workshop 1 · ECBL Erasmus+",
     hero_eyebrow:       "Workshop 1",
     hero_title:         "Interactive exercises",
     hero_subtitle:      "Three quizzes to consolidate your knowledge of EU institutions: composition, tasks, true or false.",
@@ -168,7 +168,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:         "Ćwiczenia — Warsztat 1",
+    page_title:         "Ćwiczenia — Warsztat 1 · ECBL Erasmus+",
     hero_eyebrow:       "Warsztat 1",
     hero_title:         "Ćwiczenia interaktywne",
     hero_subtitle:      "Trzy quizy utrwalające wiedzę o instytucjach Unii Europejskiej: skład, zadania, prawda/fałsz.",
@@ -247,7 +247,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:         "Übungen — Workshop 1",
+    page_title:         "Übungen — Workshop 1 · ECBL Erasmus+",
     hero_eyebrow:       "Workshop 1",
     hero_title:         "Interaktive Übungen",
     hero_subtitle:      "Drei Quiz, um das Wissen über die EU-Institutionen zu festigen: Zusammensetzung, Aufgaben, richtig/falsch.",
@@ -326,7 +326,7 @@ const TRANSLATIONS = {
   // ----------------------------------------------------------
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:         "Vingrinājumi — Seminārs 1",
+    page_title:         "Vingrinājumi — Seminārs 1 · ECBL Erasmus+",
     hero_eyebrow:       "Seminārs 1",
     hero_title:         "Interaktīvi vingrinājumi",
     hero_subtitle:      "Trīs viktorīnas, lai nostiprinātu zināšanas par ES iestādēm: sastāvs, uzdevumi, patiess/aplams.",

@@ -6,7 +6,7 @@
 const TRANSLATIONS = {
   it: {
     skip_link: "Salta al contenuto",
-    page_title: "Simulation Game — Sprechi alimentari",
+    page_title: "Gioco di simulazione — Sprechi alimentari · ECBL Erasmus+",
     hero_eyebrow: "Workshop 2 · Simulazione",
     hero_title: "Una nuova legge UE contro gli sprechi alimentari",
     hero_subtitle: "Una simulazione del processo decisionale europeo: dall'idea alla legge, passando per il Trilogo tra Parlamento, Consiglio e Commissione.",
@@ -95,7 +95,7 @@ const TRANSLATIONS = {
   },
   en: {
     skip_link: "Skip to content",
-    page_title: "Simulation Game — Food Waste",
+    page_title: "Simulation Game — Food Waste · ECBL Erasmus+",
     hero_eyebrow: "Workshop 2 · Simulation",
     hero_title: "A New EU Law to Reduce Food Waste",
     hero_subtitle: "A simulation of the EU decision-making process: from idea to law, through the Trilogue between Parliament, Council and Commission.",
@@ -184,7 +184,7 @@ const TRANSLATIONS = {
   },
   pl: {
     skip_link: "Przejdź do treści",
-    page_title: "Gra symulacyjna — Marnowanie żywności",
+    page_title: "Gra symulacyjna — Marnowanie żywności · ECBL Erasmus+",
     hero_eyebrow: "Warsztat 2 · Symulacja",
     hero_title: "Nowa ustawa UE przeciwko marnowaniu żywności",
     hero_subtitle: "Symulacja unijnego procesu decyzyjnego: od pomysłu do ustawy, poprzez trilog między Parlamentem, Radą i Komisją.",
@@ -273,7 +273,7 @@ const TRANSLATIONS = {
   },
   de: {
     skip_link: "Zum Inhalt springen",
-    page_title: "Simulationsspiel — Lebensmittelverschwendung",
+    page_title: "Simulationsspiel — Lebensmittelverschwendung · ECBL Erasmus+",
     hero_eyebrow: "Workshop 2 · Simulation",
     hero_title: "Ein neues EU-Gesetz gegen Lebensmittelverschwendung",
     hero_subtitle: "Eine Simulation des EU-Entscheidungsprozesses: von der Idee zum Gesetz, über den Trilog zwischen Parlament, Rat und Kommission.",
@@ -362,7 +362,7 @@ const TRANSLATIONS = {
   },
   lv: {
     skip_link: "Pāriet uz saturu",
-    page_title: "Simulācijas spēle — Pārtikas izšķērdēšana",
+    page_title: "Simulācijas spēle — Pārtikas izšķērdēšana · ECBL Erasmus+",
     hero_eyebrow: "2. seminārs · Simulācija",
     hero_title: "Jauns ES likums pret pārtikas izšķērdēšanu",
     hero_subtitle: "ES lēmumu pieņemšanas procesa simulācija: no idejas līdz likumam, izmantojot trialogu starp Parlamentu, Padomi un Komisiju.",

@@ -5,7 +5,7 @@
 const TRANSLATIONS = {
   it: {
     skip_link:"Salta al contenuto",
-    page_title:"Galleria fotografica — Germania", hero_eyebrow:"Germania", hero_title:"Galleria fotografica",
+    page_title:"Galleria fotografica — Germania · ECBL Erasmus+", hero_eyebrow:"Germania", hero_title:"Galleria fotografica",
     hero_subtitle:"Immagini del Workshop 1 tedesco nell'ambito del progetto Erasmus+ ECBL.",
     ws1_title:"Workshop 1 — L'Unione Europea: un viaggio nel tempo",
     ws1_caption:"Foto del Workshop 1",
@@ -15,7 +15,7 @@ const TRANSLATIONS = {
   },
   en: {
     skip_link:"Skip to content",
-    page_title:"Photo gallery — Germany", hero_eyebrow:"Germany", hero_title:"Photo gallery",
+    page_title:"Photo gallery — Germany · ECBL Erasmus+", hero_eyebrow:"Germany", hero_title:"Photo gallery",
     hero_subtitle:"Pictures from the German Workshop 1, part of the Erasmus+ ECBL project.",
     ws1_title:"Workshop 1 — The European Union: a Journey through Time",
     ws1_caption:"Workshop 1 photo",
@@ -25,7 +25,7 @@ const TRANSLATIONS = {
   },
   pl: {
     skip_link:"Przejdź do treści",
-    page_title:"Galeria zdjęć — Niemcy", hero_eyebrow:"Niemcy", hero_title:"Galeria zdjęć",
+    page_title:"Galeria zdjęć — Niemcy · ECBL Erasmus+", hero_eyebrow:"Niemcy", hero_title:"Galeria zdjęć",
     hero_subtitle:"Zdjęcia z niemieckiego Warsztatu 1 w ramach projektu Erasmus+ ECBL.",
     ws1_title:"Warsztat 1 — Unia Europejska: podróż w czasie",
     ws1_caption:"Zdjęcie z Warsztatu 1",
@@ -35,7 +35,7 @@ const TRANSLATIONS = {
   },
   de: {
     skip_link:"Zum Inhalt springen",
-    page_title:"Fotogalerie — Deutschland", hero_eyebrow:"Deutschland", hero_title:"Fotogalerie",
+    page_title:"Fotogalerie — Deutschland · ECBL Erasmus+", hero_eyebrow:"Deutschland", hero_title:"Fotogalerie",
     hero_subtitle:"Bilder vom deutschen Workshop 1 im Rahmen des Erasmus+-Projekts ECBL.",
     ws1_title:"Workshop 1 — Die Europäische Union: eine Reise durch die Zeit",
     ws1_caption:"Foto vom Workshop 1",
@@ -45,7 +45,7 @@ const TRANSLATIONS = {
   },
   lv: {
     skip_link:"Pāriet uz saturu",
-    page_title:"Fotogalerija — Vācija", hero_eyebrow:"Vācija", hero_title:"Fotogalerija",
+    page_title:"Fotogalerija — Vācija · ECBL Erasmus+", hero_eyebrow:"Vācija", hero_title:"Fotogalerija",
     hero_subtitle:"Attēli no vācu 1. semināra Erasmus+ projekta ECBL ietvaros.",
     ws1_title:"1. seminārs — Eiropas Savienība: ceļojums laikā",
     ws1_caption:"Semināra 1 foto",

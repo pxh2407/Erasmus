@@ -13,7 +13,7 @@
     // ----------------------------------------------------------
     en: {
     skip_link:"Skip to content",
-      page_title:             "Simulation Game — The Beach of Europe",
+      page_title:             "Simulation Game — The Beach of Europe · ECBL Erasmus+",
       hero_eyebrow:           "Workshop 1 · Simulation",
       hero_title:             "The Beach of Europe",
       hero_subtitle:          "A simulation on free competition in services and the role of the European Commission as Guardian of the Treaties.",
@@ -211,7 +211,7 @@
     // ----------------------------------------------------------
     it: {
     skip_link:"Salta al contenuto",
-      page_title:             "Gioco di Simulazione \u2014 La Spiaggia di Europa",
+      page_title:             "Gioco di Simulazione — La Spiaggia di Europa · ECBL Erasmus+",
       hero_eyebrow:           "Workshop 1 · Simulazione",
       hero_title:             "La Spiaggia di Europa",
       hero_subtitle:          "Una simulazione sulla libera concorrenza nei servizi e il ruolo della Commissione Europea come Guardiana dei Trattati.",
@@ -409,7 +409,7 @@
     // ----------------------------------------------------------
     pl: {
     skip_link:"Przejdź do treści",
-      page_title:             "Gra symulacyjna \u2014 Pla\u017ca Europy",
+      page_title:             "Gra symulacyjna — Plaża Europy · ECBL Erasmus+",
       hero_eyebrow:           "Warsztat 1 · Symulacja",
       hero_title:             "Pla\u017ca Europy",
       hero_subtitle:          "Symulacja dotycz\u0105ca wolnej konkurencji w us\u0142ugach i roli Komisji Europejskiej jako Str\u00f3\u017ca Traktat\u00f3w.",
@@ -607,7 +607,7 @@
     // ----------------------------------------------------------
     de: {
     skip_link:"Zum Inhalt springen",
-      page_title:             "Simulationsspiel \u2014 Der Strand Europas",
+      page_title:             "Simulationsspiel — Der Strand Europas · ECBL Erasmus+",
       hero_eyebrow:           "Workshop 1 · Simulation",
       hero_title:             "Der Strand Europas",
       hero_subtitle:          "Eine Simulation zum freien Dienstleistungswettbewerb und zur Rolle der Europ\u00e4ischen Kommission als H\u00fcterin der Vertr\u00e4ge.",
@@ -805,7 +805,7 @@
     // ----------------------------------------------------------
     lv: {
     skip_link:"Pāriet uz saturu",
-      page_title:             "Sim\u0101ci\u0101s sp\u0113le \u2014 Eiropas pludmale",
+      page_title:             "Simāciās spēle — Eiropas pludmale · ECBL Erasmus+",
       hero_eyebrow:           "1. seminārs · Simulācija",
       hero_title:             "Eiropas Pludmale",
       hero_subtitle:          "Sim\u0101cija par br\u012bvo konkurenci pakalpojumos un Eiropas Komisijas lomu k\u0101 L\u012bgumu sarg\u0101tājai.",
