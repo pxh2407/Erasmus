@@ -355,6 +355,13 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-25 — Lettonia: link alla pagina Facebook invece del sito
+
+- Il sito `http://www.pvg.edu.lv/izglitiba/` funziona solo in http: Chrome/Edge passano da soli a https e il server risponde **403 Accesso negato** (non tornano a http perché il 403 è una risposta valida). Segnalato dall'utente: «non è possibile accedere al sito della Lettonia».
+- Nella scheda Lettonia della Home ora c'è **https://www.facebook.com/PreiluIP** (pagina ufficiale «Preiļu novada Izglītības pārvalde», collegata dal loro stesso sito). Scelta dell'utente: SOLO Facebook, non entrambi i link.
+- Da fare: chiedere ai partner lettoni un indirizzo del sito che funzioni in https e, quando arriva, rimetterlo. `preili.lv` (sito del comune) il 2026-10-25 non rispondeva.
+
+
 ### Sessione 2026-10-24 (b) — Indirizzi per lingua `?lang=xx` + hreflang
 
 - Backup prima del cambio: cartella `CLAUDE\Erasmus - BACKUP prima delle lingue 2026-10-24` + tag git `prima-delle-lingue-2026-10-24` (anche su GitHub).
