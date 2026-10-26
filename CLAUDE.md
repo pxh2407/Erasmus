@@ -363,6 +363,8 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 - Sotto il link compare `.partner-card__auto` «(traduzione automatica)» (chiave `partner_auto_tr`, 5 lingue) solo quando il sito è tradotto.
 - Funziona con qualsiasi browser moderno (la traduzione la fa la pagina di Google, non il browser). Verificato: Aktywni → IT, Seniorenbüro → IT, LUTE → DE.
 - Anteprima locale Erasmus ora sulla porta **8794** (la 8765 è occupata da un altro programma).
+- (stesso giorno) Sotto il link Facebook della Lettonia nota `.partner-card__note` «(post in lettone)» (chiave `partner_fb_note`, 5 lingue; nascosta quando la lingua scelta è il lettone). Facebook NON si può tradurre via Google Traduttore (chiede il login / «Blocco temporaneo»): i post si traducono solo con «Visualizza traduzione» di Facebook.
+- Il sito di Amburgo ha un traduttore suo (**Eye-Able**, pulsante «assistente visivo»), che ricorda nel browser l'ultima lingua scelta (`localStorage eye_able_translate`): se l'utente lo vede «sempre in italiano» è per una scelta salvata nel suo browser (o Chrome «Traduci sempre il tedesco»), non per il nostro link (verificato in browser pulito: EN → inglese).
 - Cache: `lang.js?v` e `style.css?v` incrementati in `Home/index.html`.
 
 
