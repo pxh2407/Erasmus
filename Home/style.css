@@ -640,14 +640,12 @@ a.site-nav__dropdown-link:focus-visible {
     color: var(--text);
     overflow-wrap: anywhere;
 }
-.partner-card__auto,
-.partner-card__note {
+.partner-card__auto {
     display: block;
     font-size: 0.8rem;
     color: var(--text-muted);
 }
-.partner-card__auto[hidden],
-.partner-card__note[hidden] { display: none; }
+.partner-card__auto[hidden] { display: none; }
 .partner-card__facts a {
     color: var(--accent);
     font-weight: 600;

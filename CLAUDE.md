@@ -356,6 +356,14 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-26 (b) — Lettonia: sito ufficiale tradotto via Google, Facebook solo per chi sceglie il lettone
+
+- Scoperta: Google Traduttore scarica anche siti solo-http con `_x_tr_sch=http` e li consegna in https: `https://www-pvg-edu-lv.translate.goog/izglitiba/?_x_tr_sch=http&_x_tr_sl=lv&_x_tr_tl=<lingua>` si apre SENZA il 403 e tradotto (anche i 3 riquadri/frame; la barra di Google compare in ognuno). Verificato IT e DE. `preili.lv` via Google: «Can't translate this page» (scartato). lv→lv via Google: non funziona.
+- Scheda Lettonia: link `data-site-url="http://www.pvg.edu.lv/izglitiba/" data-site-lang="lv" data-alt-url="https://www.facebook.com/PreiluIP" data-alt-text="facebook.com/PreiluIP"`. `linkPartner()`: lingua scelta = lingua del sito → `data-alt-url` se c'è (Facebook per i lettoni), altrimenti originale; altre lingue → Google Traduttore (+ `_x_tr_sch=http` se il sito è http) e nota «(traduzione automatica)". Il testo del link cambia di conseguenza (`data-site-text` salvato al primo giro).
+- TOLTI: nota «(post in lettone)» (`partner_fb_note`, `.partner-card__note`) e `FB_LOCALE` — non servono più (Facebook lo vede solo chi legge in lettone). Supera le note del 2026-10-25 e 2026-10-26 su «solo Facebook».
+- Cache: `lang.js?v` e `style.css?v` incrementati.
+
+
 ### Sessione 2026-10-26 — Siti dei partner aperti nella lingua scelta (traduzione automatica)
 
 - Idea dell'utente: i siti dei partner esistono in UNA sola lingua (verificato: aktywni21 solo PL, lutemilazzo solo IT, seniorenbuero solo DE; «/en/» non esiste), ma si possono aprire già tradotti, come con il tasto destro «Traduci».
