@@ -312,6 +312,7 @@ C:/Users/Filippo/Desktop/Erasmus/
 ### Sessione 2026-10-08 (sessione 5)
 
 - **WP2/lang.js + WP3/lang.js + WP4/lang.js**: "Pacchetto di lavoro 2/3/4" → "Area tematica 2/3/4" (solo lingua IT; le altre lingue invariate).
+  - ⚠ **Annullato poco dopo**: gli autori preferiscono «**Pacchetto di lavoro 2/3/4**», ripristinato e pubblicato. Oggi nei tre `lang.js` c'è «Pacchetto di lavoro». NON rimettere «Area tematica».
 - Creato `ECBL-Status-Report.html` (report stato sito in inglese per gli autori) salvato in `Desktop\CLAUDE\Erasmus`.
 - Nota terminologia: nella nav rimane WP2/WP3/WP4 (sigla Erasmus+ ufficiale); solo il titolo testuale interno in italiano è cambiato.
 
@@ -355,11 +356,22 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-26 — Siti dei partner aperti nella lingua scelta (traduzione automatica)
+
+- Idea dell'utente: i siti dei partner esistono in UNA sola lingua (verificato: aktywni21 solo PL, lutemilazzo solo IT, seniorenbuero solo DE; «/en/» non esiste), ma si possono aprire già tradotti, come con il tasto destro «Traduci».
+- Ogni link ha `data-site-url` e `data-site-lang` (pl/it/de, `fb` per Facebook). In `Home/lang.js` la funzione `linkPartner(lang)` (chiamata da `apply()` a ogni cambio di lingua) costruisce: lingua del sito = lingua scelta → indirizzo originale; altrimenti → Google Traduttore `https://<host con . → - e - → -->.translate.goog/<percorso>?_x_tr_sl=<orig>&_x_tr_tl=<lingua>&_x_tr_hl=<lingua>`; Facebook → `?locale=it_IT|en_GB|pl_PL|de_DE|lv_LV` (menu nella lingua scelta; i post restano in lettone con «Visualizza traduzione»).
+- Sotto il link compare `.partner-card__auto` «(traduzione automatica)» (chiave `partner_auto_tr`, 5 lingue) solo quando il sito è tradotto.
+- Funziona con qualsiasi browser moderno (la traduzione la fa la pagina di Google, non il browser). Verificato: Aktywni → IT, Seniorenbüro → IT, LUTE → DE.
+- Anteprima locale Erasmus ora sulla porta **8794** (la 8765 è occupata da un altro programma).
+- Cache: `lang.js?v` e `style.css?v` incrementati in `Home/index.html`.
+
+
 ### Sessione 2026-10-25 — Lettonia: link alla pagina Facebook invece del sito
 
 - Il sito `http://www.pvg.edu.lv/izglitiba/` funziona solo in http: Chrome/Edge passano da soli a https e il server risponde **403 Accesso negato** (non tornano a http perché il 403 è una risposta valida). Segnalato dall'utente: «non è possibile accedere al sito della Lettonia».
 - Nella scheda Lettonia della Home ora c'è **https://www.facebook.com/PreiluIP** (pagina ufficiale «Preiļu novada Izglītības pārvalde», collegata dal loro stesso sito). Scelta dell'utente: SOLO Facebook, non entrambi i link.
 - Da fare: chiedere ai partner lettoni un indirizzo del sito che funzioni in https e, quando arriva, rimetterlo. `preili.lv` (sito del comune) il 2026-10-25 non rispondeva.
+- Documenti per gli autori aggiornati in **`Desktop\Pina`**: «Resoconto modifiche partner Erasmus - IT.docx» e «Change report Erasmus partners - EN.docx» (sostituiti: unica differenza il link lettone → Facebook), più i nuovi «Promemoria link sito Erasmus - IT.docx» e «Erasmus website link check - EN.docx» (al 25 ottobre). Restano da inviare agli autori: lo fa l'utente.
 
 
 ### Sessione 2026-10-24 (b) — Indirizzi per lingua `?lang=xx` + hreflang
