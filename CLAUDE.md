@@ -356,6 +356,15 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-29 (b) — Testata (hero) compatta e testo più grande
+
+- Richiesta dell'utente: le testate occupavano troppa altezza (sul telefono più di metà schermo nei workshop) lasciando vuoti i lati; usare lo spazio laterale e ingrandire i caratteri.
+- Nuovo file comune **`hero.css`** (radice), caricato DOPO lo `style.css` della pagina con `<link rel="stylesheet" href="../hero.css?v=1">` in **20 pagine**: 12 workshop, 3 simulatori, 3 esercitazioni, 2 gallerie. NON in Home, Project, WP2-4, Download, Privacy, Unione Europea (testata già bassa o diversa). Per cambiare l'aspetto delle testate si tocca solo hero.css (e si aumenta `?v=N` nelle 20 pagine).
+  - **Computer** (`min-width:1025px` e non touch; ⚠️ NON usare `pointer: fine`, i browser senza finestra non lo dichiarano): testata e contenuti larghi 1240 px (prima 1100); titolo su tutta la larghezza (1,7–2,15 rem, prima 1,6); sotto, a sinistra descrizione (1,12 rem, senza limite di 680 px) e riquadri Durata/Partecipanti in una riga, a destra autori/coordinatrici/tutor con un filo bianco. Righe `auto auto auto 1fr auto` così gli autori restano uniti anche con descrizioni lunghe. Testo dei contenuti ×1,06.
+  - **Telefono**: bandiera piccola (26×39) in alto a destra invece che su una riga a sé, spazi e caratteri ridotti. Altezza testata: prima 360–456 px, ora 250–365 (workshop).
+  - Correzione inclusa: `.wiw-grid` a una colonna sotto 860 px (in 6 pagine LV/PL le colonne erano scritte nell'HTML e sul telefono uscivano dallo schermo — difetto preesistente).
+- Prima del cambio: cartella `CLAUDE\Erasmus - BACKUP prima della testata compatta 2026-10-29` + tag `prima-della-testata-compatta-2026-10-29` (anche su GitHub). Approvato dall'utente dopo le immagini prima/dopo.
+
 ### Sessione 2026-10-29 — Workshop 3 GERMANIA (pagina interattiva, 5 lingue)
 
 - La Germania ha inviato `Desktop\Module 1_Germany.zip` (WS1, WS2, WS3; usato solo il WS3 «We in Europe – The EU’s Goals and Values in Turbulent Times», Wertecafé, autrici Benthack, Lotz, Meyer, Ripper, 90 min). ⚠️ `unzip` di Git Bash rovina i nomi con «–» e «’»: estrarre con `zipfile` di Python.

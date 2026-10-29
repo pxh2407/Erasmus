@@ -1,0 +1,100 @@
+/* ============================================================
+   hero.css — Testata (hero) compatta e più leggibile, comune alle pagine
+   di workshop, simulatori, esercitazioni e gallerie.
+   Si carica DOPO lo style.css della pagina:
+   <link rel="stylesheet" href="../hero.css?v=1">
+   - Computer: testo più grande e su due colonne (a sinistra titolo e
+     descrizione, a destra autori e durata/partecipanti), usando lo spazio
+     ai lati invece di andare in altezza.
+   - Telefono: bandiera piccola in alto a destra, spazi ridotti, così i
+     contenuti cominciano prima.
+   ============================================================ */
+
+/* ---------- Computer ---------- */
+@media (min-width: 1025px) and (not (pointer: coarse)) {
+    .hero { padding: 22px 32px 24px; }
+    .hero__inner { max-width: 1240px; gap: 28px; }
+
+    .hero__main {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(240px, 400px);
+        /* righe: titolo · autori · autori · spazio elastico · riquadri; la descrizione occupa le righe 2-4,
+           così gli autori restano uniti in alto a destra anche quando la descrizione è lunga */
+        grid-template-rows: auto auto auto 1fr auto;
+        grid-auto-flow: row dense;
+        column-gap: 36px;
+        align-items: start;
+    }
+    /* titolo su tutta la larghezza; sotto, a sinistra descrizione e riquadri (durata, partecipanti…) in una riga */
+    .hero__head { grid-column: 1 / -1; }
+    .hero__subtitle { grid-column: 1; grid-row: 2 / 5; }
+    .hero__pills { grid-column: 1; grid-row: 5; }
+    .hero__head { margin-bottom: 8px; }
+    .hero__pills { margin-top: 12px; gap: 8px; }
+    /* a destra, sotto il titolo: autori / coordinatrici / tutor */
+    .hero__coord {
+        grid-column: 2;
+        padding-left: 18px;
+        border-left: 2px solid rgba(255, 255, 255, 0.28);
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 0;
+        padding-bottom: 6px;
+    }
+    .hero__coord:last-of-type { margin-bottom: 0; padding-bottom: 0; }
+    /* pagine senza autori: una sola colonna */
+    .hero__main:not(:has(.hero__coord)) { display: block; }
+
+    .hero__eyebrow { font-size: 0.8rem; }
+    .hero__title { font-size: clamp(1.7rem, 2.3vw, 2.15rem); line-height: 1.18; }
+    .hero__subtitle { font-size: 1.12rem; line-height: 1.5; max-width: none; margin-bottom: 0; align-self: start; }
+    .hero-pill { font-size: 0.92rem; padding: 5px 12px; }
+    .hero-pill__label { font-size: 0.74rem; }
+
+    .ws-action { font-size: 0.88rem; min-width: 120px; min-height: 40px; }
+
+    /* contenuti un po' più larghi e più grandi, sfruttando lo spazio ai lati */
+    .container { max-width: 1240px; }
+    .container .prose,
+    .container p,
+    .container li { font-size: 1.06em; }
+}
+
+/* ---------- Telefono e tablet ---------- */
+@media (max-width: 1024px), (pointer: coarse) {
+    .hero { padding: 12px 16px 14px; position: relative; }
+    .hero__inner { gap: 10px; }
+
+    /* bandiera piccola in alto a destra, non più su una riga a sé */
+    .hero__inner > [class^="flag-"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 26px !important;
+        height: 39px !important;
+        margin: 0 !important;
+    }
+    .hero__inner > .hero__flags {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+    }
+    .hero__head { gap: 6px 10px; margin-bottom: 6px; padding-right: 36px; }
+    .hero__eyebrow { font-size: 0.72rem !important; padding: 3px 10px; }
+    .hero__title { font-size: 1.32rem; line-height: 1.22; }
+    .hero__subtitle { font-size: 0.98rem; line-height: 1.4; margin-bottom: 8px; }
+    .hero__coord { font-size: 0.9rem; margin: 0 0 2px; }
+    .hero__coord:last-of-type { margin-bottom: 8px; }
+    .hero__pills { gap: 6px; }
+    .hero-pill { font-size: 0.8rem; padding: 3px 9px; }
+    .ws-actions { gap: 6px; }
+    .ws-action { min-height: 34px; }
+}
+
+/* ---------- Correzione: schede «wiw» su telefono ----------
+   In alcune pagine (Workshop 2 LV, Workshop 1 PL…) le colonne sono scritte nell'HTML
+   (style="grid-template-columns: repeat(3,1fr)") e sul telefono uscivano dallo schermo. */
+@media (max-width: 860px) {
+    .wiw-grid { grid-template-columns: 1fr !important; }
+}
