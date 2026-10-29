@@ -356,6 +356,15 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-29 — Workshop 3 GERMANIA (pagina interattiva, 5 lingue)
+
+- La Germania ha inviato `Desktop\Module 1_Germany.zip` (WS1, WS2, WS3; usato solo il WS3 «We in Europe – The EU’s Goals and Values in Turbulent Times», Wertecafé, autrici Benthack, Lotz, Meyer, Ripper, 90 min). ⚠️ `unzip` di Git Bash rovina i nomi con «–» e «’»: estrarre con `zipfile` di Python.
+- Nuova cartella **`Workshop 3 DE/`**: `Workshop 3 DE.html` + `style.css`/`script.js` copiati da Workshop 1 DE + `lang.js` (112 chiavi ×5, motore copiato da Workshop 2 DE; tedesco con i termini originali: «Wertecafé», «Ziel-Spiel», «Austauschkarten») + `materiali/` (14 PDF + 2 video) + `img/` (3 foto dei materiali, senza persone, e copertina del video). ~25 MB.
+- Sezioni: presentazione, svolgimento (7 passi con i tempi, le 3 affermazioni dell’attività «Prendi posizione»), **video** «Values of the EU» (`<video preload="none">`: tedesco se la pagina è in tedesco, altrimenti inglese; script in fondo alla pagina che guarda `<html lang>`), 6 valori, 6 obiettivi dell’UE (dalla presentazione), il gioco (carte di conoscenza 29, di discussione 13, fine), foto, materiali da scaricare (conduttori: scenario, presentazione, affermazioni, carte dei valori, video; gioco: tabellone, istruzioni, tutte le carte in un PDF).
+- Video compressi su richiesta dell’utente con l’ffmpeg di `imageio_ffmpeg` (720p, CRF 26, `+faststart`): DE 68→4,5 MB, EN 40→8,8 MB. Word/PowerPoint → PDF via COM (`OptimizeFor=1`); le 6 carte per obiettivo unite in `game-cards-DE/EN.pdf`. Lo scenario Word originale pesa 70 MB perché contiene il video incorporato: il PDF è 0,8 MB.
+- WP2: scheda Germania → «Modulo completo», link al Workshop 3 (tolto `--soon`), testi in 5 lingue (anche `sect_desc_text`: «I moduli di tutti e quattro i paesi sono completi»), `lang.js?v=4`. Sitemap: aggiunta la pagina.
+- ⚠️ **Pagina Privacy (2026-10-28/29) NON ancora pubblicata**: `Privacy/`, `privacy.js` e la riga `<script src="../privacy.js" defer>` in tutte le pagine sono solo in locale, in attesa del via dell’utente. Il commit del WS3 è stato fatto senza di esse (WP2.html e la pagina WS3 messe in stage senza la riga privacy.js). Quando l’utente approva: `git add Privacy privacy.js` + tutte le pagine.
+
 ### Sessione 2026-10-26 (b) — Lettonia: sito ufficiale tradotto via Google, Facebook solo per chi sceglie il lettone
 
 - Scoperta: Google Traduttore scarica anche siti solo-http con `_x_tr_sch=http` e li consegna in https: `https://www-pvg-edu-lv.translate.goog/izglitiba/?_x_tr_sch=http&_x_tr_sl=lv&_x_tr_tl=<lingua>` si apre SENZA il 403 e tradotto (anche i 3 riquadri/frame; la barra di Google compare in ognuno). Verificato IT e DE. `preili.lv` via Google: «Can't translate this page» (scartato). lv→lv via Google: non funziona.
