@@ -356,6 +356,10 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-29 (c) — Home: testata senza «Progetto Erasmus+»
+
+- Su richiesta dell'utente tolta la riga «Progetto Erasmus+» (h1 con `data-i18n="hero_eyebrow"`) e il badge `.hero__eyebrow`: ora il **titolo è «Europe Can Be Liked · ECBL»** (h1 `.hero__title`, fisso, senza `data-i18n`, uguale in tutte le lingue), seguito dal sottotitolo. Solo `Home/index.html`; le chiavi `hero_eyebrow`/`hero_title` restano in `lang.js` inutilizzate.
+
 ### Sessione 2026-10-29 (b) — Testata (hero) compatta e testo più grande
 
 - Richiesta dell'utente: le testate occupavano troppa altezza (sul telefono più di metà schermo nei workshop) lasciando vuoti i lati; usare lo spazio laterale e ingrandire i caratteri.
