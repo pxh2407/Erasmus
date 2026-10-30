@@ -17,3 +17,8 @@ Galleria PL/
 
 # Documenti interni di pianificazione (non fanno parte del sito pubblico)
 modification-plan*.html
+
+# Documenti interni e file di lavoro (non devono essere pubblici)
+CLAUDE.md
+LINEE-GUIDA.md
+_anteprima_whatsapp.png
