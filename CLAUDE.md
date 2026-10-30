@@ -358,7 +358,7 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ### Sessione 2026-10-30 — Bandierina selettore lingua su cellulare
 
-- Nel quadratino blu in alto a destra (`.lang-mobile-btn`) la bandiera della lingua scelta si restringeva (flex-shrink) e non si vedeva. Aggiunta in coda a TUTTI gli `style.css` la regola `.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }`; `?v=N` incrementato (anche `Home/style.css?v` nelle pagine che la condividono).
+- Nel quadratino blu in alto a destra (`.lang-mobile-btn`) la bandiera della lingua scelta si restringeva (flex-shrink) e non si vedeva. Aggiunta in coda a TUTTI gli `style.css` la regola `.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }`; Nelle pagine con FLAG_SVG inline (Project, WP2-4, Download, Privacy) la bandiera è un `<svg>` senza dimensioni: aggiunta `.lang-mobile-btn > svg` 32×22. `?v=N` incrementato (anche `Home/style.css?v` nelle pagine che la condividono).
 
 ### Sessione 2026-10-29 (d) — Promemoria per gli autori
 
