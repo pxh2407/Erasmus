@@ -356,6 +356,14 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 
 ## 6. Cronologia decisioni importanti
 
+### Sessione 2026-10-30 — Bandierina selettore lingua su cellulare
+
+- Nel quadratino blu in alto a destra (`.lang-mobile-btn`) la bandiera della lingua scelta si restringeva (flex-shrink) e non si vedeva. Aggiunta in coda a TUTTI gli `style.css` la regola `.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }`; `?v=N` incrementato (anche `Home/style.css?v` nelle pagine che la condividono).
+
+### Sessione 2026-10-29 (d) — Promemoria per gli autori
+
+- Creati in `Desktop\Pina`: «Promemoria per gli autori - IT.docx» e «Reminder for the authors - EN.docx» (solo ciò che serve dai partner: foto PL/LV/DE WS2-3, controllo testi partner nella Home, indirizzo https del sito lettone, conferma opzioni A/B/C dell'esercizio 7 WS2, report e foto WP3/WP4, PDF per Download). Da inviare agli autori: lo fa l'utente.
+
 ### Sessione 2026-10-29 (c) — Home: testata senza «Progetto Erasmus+»
 
 - Su richiesta dell'utente tolta la riga «Progetto Erasmus+» (h1 con `data-i18n="hero_eyebrow"`) e il badge `.hero__eyebrow`: ora il **titolo è «Europe Can Be Liked · ECBL»** (h1 `.hero__title`, fisso, senza `data-i18n`, uguale in tutte le lingue), seguito dal sottotitolo. Solo `Home/index.html`; le chiavi `hero_eyebrow`/`hero_title` restano in `lang.js` inutilizzate.
@@ -403,7 +411,7 @@ Stato attuale: online su GitHub Pages → `https://pxh2407.github.io/Erasmus/` (
 - Il sito `http://www.pvg.edu.lv/izglitiba/` funziona solo in http: Chrome/Edge passano da soli a https e il server risponde **403 Accesso negato** (non tornano a http perché il 403 è una risposta valida). Segnalato dall'utente: «non è possibile accedere al sito della Lettonia».
 - Nella scheda Lettonia della Home ora c'è **https://www.facebook.com/PreiluIP** (pagina ufficiale «Preiļu novada Izglītības pārvalde», collegata dal loro stesso sito). Scelta dell'utente: SOLO Facebook, non entrambi i link.
 - Da fare: chiedere ai partner lettoni un indirizzo del sito che funzioni in https e, quando arriva, rimetterlo. `preili.lv` (sito del comune) il 2026-10-25 non rispondeva.
-- Documenti per gli autori aggiornati in **`Desktop\Pina`**: «Resoconto modifiche partner Erasmus - IT.docx» e «Change report Erasmus partners - EN.docx» (sostituiti: unica differenza il link lettone → Facebook), più i nuovi «Promemoria link sito Erasmus - IT.docx» e «Erasmus website link check - EN.docx» (al 25 ottobre). Restano da inviare agli autori: lo fa l'utente.
+- Documenti per gli autori aggiornati in **`Desktop\Pina`**: «Resoconto modifiche partner Erasmus - IT.docx» e «Change report Erasmus partners - EN.docx» (sostituiti: unica differenza il link lettone → Facebook), più i nuovi «Promemoria link sito Erasmus - IT.docx» e «Erasmus website link check - EN.docx» (al 25 ottobre). Restano da inviare agli autori: lo fa l'utente. **Sito lettone: l'utente ha deciso di LASCIARLO COSÌ** (funziona con Google Traduttore / Facebook): tolto dal promemoria, non richiedere più un indirizzo https.
 
 
 ### Sessione 2026-10-24 (b) — Indirizzi per lingua `?lang=xx` + hreflang

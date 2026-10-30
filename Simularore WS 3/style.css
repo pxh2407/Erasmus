@@ -1290,3 +1290,6 @@ body {
 .hero__coord strong { color: #fff; font-weight: 700; }
 .hero__coord { margin-bottom: 4px; }
 .hero__coord:last-of-type { margin-bottom: 14px; }
+
+/* Bandierina del selettore lingua mobile: non si deve restringere */
+.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }

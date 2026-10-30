@@ -1549,3 +1549,6 @@ body {
 .flag-de__band--gold { background:#ffce00; }
 @media (max-width:1024px),(pointer:coarse){ .flag-de{ height:38px; width:57px; } }
 @media (max-width:480px){ .flag-de{ height:32px; width:48px; } }
+
+/* Bandierina del selettore lingua mobile: non si deve restringere */
+.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }

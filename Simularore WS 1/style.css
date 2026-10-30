@@ -1156,3 +1156,6 @@ body {
 @media (max-width: 720px) {
     .bolk-grid { grid-template-columns: 1fr; }
 }
+
+/* Bandierina del selettore lingua mobile: non si deve restringere */
+.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }

@@ -1539,3 +1539,6 @@ body {
     outline: 3px solid var(--gold);
     outline-offset: 2px;
 }
+
+/* Bandierina del selettore lingua mobile: non si deve restringere */
+.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }

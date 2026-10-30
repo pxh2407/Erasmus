@@ -1184,3 +1184,6 @@ body {
 
 /* WS1 DE — nota lingue file */
 .dl-note { font-size:0.9rem; color:#5a6270; font-style:italic; margin:0 0 14px; }
+
+/* Bandierina del selettore lingua mobile: non si deve restringere */
+.lang-mobile-btn img { flex: 0 0 auto; width: 32px; height: 22px; min-width: 32px; }
